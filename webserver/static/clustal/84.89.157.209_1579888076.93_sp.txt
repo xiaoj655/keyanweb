@@ -1,0 +1,56 @@
+CLUSTAL O(1.2.3) multiple sequence alignment
+
+
+sp           --------------------MLLDAGPQFPALGVGTFARHHHHHHHHHAAVAAAAAAAAE
+d2w0ra_      ------------------------------------------------------------
+d1pd3a_      ------------------GKWREQLGQKFEEIRWLIEEVRHRLKIT-ENSF----EQITF
+d1pvea1      ------------------PLEFLRNQPQFQQMRQII--------QQ-NPSLLP--ALLQQ
+d2jlja_      ------------------------------------------------------------
+d2fm9a1      --------------------------PQLEDFPALIKQAS----------LD----ALFK
+d2fm8c1      QATNLAANLSAVRESATATLSGEIKGPQLEDFPALIKQAS----------LD----ALFK
+                                                                         
+
+sp           MQERELSLAQNTFVEPTHMAAFKLNPGGGSGGGSGGGGGGGGAGPNGGAGASGPHDLSPP
+d2w0ra_      ------------------------------------------------------------
+d1pd3a_      M--QALQLLLEVEQEIRTF-----------------------------------------
+d1pvea1      IGRENPQLLQQISQHQEHFIQMLNEPVQ-EAGGQGGGG----------------------
+d2jlja_      ------------------------------------------------------------
+d2fm9a1      C-GKDAEALKEVFTNSNNV-----------------------------------------
+d2fm8c1      C-GKDAEALKEVFTNSNNV-----------------------------------------
+                                                                         
+
+sp           GQTSAFTSQAGYPTSALAPHSAYSGAAAFNSPRDFLFRGRGFAEGSAAAGGGQHGLFGPP
+d2w0ra_      --KREYKEMEGSP--------------EIKSKR------RQFHQEIQ-------------
+d1pd3a_      ------------------------------------------------------------
+d1pvea1      ------------------------------------------------------------
+d2jlja_      ----------GSP--------------EIKSKR------RQFHQEIQ-------------
+d2fm9a1      AGKKAIMEFAGLFRSALNATSDSPE-----AKTLLMKVGAEYTAQIIKDGLKEKSAFGPW
+d2fm8c1      AGKKAIMEFAGLFRSALNATSDSPE-----AKTLLMKVGAEYTAQIIKDGLKEKSAFGPW
+                                                                         
+
+sp           AGSLHHHPHHHHQLSHAEHPQGHLLFPGIHDQHAAASQNTLGGQM---RLGLPGEVFGRT
+d2w0ra_      SGNMRENV-----------KRSSVVV-------ADPTHIAIGILYKRGETPLPLVTFKYT
+d1pd3a_      ------------------------------------------------------------
+d1pvea1      ------------------------------------------------------------
+d2jlja_      SRNMRENV-----------KRSSVVV-------AAATHIAIGILYKRGETPLPLVTFKYT
+d2fm9a1      LPETKKA---------------EAKLENLEKQLLDIIKNNTGGELSKLSTNL--------
+d2fm8c1      LPETKKA---------------EAKLENLEKQLLDIIKNNTGGELSKLSTNL--------
+                                                                         
+
+sp           E----QYRQVSSPRGDPYTA--------------------AQLH--------------NQ
+d2w0ra_      DAQVQTVRKIAEEEGVPILQRI----------PLARALYWDALV--------------DH
+d1pd3a_      ------------------------------------------------------------
+d1pvea1      ------------------------------------------------------------
+d2jlja_      DAQVQTVRKIAEEEGVPILQRI----------PLARALYWDALV--------------DH
+d2fm9a1      ----------VMQEVMPYIASCIEHNFGCTLDPLTRSN-LTHLVDKAAAKAVEALDMCHQ
+d2fm8c1      ----------VMQEVMPYIASCIEHNFGCTLDPLTRSN-LTHLVDKAAAKAVEALDMCHQ
+                                                                         
+
+sp           YSPMNMGMNMAAHHHHHHHHH--P------------
+d2w0ra_      YIPAEQIEATAEVLRWLER-----------------
+d1pd3a_      ------------------------------------
+d1pvea1      ------------------------------------
+d2jlja_      YIPAEQIEATAEVLRWLERQ----------------
+d2fm9a1      KLTQEQGTSVGREARHLEMQTLIPLLLRNVFAQIPA
+d2fm8c1      KLTQEQGTSVGREARHLEMQTLIPLLLRNVFAQIP-
+                                                 

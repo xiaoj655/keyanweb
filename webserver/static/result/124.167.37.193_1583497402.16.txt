@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------------
+The results of query protein 5X5B:A are:
+---------------------------------------------------------------------------------------
+>d2ghvc1 d.318.1.1 (C:320-502) Spike protein S1 {SARS coronavirus [TaxId: 227859]}
+TNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMGCVLAWNTRNIDATSTGNYNYKYRYLRHGKLRPFERDISNVPFSPDGKPCTPPALNCYWPLNDYGFYTTTGIGYQPYRVVVLSFE
+
+---------------------------------------------------------------------------------------
+The results of query protein 5X5B:B are:
+---------------------------------------------------------------------------------------
+>d2ghvc1 d.318.1.1 (C:320-502) Spike protein S1 {SARS coronavirus [TaxId: 227859]}
+TNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMGCVLAWNTRNIDATSTGNYNYKYRYLRHGKLRPFERDISNVPFSPDGKPCTPPALNCYWPLNDYGFYTTTGIGYQPYRVVVLSFE
+
+---------------------------------------------------------------------------------------
+The results of query protein 5X5B:C are:
+---------------------------------------------------------------------------------------
+>d2ghvc1 d.318.1.1 (C:320-502) Spike protein S1 {SARS coronavirus [TaxId: 227859]}
+TNLCPFGEVFNATKFPSVYAWERKKISNCVADYSVLYNSTFFSTFKCYGVSATKLNDLCFSNVYADSFVVKGDDVRQIAPGQTGVIADYNYKLPDDFMGCVLAWNTRNIDATSTGNYNYKYRYLRHGKLRPFERDISNVPFSPDGKPCTPPALNCYWPLNDYGFYTTTGIGYQPYRVVVLSFE
+

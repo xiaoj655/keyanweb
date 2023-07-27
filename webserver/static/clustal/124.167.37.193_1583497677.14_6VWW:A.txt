@@ -1,0 +1,37 @@
+CLUSTAL O(1.2.3) multiple sequence alignment
+
+
+6VWW:A       MHHHHHHSSGVDLGTENLYFQSNAMSLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKV
+d2h85a1      ------------------------QSLENVAYNVVNKGHFDGHAGEAPVSIINNAVYTKV
+d2h85a2      ------------------------------------------------------------
+                                                                         
+
+6VWW:A       DGVDVELFENKTTLPVNVAFELWAKRNIKPVPEVKILNNLGVDIAANTVIWDYKRDAPAH
+d2h85a1      DGIDVEIFENKTTLPVNVAFELWAKRNIKPVPEIKILNNLGVDIAANTVIWDYKREAPAH
+d2h85a2      ------------------------------------------------------------
+                                                                         
+
+6VWW:A       ISTIGVCSMTDIAKKPTETICAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSV
+d2h85a1      VSTIGVCTMTDIAKKPTESACSSLTVLFDGRVEGQVDLFRNARNGVLITEGSVKGLTPSK
+d2h85a2      ------------------------------------------------------------
+                                                                         
+
+6VWW:A       GPKQASLNGVTLIGEAVKTQFNYYKKVDGVVQQLPETYFTQSRNLQEFKPRSQMEIDFLE
+d2h85a1      GPAQASVNGVTLIGESVKTQFNYFKKVDGIIQQLP-------------------------
+d2h85a2      -----------------------------------ETYFTQSRDLEDFKPRSQMETDFLE
+                                                                         
+
+6VWW:A       LAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTV
+d2h85a1      ------------------------------------------------------------
+d2h85a2      LAMDEFIQRYKLEGYAFEHIVYGDFSHGQLGGLHLMIGLAKRSQDSPLKLEDFIPMDSTV
+                                                                         
+
+6VWW:A       KNYFITDAQTGSSKCVCSVIDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKD
+d2h85a1      ------------------------------------------------------------
+d2h85a2      KNYFITDAQTGSSKCGCSVIDLLLGDFVEIIKSQDLSVISKVVKVTIDYAEISFMLWCKD
+                                                                         
+
+6VWW:A       GHVETFYPKLQ
+d2h85a1      -----------
+d2h85a2      GHVETFYPKL-
+                        

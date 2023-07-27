@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="{{url_for('static', filename="css/default.css")}}" rel="stylesheet" type="text/css" />
+    <link href="{{url_for('static', filename="css/buttons.css")}}" rel="stylesheet" type="text/css" />
+    {% block meta %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% endblock %}
+    {% block script %}
+   <script src="{{ url_for('static', filename="js/my.js") }}"></script>
+    {% endblock %}
+    <title>SMI-BLAST web server</title>
+    <script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?2f4621b23b3729e2e935d174cbdc821e";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+    </script>
+</head>
+<body>
+
+
+<div id="header">
+	<div id="logo">  </div>
+  <div id="logo1" style="float: right;width: 680px;height: 140px;">
+<p style="font-size:0.5em; margin: 0px">&nbsp;        </p>
+        <p style="font-size:1.8em; color:#000080; text-align: left;margin: 0px; font:Arial;"><strong>SMI-BLAST:</strong>
+          </p>
+<p style="font-size:1.5em; color:#000080; text-align: left;"><strong> A novel supervised search framework based on PSI-BLAST </strong> </p>
+    <p style="font-size:1.5em; color:#000080; text-align: left;"><strong> for protein remote homology detection and its application to  </strong> </p>
+    <p style="font-size:1.5em; color:#000080; text-align: left;"><strong> analyze COVID-19 related proteins </strong> </p>  
+</div>
+ <br><br>
+        <div id="werw" style="width: 860px;text-align: center">
+       <div class="button-group">
+        <a href="/SMI-BLAST/home/"        class="button button-jxp " style="width:172px; font-size:1.3em; height:45px; color:#FFFFFF">Home</a>
+         <a href="/SMI-BLAST/server"      class="button button-jxp " style="width:172px; font-size:1.3em; height:45px">SMI-BLAST</a>
+         <a href="/SMI-BLAST/serverhmmer" class="button button-jxp " style="width:172px; font-size:1.3em; height:45px">SMI-HMMER</a>
+         <a href="/SMI-BLAST/download/"   class="button button-jxp " style="width:172px; font-size:1.3em; height:45px">Download</a>
+         <a href="/SMI-BLAST/citation/"   class="button button-jxp " style="width:172px; font-size:1.3em; height:45px; color:#FFFFFF">Citation</a>	
+
+      </div>
+	</div>
+	
+	
+</div> 
+<div id="page">
+<div id="content">
+	
+		<div id="maincontent">
+		<br><br>
+		<div style="width: 95%; margin: 0 auto; text-align: justify">
+		  <h3 style="text-align: center;color:#000000; font-size: 30px"> <strong>Incorrectly Selected Homology errors</strong ></h3>
+		  <div style="font-size:12px" align="justify">
+			<p style="margin-top:6pt ;margin-bottom:0pt; text-indent:3em ;color:#000000; font-size:16px">To analyse the problems of PSSM on protein domain databases for protein remote homology detection, we summarize and define three situations as Incorrectly Selected Homology (ISH) errors from the results of PSI-BLAST. ISH errors indicate that true positives exist in the ranking list but the selected list is null or contains false positives. Figure 1 shows three types of ISH errors and other situations of PSSM:</p> 
+       <img src="../static/pic/isherrorf.jpg"  alt="ISH-ERROR" />
+       <p style="text-align: center; margin-top:6pt; margin-bottom:0pt; text-indent:3em ;color:#000000; font-size: 16px">Figure 1. The five situations of PSI-BLAST selecting sequences to construct PSSM profile for protein remote homology detection.</p>
+            <p style="margin-top:6pt; margin-bottom:0pt; text-indent:3em ;color:#000000; font-size: 16px">i) True-PSSM (Figure 1A). PSSM is constructed by all true positives in the selected list, which is an ideal situation for PSSM and can describe the correct evolutionary information of query sequences;</p>
+             <p style="margin-top:6pt; margin-bottom:0pt; text-indent:3em ;color:#000000; font-size: 16px"> ii) ISH-MIX error (Figure 1B). Because the selected list contains false positives and true positives, incorrect evolutionary information is added into PSSM and more false positives are produced at later iterations; </p>
+               <p style="margin-top:6pt; margin-bottom:0pt; text-indent:3em ;color:#000000; font-size: 16px">  iii) ISH-NULL error (Figure 1C). No sequence exists in the selected list can be used to construct PSSM but true positives exists in the candidate list. Therefore, PSI-BLAST almost cannot produce any results after the next iteration with null PSSM;</p>
+          <p style="margin-top:6pt; margin-bottom:0pt; text-indent:3em ;color:#000000; font-size: 16px"> iv) ISH-ALL error (Figure 1D). The sequences in the selected list are all false positives but true positives exist in the candidate list. Then, error PSSM is constructed, which almost cannot detect any true positives at the next iteration;</p>
+          <p style="margin-top:6pt; margin-bottom:0pt; text-indent:3em ;color:#000000; font-size: 16px"> v) False-PSSM (Figure 1E). The ranking list contains no true positive, and therefore there is no more adjustment space for PSSM. In order to construct and keep an ideal situation during the iteration process, rectifying the above errors of PSSM is necessary.</p>
+         
+			<br/>   <br><br>
+          </div>
+		</div>	
+		
+		
+		</div>	
+	</div>
+
+	<!-- end #sidebar -->
+	<div style="clear: both; height: 1px;"></div>
+</div>
+<div id="footer">
+	<p>Contact us &copy;  by <a href="mailto:>bliu@bliulab.net">bliu@bliulab.net</a></p>
+</div>
+<div style="display:none" >
+<script type="text/javascript" src="https://js.users.51.la/20323083.js"></script>
+</div>
+</body>
+</html>

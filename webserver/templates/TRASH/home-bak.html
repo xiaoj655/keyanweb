@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="{{url_for('static', filename="css/default.css")}}" rel="stylesheet" type="text/css" />
+    <link href="{{url_for('static', filename="css/buttons.css")}}" rel="stylesheet" type="text/css" />
+    {% block meta %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% endblock %}
+    {% block script %}
+   <script src="{{ url_for('static', filename="js/my.js") }}"></script>
+    {% endblock %}
+    <title>SMI-BLAST web server</title>
+    <script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?2f4621b23b3729e2e935d174cbdc821e";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+    </script>
+</head>
+<body>
+
+
+<div id="header">
+	<div id="logo" >  </div>
+	<div id="logoxx" style="float: left;width: 20px;height: 140px;" >  </div>
+  <div id="logo1" style="float: left;width: 680px;height: 140px;">
+		<p style="font-size:large; margin: 4px">&nbsp;        </p>    
+    <p style="font-size:2em; color:#0f2943; text-align: left;"><strong> Sequence similarity matrix-based framework improves  </strong> </p>
+    <p style="font-size:2em; color:#0f2943; text-align: left;"><strong> the performance of PSI-BLAST for protein remote </strong> </p>
+    <p style="font-size:2em; color:#0f2943; text-align: left;"><strong> homology detection by reducing PSSM errors </strong> </p>
+	</div>
+	<div id="werw" style="width: 860px;text-align: center">
+       <div class="button-group">
+        <a href="/SMI-BLAST/home/"        class="button button-jxp " style="width:215px; font-size:1.7em; height:45px; color:#FFFFFF">Home</a>
+         <a href="/SMI-BLAST/server"      class="button button-jxp " style="width:215px; font-size:1.7em; height:45px">SMI-BLAST</a>
+         <a href="/SMI-BLAST/serverhmmer" class="button button-jxp " style="width:215px; font-size:1.7em; height:45px">SMI-HMMER</a>
+         <a href="/SMI-BLAST/citation/"   class="button button-jxp " style="width:215px; font-size:1.7em; height:45px; color:#FFFFFF">Citation</a>
+      </div>
+	</div>
+	
+	
+</div> 
+<div id="page">
+<div id="content">
+	
+		<div id="maincontent">
+		<br><br>
+		<div style="width: 95%; margin: 0 auto; text-align: justify">
+		  <h3 style="text-align: center;color:#000000; font-size: 30px"> <strong>About SMI-BLAST</strong ></h3>
+		  <div style="font-size:14px" align="justify">
+			<p style="margin-top:6pt ;margin-bottom:0pt; text-indent:3em ;color:#000000; font-size: 20px">PSI-BLAST is a mainstream iterative search tool for protein sequence searching. The generation of accurate Position-Specific Scoring Matrix (PSSM) is the key to improve its performance. For protein remote homology detection, more non-homologous sequences can be detected when PSI-BLAST selects non-homologous sequence to construct PSSM in the iterative process. </p> 
+			
+            <p style="margin-top:6pt; margin-bottom:0pt; text-indent:3em ;color:#000000; font-size: 20px">In this study, three types of Incorrectly Selected Homology (ISH) errors <a href="/SMI-BLAST/ISHERROR" >(?)</a> of PSSM are explored on SCOPe benchmark dataset, and a corresponding solution called Sequence similarity Matrix-based Iterative BLAST (<strong>SMI-BLAST</strong >) is proposed. Furthermore, <strong>SMI-HMMER</strong > is proposed by completely applying SMI-based framework on JackHMMER with default iteration </p>
+             <p style="margin-top:6pt; margin-bottom:0pt; text-indent:3em ;color:#000000; font-size: 20px">SMI-BLAST and SMI-HMMER are trained with an updated benchmark dataset SCOPe v2.06 with more samples and protein families, making it more robust and useful. The web server will be updated when new version of SCOPe is released.</p>
+			<br/>   <br><br>
+          </div>
+		</div>	
+		
+		
+		</div>	
+	</div>
+
+	<!-- end #sidebar -->
+	<div style="clear: both; height: 1px;"></div>
+</div>
+<div id="footer">
+	<p>Contact us &copy;  by <a href="mailto:>bliu@bliulab.net">bliu@bliulab.net</a></p>
+</div>
+<div style="display:none" >
+	<script type="text/javascript" src="//js.users.51.la/20323083.js"></script>
+</div>
+</body>
+</html>

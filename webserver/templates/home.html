@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>S2L-PSIBLAST web server</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{url_for('static', filename="assets/vendor/bootstrap/css/bootstrap.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/icofont/icofont.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/boxicons/css/boxicons.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/remixicon/remixicon.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/venobox/venobox.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/owl.carousel/assets/owl.carousel.min.css")}}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{url_for('static', filename="assets/css/style.css")}}" rel="stylesheet">
+  <!-- <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?1b535476cedd635c1117bbe39a833c07";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script> -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-between">
+          <h1 class="logo"><a href="/S2L-PSIBLAST/home/">S2L-PSIBLAST</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li><a href="/S2L-PSIBLAST/home/">Home</a></li> <!-- 
+              <li class="drop-down"><a href="">Server</a>
+                <ul>
+                  <li><a href="/SMI-BLAST/server">S2L-PSIBLAST</a></li>
+                  <li><a href="/SMI-BLAST/serverdeltablast">S2L-DELTABLAST</a></li>
+                  <li><a href="/SMI-BLAST/serverpsiblastexb">S2L-PSIBLASTexB</a></li>
+                </ul>
+              </li>-->
+              <li><a href="/S2L-PSIBLAST/download/">Download</a></li>
+              <li><a href="/S2L-PSIBLAST/citation/">Citation</a></li>
+
+            </ul>
+          </nav><!-- .nav-menu -->
+
+<!--          <a href="#about" class="get-started-btn scrollto">Get Started</a>-->
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+
+
+       <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+        <br>
+          <h2>About S2L-PSIBLAST</h2>
+ 
+	   <div class="portfolio-details-container">
+	   <div class="owl-carousel portfolio-details-carousel">
+            <img src="{{url_for('static', filename="assets/img/portfolio/s2lblast_fig.png")}}" class="img-rounded" alt="">
+	   </div>
+           </div>
+            <p style="text-align: center; margin-top:6pt; margin-bottom:0pt; text-indent:3em ;color:#000000; font-size: 16px">Figure 1. The flowchart of S2L-PSIBLAST.</p>
+        </div>
+
+        <div class="row content">
+	  <!--<div class="col-lg-6">-->
+          <div>
+            <p>
+              <h4>S2L-PSIBLAST: a supervised two-layer search framework based on PSI-BLAST for protein remote homology detection </h4>
+            </p>
+            <ul>
+		    <li style="color:#000000; font-size: 16px"><i class="ri-check-double-line"></i> <b> Motivation:</b>Protein remote homology detection is a challenging task for the studies of protein evolutionary relationships. PSI-BLAST is an important and fundamental search method for detecting homology proteins. Although many improved versions of PSI-BLAST have been proposed, their performance is limited by the search processes of PSI-BLAST.</li>
+		    <li style="color:#000000; font-size: 16px"><i class="ri-check-double-line"></i>  <b>Results:</b>For further improving the performance of PSI-BLAST for protein remote homology detection, a supervised two-layer search framework based on PSI-BLAST (S2L-PSIBLAST) is proposed. S2L-PSIBLAST consists of a two-level search: the first-level search provides high-quality search results by using SMI-BLAST framework and double-link strategy to filter the non-homology protein sequences, the second-level search detects more homology proteins by profile-link similarity, and more accurate ranking lists for those detected protein sequences are obtained by learning to rank strategy. Experimental results on the updated version of Structural Classification of Proteins-extended benchmark dataset show that S2L-PSIBLAST not only obviously improves the performance of PSI-BLAST, but also achieves better performance on two improved versions of PSI-BLAST: DELTA-BLAST and PSI-BLASTexB.  </li>
+            </ul>
+          </div>
+<!--          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Uxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
+	    </p>
+            <a href="#" class="btn-learn-more">Learn More</a>
+</div>-->
+
+        </div>
+
+      </div>
+    </section><!-- End About Us Section --> 
+
+ <!-- ======= Contact Section ======= -->
+<!--    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>bliu@bliulab.net</p>
+        </div>
+      </div>
+
+    </section>--><!-- End Contact Section -->
+
+
+  </main><!-- End #main -->
+  
+  
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+	 <p style="font-family: Calibri;">
+          Copyright@By <a href="http://bliulab.net/DefaultPage/" style="color: crimson"> Bin Liu's lab</a>, <a href="https://english.bit.edu.cn/" target="_blank" style="color: white;">Beijing Institute of Technology</a>.
+        </p>
+        <p style="font-family: cambria">
+          网站备案号: <a href="http://www.beian.miit.gov.cn" style="color: white;">粤ICP备19041859号-1<br></a>
+        </p>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+{% block script %}
+  <!-- Vendor JS Files -->
+  <script src="{{url_for('static', filename="assets/vendor/jquery/jquery.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/bootstrap/js/bootstrap.bundle.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/jquery.easing/jquery.easing.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/php-email-form/validate.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/waypoints/jquery.waypoints.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/counterup/counterup.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/isotope-layout/isotope.pkgd.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/venobox/venobox.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/owl.carousel/owl.carousel.min.js")}}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{url_for('static', filename="assets/js/main.js")}}"></script>
+ {% endblock %}
+  <div style="display:none" >
+        <script type="text/javascript" src="//js.users.51.la/21097085.js"></script>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------
+The results of query protein d1pgs_2 are:
+---------------------------------------------------------------------------------------
+>d3pmsa2 b.121.1.1 (A:141-314) automated matches {Elizabethkingia meningoseptica [TaxId: 238]}
+KYSAVVPVVQYNKSSIDGVPYGKAHTLALKKNIQLPTNTEKAYLRTTISGWGHAKPYDAGSRGCAEWCFRTHTIAINNSNTFQHQLGALGCSANPINNQSPGNWTPDRAGWCPGMAVPTRIDVLNNSLIGSTFSYEYKFQNWTNNGTNGDAFYAISSFVIAKSNTPISAPVVTN
+

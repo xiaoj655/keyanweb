@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SMI-BLAST web server</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{url_for('static', filename="assets/vendor/bootstrap/css/bootstrap.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/bootstrap/css/bootstrap-select.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/icofont/icofont.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/boxicons/css/boxicons.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/remixicon/remixicon.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/venobox/venobox.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/owl.carousel/assets/owl.carousel.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/css/server-table-style.css")}}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{url_for('static', filename="assets/css/style.css")}}" rel="stylesheet">
+
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?1b535476cedd635c1117bbe39a833c07";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-between">
+          <h1 class="logo"><a href="/SMI-BLAST/home/">SMI-BLAST</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li><a href="/SMI-BLAST/home/">Home</a></li>
+              <li class="drop-down"><a href="">Server</a>
+                <ul>
+                  <li><a href="/SMI-BLAST/server">SMI-BLAST</a></li>
+                  <li><a href="/SMI-BLAST/serverhmmer">SMI-HMMER</a></li>
+                  <li><a href="/SMI-BLAST/serverdeltablast">SMI-DELTABLAST</a></li>
+                  <li><a href="/SMI-BLAST/serverpsiblastexb">SMI-PSIBLASTexB</a></li>
+
+                </ul>
+              </li>
+              <li><a href="/SMI-BLAST/download/">Download</a></li>
+              <li><a href="/SMI-BLAST/citation/">Citation</a></li>
+
+            </ul>
+          </nav><!-- .nav-menu -->
+
+<!--          <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+
+    
+ <!-- ======= About Us Section ======= -->
+    <section id="about" class="about" style="padding:80px 0px 0px 0px;">
+      <div class="container">
+
+        <div class="section-title">
+        <br>
+          <h2>Server / SMI-DELTABLAST</h2>
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+  
+  
+  
+  
+   <!-- Top content -->
+        <div class="top-content" >
+        	
+            <div class="inner-bg" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-sm-offset-1 form-box">
+                        	
+                       		<form method="post" name="upload_form"  class="registration-form" onsubmit="return(checkArgument());" enctype="multipart/form-data">    
+                        		<fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3  style="color:#FFFFFF;">Step 1 / 3</h3>
+		                            		<p  style="color:#FFFFFF;">Enter the query protein sequences in <span style="color: red">FASTA</span> format <a style="color: white" href="#server" onclick="javascript:alert('Maximum 10 sequences for each submission.')">(?)</a></p>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+		
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="form-about-yourself">Fasta format...</label>
+				                        	<textarea name="sequence" id="rec_seq"  placeholder="Fasta format...." 
+				                        				class="form-about-yourself form-control" id="form-about-yourself"></textarea>
+				                        </div>
+                                <div class="form-group">                              
+                                  <p style="color:#000000"><strong>OR </strong><label style="color:#000000" for="file">upload your input file:</label>
+                                  <label for="file" class="btn btn-info" style="width:90px; height:30px; text-align:middle;padding:0 0;line-height:20px;font-size: 15px;font-family: Arial;font-weight: 350;">Select file</label>
+                                  <input id="file" type="file" name="file" id="upload_ind" style="display:none">
+                                  </p>
+                                </div>
+                                <div class="form-group">
+                                
+                                      <label >Examples<a href="/SMI-BLAST/ISHERROR" >(?)</a><a> : </a></label>              
+                                      <input type="button" class="btn btn-outline-info" value="True-PSSM" style="width:90px; height:35px; text-align:middle;padding:0 0;line-height:20px;font-size: 15px;font-family: Arial;font-weight: 550;" onclick="setAutoForm()">         
+                                      <input type="button" class="btn btn-outline-info" value="ISH-MIX"   style="width:90px; height:35px; text-align:middle;padding:0 0;line-height:20px;font-size: 15px;font-family: Arial;font-weight: 550;" onclick="setAutoFormmix()">
+                                      <input type="button" class="btn btn-outline-info" value="ISH-ALL"   style="width:90px; height:35px; text-align:middle;padding:0 0;line-height:20px;font-size: 15px;font-family: Arial;font-weight: 550;" onclick="setAutoFormall()">
+                                      <input type="button" class="btn btn-outline-info" value="ISH-NULL"  style="width:90px; height:35px; text-align:middle;padding:0 0;line-height:20px;font-size: 15px;font-family: Arial;font-weight: 550;" onclick="setAutoFormnull()">  
+                                       <input type="button" class="btn btn-outline-info" value="COVID-19 related protein"  style="width:190px; height:35px; text-align:middle;padding:0 0;line-height:20px;font-size: 15px;font-family: Arial;font-weight: 550;" onclick="setAutoFormCOVID()">  
+                                </div>
+				                    </div>
+			                    </fieldset>
+                                                          
+                                                         
+			                    
+			                    <fieldset>               
+		                          	<div class="form-top">
+    		                        		<div class="form-top-left">
+    		                        			<h3 style="color:#FFFFFF;">Step 2 / 3</h3>
+                               		    <p style="color:#FFFFFF;">Set your parameters:</p>
+    		                        		</div>
+    		                        		<div class="form-top-right">
+    		                        			<i class="fa fa-key"></i>
+    		                        		</div>
+		                            </div>
+                                 
+                                 
+                                       
+                                   
+                                    <div class="form-bottom">
+                                                            
+                                      <div class="row " style="margin: 0px;">
+                                      <div class="col-lg-4">
+                                         <div class="info">
+                                              <div style="height:54px; padding: 0 0 16px 0">
+                                                <p>Please select the number of iteration:</p>
+                                              </div>
+                                
+                                              <div style="height:54px; padding: 0 0 16px 0">
+                                                <p>Please select the cutoff of results:</p>
+                                              </div>
+                                              
+                                              <div style="height:54px; padding: 0 0 16px 0">
+                                                <p>Please select database:</p>
+                                              </div>
+                                              
+                                              <div style="height:54px; padding: 0 0 16px 0">
+                                                <p>Be notified by email <a href="#server" onclick="javascript:alert('Please input your valid Email address so that we can send the results to you. This is optional.')">(?)</a> (optional):</p>
+                                           </div>
+                                        </div>
+                                       </div>  
+                                       
+                                       <div class="col-lg-8 mt-5 mt-lg-0">
+                                                 <div class="form-group">
+                                          			    <select id="cutoff"  class="form-control" style="width:200px;" name="cutoff">
+                                            			  	<option value ="5" selected="selected">5</option>
+                                  			            </select>
+                                                </div>
+                                              <div class="form-group">
+                                                 <select id="recutoff"   class="form-control" style="width:200px;" name="recutoff">
+                                          			  	<option value ="-1000" selected="selected" >None</option>
+                                          			  	<option value ="-5" >-5</option>
+                                            				<option value ="0">0</option>
+                                            				<option value ="1">1</option>
+                                            				<option value ="2">2</option>
+                                            				<option value ="3">3</option>
+                                            				<option value ="4">4</option>
+                                            				<option value ="5">5</option>
+                                  			          </select>
+                                              </div>
+                                              
+                                              <div class="form-group">
+                                                <label><input type="radio"   name="optionsRadios" id="optionsRadios1" value="option1" checked> SCOPe 2.06 database</label>
+                                              </div>
+                                              <div class="form-group">
+                                                 <input type="text" name="Email" style="width:200px;" class="form-control"  id="Email">
+                                              </div>
+                    
+                                        </div>
+                                        
+                                        
+                                        </div>   
+                                                           
+                                                                    
+				                    </div>
+			                    </fieldset>
+			                    
+			                    <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3 style="color:#FFFFFF;">Step 3 / 3</h3>
+		                            		<p style="color:#FFFFFF;">Submit your job:</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        			<i class="fa fa-twitter"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+				                        <div class="form-group">
+                                                                                
+                                  <input type="reset" class="btn btn-primary" value="Reset" style="font-size:1.0em; width:160px; height:40px" >
+				                        	<input type="submit" class="btn btn-primary" value="Submit" style="font-size:1.0em; width:160px; height:40px">
+				                        </div>
+				                    </div>
+			                    </fieldset>
+		                    
+		                    </form>
+		                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+  
+ 
+  
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+  
+  <br>  <br>  <br>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+        <p>Contact us &copy;  by <a style="color: white;"  href="mailto:>bliu@bliulab.net">bliu@bliulab.net</a></p>
+	<p>网站备案号: <a style="color: white;" href="http://www.beian.miit.gov.cn">粤ICP备19041859号-1</a></p>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+{% block script %}
+  <!-- Vendor JS Files -->
+  <script src="{{url_for('static', filename="assets/vendor/jquery/jquery.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/bootstrap/js/bootstrap.bundle.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/jquery.easing/jquery.easing.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/php-email-form/validate.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/waypoints/jquery.waypoints.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/counterup/counterup.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/isotope-layout/isotope.pkgd.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/venobox/venobox.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/js/bootstrap.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/js/bootstrap-select.js")}}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{url_for('static', filename="assets/js/main.js")}}"></script>
+   <script src="{{ url_for('static', filename="js/my.js") }}"></script>
+ {% endblock %}
+  <div style="display:none" >
+        <script type="text/javascript" src="//js.users.51.la/20527175.js"></script>
+  </div>
+
+</body>
+
+</html>

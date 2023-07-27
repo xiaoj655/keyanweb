@@ -1,0 +1,14 @@
+CLUSTAL O(1.2.3) multiple sequence alignment
+
+
+d1cxca_      -QEGDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGE
+d4xxla1      AVDVDAAKSLARENNCFKCHGVDKEK----------DGPSYKKVAE--------------
+               : *   .    *:* .** : .:.           **.   *.               
+
+d1cxca_      GMKEAGAKGLAWDEEHFVQYVQDPTKFLKEYTGDAKAKGKMTFKL----------KKEAD
+d4xxla1      -----------------------------KYRGKADAEAKLIHHVTSGEKAKFPDGHEEE
+                                          :* *.*.*:.*: .::           :* :
+
+d1cxca_      ------------AHNIWAYLQQVAVRP
+d4xxla1      HKNINGKASPEAIKNLVDWILSL----
+                          :*:  :: .:    

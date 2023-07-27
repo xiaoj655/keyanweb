@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% block content %}
+  <div style="width: 80%; margin: 0 auto; text-align: center">
+    <h3 style="text-align: center; font-size: 1.5em">Document of ProtDec-LTR 3.0</h3> 
+    <div style="font-size: large" align="justify"> 
+    
+     <p><a name="_Content"><strong>Content</strong></a></p>
+     <p><a href="#_flowchart"><strong>1. The flow chart of ProtDec-LTR 3.0</strong></a></p>
+     <p><a href="#_pseudoprotein"><strong>2. Profile-based pseudo protein sequence</strong></a></p>
+     <p><a href="#_basicmethods"><strong>3. The pseudo protein-based predictors</strong></a></p>
+     <p><a href="#_learningtorank"><strong>4. Learning to rank</strong></a></p>
+     <p><a href="#_dataset"><strong>5. Dataset</strong></a></p>
+     <p><a href="#_performance"><strong>6. The performance comparison</strong></a></p>
+     <p><a href="#_reference"><strong>7. References</strong></a></p> 
+      
+    <br>
+    <p><a name="_flowchart"><strong>1. The flow chart of ProtDec-LTR 3.0</strong></a><a href="#_Content"> (back to content)</a></p>
+    
+    <p style="margin-left:18.0pt">The flow chart of <strong>ProtDec-LTR 3.0</strong> is shown in <strong>Fig. 1</strong>, in which there are three important modules for detecting remote homologous proteins.</p>
+    
+    <p style="margin-left:18.0pt; text-indent:2em">The first module is to transform raw protein sequences into profile-based pseudo protein sequences as inputs for protein homology detection. In previous version, a protein sequence was directly input as a query [1]. However, the sequence identity among remote homologous proteins is usually low about at 35%. It is hard to achieve high sensitivity only according on raw protein sequences. This is a new module for <strong>ProtDec-LTR 3.0</strong>, by which it can incorporate conservation information during the evolutionary process. </p>
+    
+    <p style="margin-left:18.0pt; text-indent:2em">The second one is to search the candidate remote homologous proteins in a large non-redundant database via basic ranking methods. In previous version, the searching was implemented by inputting raw protein sequence and searching against the raw protein sequence database. In the updated <strong>ProtDec-LTR 3.0</strong>, three pseudo-protein predictors (Pse-PSI-BLAST, Pse-HHblits and Pse-Hmmer) are constructed.</p>
+    
+    <p style="margin-left:18.0pt; text-indent:2em">The third one is to refine the three basic ranking lists to produce a more accurate result by using supervised LTR algorithm. Three ranking lists are obtained by using the three basic pseudo-protein predictors, and then they are embedded as a feature matrix to input the framework of LTR. As a result, the three ranking predictors are combined in a supervised manner considering the advantages of all the three individual predictors for more accurate protein remote homology detection.</p>
+    
+    <figure style="margin-left:18.0pt; width:98%">    
+        <img src="../static/pic/doc_fig1.jpg" width="100%" alt="The flowcart of ProtDec-LTR"/>
+        <figcaption style="text-align:justify"><strong>Figure 1. The flowcart of ProtDec-LTR 3.0.</strong> It accepts the raw proteins as inputs and returns a ranking list of homologous proteins. The raw proteins are first transformed as profile-based pseudo proteins and fed them into three pseudo-protein predictors. At last the three basic ranking lists are combined as one more accurate ranking list by using trained LTR model.</figcaption>
+    </figure>
+    <p><a name="_pseudoprotein"><strong>2. Profile-based pseudo protein sequence</strong></a><a href="#_Content"> (back to content)</a></p>
+    
+    <p style="margin-left:18.0pt">A profile-based pseudo protein sequence is not a real protein sequence. It is transformed from a profile of real protein sequence. As demonstrated in previous studies [2-4], profile-based pseudo protein sequences extracted from profiles are useful for improving protein remote homology detection. The main steps of generating the profile-based pseudo protein sequence are shown in <strong>Fig. 2</strong> and simply descripted as following.</p>
+    
+    <p style="margin-left:18.0pt; text-indent:2em">Firstly, for a protein sequence <strong>P</strong>, it is searched against the NCBI's nrdb90 [5] database by running PSI-BLAST [6] with parameters (-<em>num_iteratives</em> 3 -<em>evalue</em> 0.001) to generate a MSA. Then the frequency profile of sequence <strong>P</strong>, a matrix <strong>M</strong> of size 20*<em>L</em> (20 is the number of native amino acids and <em>L</em> is the length of sequence <strong>P</strong>), can be calculated based on the frequency of each amino acid at each site in generated MSA.</p>
+    
+    <p style="margin-left:18.0pt; text-indent:2em">Secondly, for each column in <strong>M</strong>, we sort the amino acids in the descending order according to their frequency values, and then select the amino acids with the maximal frequency value in each column. These selected amino acids are combined to form a new pseudo protein sequence <strong>P’</strong>, which is called profile-based pseudo protein sequence.</p>
+    
+    <p style="margin-left:18.0pt; text-indent:2em">The higher scores in <strong>M</strong> represent more conserved sites in protein sequence <strong>P</strong>. Such representation of proteins defined by frequency profiles would be more sensitivity than raw protein sequences for detecting remote homologs. The profile-based pseudo protein sequence <strong>P’</strong> were used to replace the raw protein sequence <strong>P</strong> as input for protein homology detection.</p>    
+    <figure style="margin-left:18.0pt;text-align:center;  width:98%">    
+        <img src="../static/pic/doc_fig2.jpg" width="70%" alt="The flowcart of ProtDec-LTR"/>
+        <figcaption style="text-align:justify"><strong>Figure 2. The transformation of generating profile-based pseudo protein.</strong> A profile-based pseudo protein sequence is not a real protein sequence. It is transformed from a profile, but it has the same amino acid length with the raw protein sequence. </figcaption>
+    </figure>
+    
+    <p><a name="_basicmethods"><strong>3. The pseudo protein-based predictors</strong></a><a href="#_Content"> (back to content)</a></p>    
+    <p style="margin-left:18.0pt">In the updated <strong>ProtDec-LTR 3.0</strong>, we construct three pseudo-protein predictors (Pse-PSI-BLAST, Pse-HHblits and Pse-Hmmer) by combining the three state-of-the-art protein predictors (PSI-BLAST [6], HHblits [7] and Hmmer [8]) and profile-based pseudo protein sequence. </p>
+    <p style="margin-left:18.0pt; text-indent:2em">The protein predictors directly search a protein query in a protein database. However, each of the pseudo-protein predictor is fed into profile-based pseudo protein sequences generated at the first step, and the searching is performed against a pseudo-protein database in which the raw protein sequences are transformed into profiled-based pseudo protein in advance. The searching process of pseudo-protein predictor is as following:</p>
+    <p style="margin-left:18.0pt; text-indent:2em">
+    <ul style="list-style-type:lower-roman; list-style-position:outside; margin-left:36.0pt;">
+        <li>Transform the protein query into pseudo-protein query;</li>
+        <li>Transform the protein database into pseudo-protein database;</li>
+        <li>Search the pseudo-protein query in the pseudo-protein database, and generate a list of pseudo protein hits;</li>
+        <li>Map the pseudo proteins back to raw proteins.</li>
+    </ul>
+    </p>
+    <p style="margin-left:18.0pt; text-indent:2em">The flowchart of searching process of pseudo-protein predictor is shown in <strong>Fig. 3</strong>. In this study, all the basic predictors were performed with default parameters.</p>
+    <figure style="margin-left:18.0pt; text-align:center;  width:98%">    
+        <img src="../static/pic/doc_fig3.jpg" width="70%" alt="The flowcart of ProtDec-LTR"/>
+        <figcaption style="text-align:justify"><strong>Figure 3. The flow chart of searching process of pseudo-protein predictor. </strong>The raw protein query and protein database should be transformed as pseudo protein query and pseudo protein database in advance. Then searching the pseudo protein query in the pseudo protein database.</figcaption>
+    </figure>
+        
+    <p><a name="_learningtorank"><strong>4. Learning to rank </strong></a><a href="#_Content"> (back to content)</a></p>    
+    <p style="margin-left:18.0pt">Learning to rank [9] is the application of machine learning in the construction of ranking models for information retrieval systems, which has been successfully applied in many well-known searching engines, such as Bing [10] and Google [11]. The training data of learning to rank consists of lists of items with some partial order specified between items in each list. This order is typically induced by giving a numerical or ordinal score or a binary judgment (e.g. &quot;relevant&quot; or &quot;not relevant&quot;) for each item. The ranking model's purpose is to rank, i.e. produce a permutation of items in new, unseen lists in a way which is &quot;similar&quot; to rankings in the training data in some sense. The training and testing phases of Learning to Rank was shown in <strong>Fig. 4</strong>.</p>    
+    <p style="margin-left:18.0pt; text-indent:2em">Similar as the application of LTR in information retrieve, for protein remote homology detection, each protein sequence is treated as a "document". Three ranking lists are obtained by using the three aforementioned ranking methods, and then they are embedded as a feature matrix to train the LTR model. Finally, for an unseen query sample, its homologous proteins can be detected by the trained model of LTR. As a result, the three ranking predictors are combined in a supervised manner considering the advantages of all the three individual predictors for more accurate protein remote homology detection. For more information of LTR, please refer to [1].</p>
+    <figure style="margin-left:18.0pt; text-align:center; width:98%"> 
+		<img src="../static/pic/doc_fig4.jpg" width="60%" alt=""/>
+    	<figcaption style="text-align:justify"><strong>Figure 4. The training and testing phases of Learning to Rank.</strong> In training phases, the training samples are represented as feature matrices, and then they are used to train a ranking function F(∙). In the testing phases, the testing samples are re-ranked by using the learnt ranking function F(∙) to detect their homologous proteins.</figcaption>
+    </figure>
+    <p><a name="_dataset"><strong>5. Dataset</strong></a><a href="#_Content"> (back to content)</a></p>
+    <p style="margin-left:18.0pt">Two benchmark datasets were used to evaluate the performance of predictors: SCOP [12] and SCOPe [13]. </p>
+    <p style="margin-left:18.0pt; text-indent:2em">The SCOP benchmark dataset was constructed based on SCOP v1.59, which contains 7,329 proteins with less than 95% sequence identity. It is a widely used dataset, and it can provide good comparability with other related methods [1, 4]. There are 1,073 superfamilies and 1,827 families in this dataset. </p>
+    <p style="margin-left:18.0pt; text-indent:2em">The SCOPe benchmark dataset was constructed based on the SCOPe version v2.06 released on 06-April-2017 (the latest version), containing 28,010 proteins with less than 95% sequence identity with 2,008 superfamilies and 4,851 families. 
+</p>
+    
+    <p><a name="_performance"><strong>6. The performance comparison</strong></a><a href="#_Content"> (back to content)</a></p>    
+	<p style="margin-left:18.0pt">Two performance measures were employed to evaluate the performance of each method, including ROC1 score and ROC50 score [14]. ROC1 and ROC50 scores represent the area under ROC curve up to the first false positive and the 50th false positives, respectively. A score of 1 means perfect prediction, whereas a score of 0 means that none of the proteins is correctly identified. In this study, if the detected proteins and the query protein are in the same SCOP superfamily, the detected proteins are considered as true positives, otherwise they are false positives. The jackknife validation is employed to evaluate the performance of methods, because it is deemed the most objective cross-validation approach.</p>
+   
+    <p style="margin-left:18.0pt; text-indent:2em"><strong>Table 1</strong> shows the performance of various methods on SCOP v1.59, from which we can see that the performance of the three predictors (PSI-BLAST, HHblits and Hmmer) can be improved by using the pseudo protein approach. <strong>ProtDec-LTR3.0</strong> obviously outperforms ProtDec-LTR in term of ROC1, and is highly comparable with ProtDec-LTR in term of ROC50. </p>
+    
+    <p style="margin-left:18.0pt; margin-bottom:0pt"><strong>Table 1. The performance comparison between ProtDec-LTR3.0 and other related methods on SCOP v1.59 via jackknife validation.</strong></p>
+    <table width="65%" align="center" style="text-align:center">    
+     <tr style="background:#5B9BD5">
+      <td width="280"><strong>Methods</strong></td>
+      <td><strong>ROC1</strong></td>
+      <td><strong>ROC50</strong></td>  
+     </tr>
+     <tr style="background:#CCD5D5">
+      <td><strong>ProtDec-LTR2.0</strong></td>      <td><strong>0.8911</strong></td>      <td>0.8955</td>  
+     </tr> 
+     <tr style="background:#CCD5D5">
+      <td>ProtDec-LTR</td>      <td>0.8510</td>      <td><strong>0.8969</strong></td>  
+     </tr>     
+     <tr  style="background:#CCD5D5">
+      <td>Pse-PSI-BLAST</td>      <td>0.7900</td>      <td>0.8127</td>  
+     </tr>
+     <tr  style="background:#CCD5D5">
+      <td>Pse-HHblits</td>      <td>0.8246</td>      <td>0.8737</td>  
+     </tr>
+     <tr style="background:#CCD5D5">
+      <td>Pse-Hmmer</td>      <td>0.8016</td>      <td>0.8212</td>  
+     </tr>     
+     <tr style="background:#CCD5D5">
+      <td>PSI-BLAST</td>      <td>0.7718</td>      <td>0.7794</td>  
+     </tr>
+     <tr style="background:#CCD5D5">
+      <td>HHblits</td>      <td>0.8187</td>      <td>0.8669</td>  
+     </tr>
+     <tr style="background:#CCD5D5">
+      <td>Hmmer</td>      <td>0.7796</td>      <td>0.7830</td>  
+     </tr>
+     <tr  style="background:#CCD5D5">
+      <td>Coma</td>      <td>0.6989</td>      <td>0.7785</td>  
+     </tr>
+     <tr  style="background:#CCD5D5">
+      <td>ProtEmbed</td>      <td>0.8136</td>      <td>0.8897</td>  
+     </tr>
+     <tr  style="background:#CCD5D5">
+      <td>dRHP-PseRA</td>      <td>0.8314</td>      <td>0.8924</td>  
+     </tr>
+	</table>
+    
+    <br>
+     <p style="margin-left:18.0pt; text-indent:2em">In order to further evaluate its performance, <strong>ProtDec-LTR3.0</strong> is evaluated on the updated benchmark dataset SCOPe v2.06, and the results are shown in <strong>Fig. 5</strong>, from which we can see that <strong>ProtDec-LTR3.0</strong> obviously outperforms the basic predictors in terms of ROC1and ROC 50.</p>
+    
+             
+    <figure style="margin-left:18.0pt; text-align:center; width:100%">    
+        <img src="../static/pic/doc_fig5.jpg" width="100%" alt=""/>
+        <figcaption style="text-align:justify"><strong>Figure 5. Performance comparison of various methods on SCOPe benchmark dataset via jackknife validation. The graph plots the percentage of sequences, for which the method exceeds a given performance threshold. The higher curve means the method performs better. ROC1 and ROC50 are used as the performance measures for (A) and (B), respectively. ProtDec-LTR3.0 achieves the best performance with a ROC1 score of 0.969 and a ROC50 score of 0.981, obviously outperforming other methods.  </strong></figcaption>
+    </figure>
+    <br>
+    
+    <p><a name="_reference"><strong>7. References</strong></a><a href="#_Content"> (back to content)</a></p>
+    <table style="margin-left:18.0pt;" width="100%" height="300" border="0">
+			  <tbody style="vertical-align:top" align="justify">              	
+			    <tr>
+			      <td width="36">1.</td>
+			      <td width="881">Liu B, Chen J, Wang X. Application of Learning to Rank to protein remote homology detection, <em>Bioinformatics</em> 2015;31:3492-3498. </td>
+			    </tr>
+			    <tr>
+			      <td>2. </td> 
+			      <td>Liu B, Zhang D, Xu R <em>et al</em>. Combining evolutionary information extracted from frequency profiles with sequence-based kernels for protein remote homology detection, <em>Bioinformatics</em> 2014;30:472-479. </td>
+			    </tr>
+			    <tr>
+			      <td>3. </td>
+			      <td>Liu B, Wang X, Lin L <em>et al</em>. A discriminative method for protein remote homology detection and fold recognition combining Top-n-grams and latent semantic analysis, <em>BMC bioinformatics</em> 2008;9:510.</td>
+			    </tr>
+			    <tr>
+			      <td>4. </td>
+			      <td>Chen J, Long R, Wang X-l <em>et al</em>. dRHP-PseRA: detecting remote homology proteins using profile-based pseudo protein sequence and rank aggregation, <em>Scientific Reports</em> 2016;6:32333. </td>
+			    </tr>
+			    <tr>
+			      <td>5. </td>
+			      <td>Holm L, Sander C. Removing near-neighbour redundancy from large protein sequence collections, <em>Bioinformatics</em> 1998;14:423-429. </td>
+			    </tr>
+			    <tr>
+			      <td>6. </td>
+			      <td>Altschul SF, Madden TL, Schäffer AA <em>et al</em>. Gapped BLAST and PSI-BLAST: a new generation of protein database search programs, <em>Nucleic acids research</em> 1997;25:3389-3402. </td>
+			    </tr>
+			    <tr>
+			      <td>7. </td>
+			      <td>Remmert M, Biegert A, Hauser A <em>et al</em>. HHblits: lightning-fast iterative protein sequence searching by HMM-HMM alignment, <em>Nature methods</em> 2012;9:173-175. </td>
+			    </tr>
+			    <tr>
+			      <td>8. </td>
+			      <td>Finn RD, Clements J, Eddy SR. HMMER web server: interactive sequence similarity searching, <em>Nucleic acids research</em> 2011;39:W29-37. </td>
+			    </tr>
+                <tr>
+			      <td>9. </td>
+			      <td>Liu T-Y. Learning to rank for information retrieval, <em>Foundations and Trends in Information Retrieval</em> 2009;3:225-331. </td>
+			    </tr>
+                <tr>
+			      <td>10. </td>
+			      <td>Liu T-Y, Xu J, Qin T <em>et al</em>. Letor: Benchmark dataset for research on learning to rank for information retrieval, <em>Foundations and Trends in Information Retrieval</em> 2009;3(3):225-331. </td>
+			    </tr>
+                <tr>
+			      <td>11. </td>
+			      <td>Sculley D. Large scale learning to rank, <em>NIPS Workshop on Advances in Ranking</em> 2009; 58-63. </td>
+			    </tr>                
+                <tr>
+			      <td>12. </td>
+			      <td>Murzin AG, Brenner SE, Hubbard T et al. SCOP: a structural classification of proteins database for the investigation of sequences and structures, <em>Journal of molecular biology</em> 1995;247:536-540 </td>
+			    </tr>
+                <tr>
+			      <td>13. </td>
+			      <td>Fox, N.K., Brenner, S.E. and Chandonia, J.-M.. SCOPe: Structural Classification of Proteins—extended, integrating SCOP and ASTRAL data and classification of new structures, <em>Nucleic acids research</em> 2014;42:D304-D309</td>
+			    </tr>
+                <tr>
+			      <td>14. </td>
+			      <td>Gribskov, M. and Robinson, N.L. Use of receiver operating characteristic (ROC) analysis to evaluate sequence matching, <em>Computers & chemistry</em> 1996;20:25-33</td>
+			    </tr>
+		      </tbody>
+		    </table>
+    <br>
+
+  </div>
+
+</div>
+
+{% endblock %}

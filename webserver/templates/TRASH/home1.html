@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% block content %}	
+		<div style="width: 80%; margin: 0 auto; text-align: justify">
+		  <h3 style="text-align: center; font-size: 1.5em"> Description of ProtDec-LTR 3.0server </h3>
+		  <div style="font-size:18px" align="justify">
+			<p style="margin-top:6pt">Protein remote homology detection is critical for both basic research (such as protein attribute prediction), and practical application (such as modeling the 3D structures of target proteins for drug development), and it is one of the most important sequence analysis tasks in computational biology, aiming to find proteins with known structures that are distantly evolutionarily related to the query proteins [1].</p> 
+			<p style="margin-top:6pt;margin-bottom:0pt; text-indent:2em">In 2015 we published the method ProtDec-LTR, which was the first computational method that combines three state-of-the-art ranking predictors by a supervised framework via using Learning to Rank (LTR) [2]. ProtDec-LTR has been widely used for protein remote homology detection as well as for protein function and structure prediction. However, there is still some further work to do because of the following reasons:
+            <ul style="list-style-type:lower-roman; margin-top:0pt">
+            <li>The performance in ROC1 score has large room to improve. Because those false positive hits in the front of ranking list are more like to be chosen as the targets, we need to improve the detection sensitivity by using a richer protein representation with incorporating the evolutionary information in profile.</li>
+            <li>Only is the ProtDec-LTR method proposed. For users' convenience, an easy-to-use online web server will be certainly welcome. However, most of the existing web servers for protein remote homology detection only provide the simple function of assigning yes/no label, let alone the convenient ways for analyzing the structure and function of the homologous proteins. Thus, there is a need to produce an updated version.</li>
+            </ul>
+            </p>
+            
+			<p style="margin-top:6pt; text-indent:2em">We develop an improved method <strong>ProtDec-LTR 3.0</strong> with incorporating profile-based pseudo protein [3] in the framework of LTR algorithm. Experimental results show the profile-based pseudo protein representation can obviously improve the sensitivities of three state-of-the-art predictors. These three pseudo-protein predictors are then combined in a supervised manner via LTR algorithm, and the predictive performance is further improved. More performance description can be found in the <a href="{{ url_for('document') }}"><em>Document</em></a>. The web server is also developed, by which users can detect the homologous proteins only based on the protein sequences, and the predicted results will be returned in a user-friendly manner.</p>
+            <p style="margin-top:6pt; margin-bottom:0pt; text-indent:2em">The improvement and friendly web service have led <strong>ProtDec-LTR 3.0</strong> to be a more efficient and powerful tool. Compared with the other existing methods, <strong>ProtDec-LTR 3.0</strong> has several advantages: </p>
+            <ul style="list-style-type:lower-roman;margin-top:0pt">
+            <li>It is the first web server incorporating the profile-based pseudo proteins into the framework of LTR algorithm; </li>
+            <li>Various results visualization and functions interpretation are provided, such as homologous protein 3D structure visualization and multiple sequence alignment interpretation; </li>
+            <li>According to the experimental results, <strong>ProtDec-LTR 3.0 </strong>is one of the most accurate web servers for protein remote homology. </li></ul>
+            
+            <p style="margin-top:6pt;margin-bottom:0pt; text-indent:2em"><strong>ProtDec-LTR3.0</strong> is trained with an updated benchmark dataset SCOPe v2.06 with more samples and protein families, making it more robust and useful. The web server will be updated when new version of SCOPe is released. </p>
+             
+            <br>
+			<table height="200" border="0">
+			  <tbody style="vertical-align:top">
+              	<tr>
+			      <td width="36" colspan="2"><strong>REFERENCES:</strong> </td>			      
+			    </tr>
+                <tr>
+			      <td width="36">1.</td>
+			      <td width="881">Chen J, Guo M, Wang X et al. A comprehensive review and comparison of different computational methods for protein remote homology detection, <em>Briefings in bioinformatics</em> 2016:bbw108. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/27881430" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 27881430</span></a><span style="font-family:Arial, Helvetica, sans-serif">, </span><a href="https://scholar.google.com/scholar?hl=zh-CN&q=A+comprehensive+review+and+comparison+of+different+computational+methods+for+protein+remote+homology+detection%2C&btnG=&lr=" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">cited by 7</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span></td>
+			    </tr>
+			    <tr>
+			      <td width="36">2.</td>
+			      <td width="881">Liu B, Chen J, Wang X. Application of Learning to Rank to protein remote homology detection, <em>Bioinformatics</em> 2015;31:3492-3498. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/26163693" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 26163693</span></a><span style="font-family:Arial, Helvetica, sans-serif">, </span><a href="https://scholar.google.com/scholar?q=Application+of+Learning+to+Rank+to+protein+remote+homology+detection&btnG=&hl=en&as_sdt=0%2C23" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">cited by 44</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span></td>
+			    </tr>
+			    <tr>
+			      <td>3. </td> 
+			      <td>Liu B, Zhang D, Xu R et al. Combining evolutionary information extracted from frequency profiles with sequence-based kernels for protein remote homology detection, <em>Bioinformatics</em> 2014;30:472-479. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/24318998" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 24318998</span></a><span style="font-family:Arial, Helvetica, sans-serif">, </span><a href="https://scholar.google.com/scholar?q=Combining+evolutionary+information+extracted+from+frequency+profiles+with+sequence-based+kernels+for+protein+remote+homology+detection&btnG=&hl=en&as_sdt=0%2C23" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">cited by 162</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span> </td>
+			    </tr>			    
+			    
+		      </tbody>
+		    </table>
+            <br>
+          </div>
+		</div>	
+{% endblock %}

@@ -1,0 +1,504 @@
+---------------------------------------------------------------------------------------
+The results of query protein sp are:
+---------------------------------------------------------------------------------------
+>d2glia1 g.37.1.1 (A:103-134) Five-finger GLI1 {Human (Homo sapiens) [TaxId: 9606]}
+ETDCRWDGCSQEFDSQEQLVHHINSEHIHGER
+>d2kmka_ g.37.1.0 (A:) automated matches {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+SFDCKICGKSFKRSSTLSTHLLIHSDTRPYPCQYCGKRFHQKSDMKKHTFIHTGEKPHKCQVCGKAFSQSSNLITHSRKHTG
+>d2ee8a2 g.37.1.1 (A:8-100) automated matches {Mouse (Mus musculus) [TaxId: 10090]}
+GRLPSKTKKEFICKFCGRHFTKSYNLLIHERTHTDERPYTCDICHKAFRRQDHLRDHRYIHSKEKPFKCQECGKGFCQSRTLAVHKTLHMQTS
+>d2ebta1 g.37.1.0 (A:365-457) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+PDLEKRRIHYCDYPGCTKVYTKSSHLKAHLRTHTGEKPYKCTWEGCDWRFARSDELTRHYRKHTGAKPFQCGVCNRSFSRSDHLALHMKRHQN
+>d2rv6a1 g.37.1.0 (A:8-92) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+KIFTCEYCNKVFKFKHSLQAHLRIHTNEKPYKCPQCSYASAIKANLNVHLRKHTGEKFACDYCSFTCLSKGHLKVHIERVHKKIK
+>d2m9aa1 g.37.1.0 (A:12-98) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+RDYICEYCARAFKSSHNLAVHRMIHTGEKPLQCEICGFTCRQKASLNWHMKKHDADSFYQFSCNICGKKFEKKDSVVAHKAKSHPEV
+>d2wbsa_ g.37.1.0 (A:) automated matches {Mouse (Mus musculus) [TaxId: 10090]}
+TATHTCDYAGCGKTYTKSSHLKAHLRTHTGEKPYHCDWDGCGWKFARSDELTRHYRKHTGHRPFQCQKCDRAFSRSDHLALHMKRHF
+>d2lcea1 g.37.1.0 (A:12-74) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+THSDKPYKCDRCQASFRYKGNLASHKTVHTGEKPYRCNICGAQFNRPANLKTHTRIHSGEKPY
+>d2n26a_ g.37.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+KPYGCEECGKSYRLISLLNLHKKRHSGEARYRCEDCGKLFTTSGNLKRHQLVHSG
+>d2csha1 g.37.1.1 (A:8-60) Zinc finger protein 297b {Human (Homo sapiens) [TaxId: 9606]}
+DKLYPCQCGKSFTHKSQRDRHMSMHLGLRPYGCGVCGKKFKMKHHLVGHMKIH
+>d1x3ca1 g.37.1.1 (A:8-67) Zinc finger protein 292, ZNF292 {Human (Homo sapiens) [TaxId: 9606]}
+RKKPVSQSLEFPTRYSPYRPYRCVHQGCFAAFTIQQNLILHYQAVHKSDLPAFSAEVEEE
+>d1x6ha1 g.37.1.1 (A:44-80) Transcriptional repressor CTCF {Human (Homo sapiens) [TaxId: 9606]}
+VPAAFVCSKCGKTFTRRNTMARHADNCAGPDGVEGEN
+>d1x6ha2 g.37.1.1 (A:8-43) Transcriptional repressor CTCF {Human (Homo sapiens) [TaxId: 9606]}
+RTHTGEKPYACSHCDKTFRQKQLLDMHFKRYHDPNF
+>d2eowa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCNECGKAFRARSSLAIHQATH
+>d2en1a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGEKPFKCEECGKRFTQNSQLHSHQRVH
+>d2dmda1 g.37.1.1 (A:34-61) Zinc finger protein 64, ZFP68 {Human (Homo sapiens) [TaxId: 9606]}
+VKPYKCKTCDYAAADSSSLNKHLRIHSD
+>d2dmda3 g.37.1.1 (A:62-90) Zinc finger protein 64, ZFP68 {Human (Homo sapiens) [TaxId: 9606]}
+ERPFKCQICPYASRNSSQLTVHLRSHTGD
+>d2emfa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGGKHFECTECGKAFTRKSTLSMHQKIH
+>d2em8a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGEKPYKCVECGKGYKRRLDLDFHQRVH
+>d2eq0a1 g.37.1.1 (A:452-479) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCHECGKVFRRNSHLARHQLIH
+>d2ytsa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYICNECGKSFIQKSHLNRHRRIH
+>d2eofa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYECNECQKAFNTKSNLMVHQRTH
+>d2ytfa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPFECSECQKAFNTKSNLIVHQRTH
+>d2eq1a1 g.37.1.1 (A:480-507) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCNECGKAFRAHSNLTTHQVIH
+>d2eona1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCQVCGKAFRVSSHLVQHHSVH
+>d1u85a1 g.37.1.1 (A:3-33) Kruppel-like factor 3, Bklf {Mouse (Mus musculus) [TaxId: 10090]}
+TGIKPFQCPDCDWSFSRSDHLALHRKRHMLV
+>d2ytha1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGEKPFQCEECGKRFTQNSHLHSHQRVH
+>d2ytea1 g.37.1.1 (A:8-33) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+EKPYSCAECKETFSDNNRLVQHQKMH
+>d1x5wa1 g.37.1.1 (A:8-35) Zinc finger protein 64, ZFP68 {Human (Homo sapiens) [TaxId: 9606]}
+HPEKCSECSYSCSSKAALRIHERIHCTD
+>d2emia1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGERHYECSECGKAFIQKSTLSMHQRIH
+>d2yrja1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYRCGECGKAFAQKANLTQHQRIH
+>d1znfa_ g.37.1.1 (A:) XFIN, third domain {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+YKCGLCERSFVEKSALSRHQRVHKN
+>d2emwa1 g.37.1.1 (A:8-33) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+EKPYGCNECGKDFSSKSYLIVHQRIH
+>d2ytta1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+EGEKPYQCSECGKSFSGSYRLTQHWITH
+>d2emea1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGEKPYVCDYCGKAFGLSAELVRHQRIH
+>d2yu8a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCNECGKVFTQNSHLARHRRVH
+>d2em2a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGEKPFKCKECGKAFRQNIHLASHLRIH
+>d2eoha1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGKKPYECKECRKTFIQIGHLNQHKRVH
+>d2en6a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGEKPYGCNECGKTFSQKSILSAHQRTH
+>d2emva1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TREKPYECSECGKAFIRNSQLIVHQRTH
+>d2ytna1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGKKPYKCNECGKVFTQNSHLARHRGIH
+>d2eopa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPHECRECGKSFSFNSQLIVHQRIH
+>d2ytpa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGERHYECSECGKAFARKSTLIMHQRIH
+>d2ep0a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCDVCHKSFRYGSSLTVHQRIH
+>d2eoea1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCNECGKVFTQNSHLANHQRIH
+>d1llmc2 g.37.1.1 (C:129-156) ZIF268 {Mouse (Mus musculus) [TaxId: 10090]}
+EKPFACDICGRKFARSDERKRHRDIQHI
+>d2ytba1 g.37.1.1 (A:192-218) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+GEKPYRCDQCGKAFSQKGSLIVHIRVH
+>d2emja1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPFECAECGKSFSISSQLATHQRIH
+>d1sp1a_ g.37.1.1 (A:) Transcription factor sp1 {Human (Homo sapiens) [TaxId: 9606]}
+KKFACPECPKRFMRSDHLSKHIKTHQNKK
+>d2enha1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYECDVCRKAFSHHASLTQHQRVH
+>d2el4a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGVKPYGCSQCAKTFSLKSQLIVHQRSH
+>d2cota1 g.37.1.1 (A:45-71) Zinc finger and SCAN domain-containing protein 16, ZSCAN16 {Human (Homo sapiens) [TaxId: 9606]}
+KPYKCDECGKAFIQRSHLIGHHRVHTG
+>d2cota2 g.37.1.1 (A:8-44) Zinc finger and SCAN domain-containing protein 16, ZSCAN16 {Human (Homo sapiens) [TaxId: 9606]}
+RSEWQQRERRRYKCDECGKSFSHSSDLSKHRRTHTGE
+>d2emma1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGERPHKCNECGKSFIQSAHLIQHQRIH
+>d2eq2a1 g.37.1.1 (A:676-703) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGGKPYQCNECGKAFSQTSKLARHQRVH
+>d2ytma1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCMECGKAFGDNSSCTQHQRLH
+>d2emca1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TKEHPFKCNECGKTFSHSAHLSKHQLIH
+>d2dlqa3 g.37.1.1 (A:63-92) GLI-Krueppel family member HKR3 {Mouse (Mus musculus) [TaxId: 10090]}
+SEQVFTCSVCQETFRRRMELRLHMVSHTGE
+>d2drpa1 g.37.1.1 (A:103-139) Tramtrack protein (two zinc-finger peptide) {Fruit fly (Drosophila melanogaster) [TaxId: 7227]}
+FTKEGEHTYRCKVCSRVYTHISNFCRHYVTSHKRNVK
+>d1x6ea1 g.37.1.1 (A:8-40) Zinc finger protein 24 {Human (Homo sapiens) [TaxId: 9606]}
+IHSGEKPYGCVECGKAFSRSSILVQHQRVHTGE
+>d2eova1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCSDCGKSFTWKSRLRIHQKCH
+>d2em6a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+MGEKCYKCDVCGKEFSQSSHLQTHQRVH
+>d2eoxa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TDSKSYNCNECGKAFTRIFHLTRHQKIH
+>d2epva1 g.37.1.1 (A:803-830) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGEKPYECNECGKAFIWKSLLIVHERTH
+>d2ytja1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYICAECGKAFTIRSNLIKHQKIH
+>d2enea1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCNECGKVFRHNSYLSRHQRIH
+>d2emga1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGENPFICSECGKVFTHKTNLIIHQKIH
+>d2em9a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYNCKECGKSFRWASCLLKHQRVH
+>d2ct1a2 g.37.1.1 (A:8-43) Transcriptional repressor CTCF {Human (Homo sapiens) [TaxId: 9606]}
+RTHSGEKPYECYICHARFTQSGTMKMHILQKHTENV
+>d2en9a1 g.37.1.1 (A:8-39) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+AGKKLFKCNECKKTFTQSSSLTVHQRIHTGEK
+>d2ytga1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPFKCGECGKSYNQRVHLTQHQRVH
+>d2epua1 g.37.1.1 (A:100-127) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGQKPFECTHCGKSFRAKGNLVTHQRIH
+>d2eoja1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGENPYECCECGKVFSRKDQLVSHQKTH
+>d2en4a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TKEKPYKCYECGKAFRTRSNLTTHQVIH
+>d2en7a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGMKPYVCNECGKAFRSKSYLIIHTRTH
+>d2eora1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYNCEECGKAFIHDSQLQEHQRIH
+>d2en0a1 g.37.1.1 (A:8-33) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+QKPYVCNECGKAFGLKSQLIIHERIH
+>d2en3a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPFQCKECGMNFSWSCSLFKHLRSH
+>d2emha1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGERPYICTVCGKAFTDRSNLIKHQKIH
+>d2ytra1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCNECGKAFSQTSKLARHQRIH
+>d2ytqa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+AGEKPYGCSECGKAFSSKSYLIIHMRTH
+>d1ubdc2 g.37.1.1 (C:323-350) Ying-yang 1 (yy1, zinc finger domain) {Human (Homo sapiens) [TaxId: 9606]}
+RVHVCAECGKAFVESSKLKRHQLVHTGE
+>d2em3a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYECKVCSKAFTQKAHLAQHQKTH
+>d2ytda1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGEKPYKCSECGKAFHRHTHLNEHRRIH
+>d2elza1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SVEKPYKCEDCGKGYNRRLNLDMHQRVH
+>d2empa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGVKPYMCNECGKAFSVYSSLTTHQVIH
+>d2enfa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCNECGKVFTQNSHLVRHRGIH
+>d2epwa1 g.37.1.1 (A:915-942) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPCKCTECGKAFCWKSQLIMHQRTH
+>d2emka1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYECKECGKAFSQTTHLIQHQRVH
+>d2ytoa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCSDCGKAFTRKSGLHIHQQSH
+>d2emya1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGENPYECHECGKAFSRKYQLISHQRTH
+>d2emza1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGERPFKCNECGKGFGRRSHLAGHLRLH
+>d2ep1a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYECSDCGKSFIKKSQLHVHQRIH
+>d2eq4a1 g.37.1.1 (A:451-478) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKLYNCKECGKSFSRAPCLLKHERLH
+>d2elya1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPFKCVECGKGFSRRSALNVHHKLH
+>d2eoza1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYSCNVCGKAFVLSAHLNQHLRVH
+>d2eooa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGERPYGCNECGKNFGRHSHLIEHLKRH
+>d2eoqa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPFKCDICGKSFCGRSRLNRHSMVH
+>d2emla1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYECSVCGKAFSHRQSLSVHQRIH
+>d2ytka1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+SGEKPYKCNECGKVFTQNSHLTNHWRIH
+>d2ep2a1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYECSICGKSFTKKSQLHVHQQIH
+>d1a1ia2 g.37.1.1 (A:132-159) ZIF268 {Mouse (Mus musculus) [TaxId: 10090]}
+QKPFQCRICMRNFSRSDHLTTHIRTHTG
+>d2emaa1 g.37.1.1 (A:8-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKRYKCNECGKVFSRNSQLSQHQKIH
+>d1njqa_ g.37.1.3 (A:) SUPERMAN zinc finger domain {Thale cress (Arabidopsis thaliana) [TaxId: 3702]}
+WPPRSYTCSFCKREFRSAQALGGHMNVHRRDRARLRL
+>d2eola1 g.37.1.1 (A:8-33) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+EKPYECTDCGKAFGLKSQLIIHQRTH
+>d2en2a1 g.37.1.1 (A:8-34) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+GEKPYKCETCGARFVQVAHLRAHVLIH
+>d2epza1 g.37.1.1 (A:500-527) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPFDCIDCGKAFSDHIGLNQHRRIH
+>d2csha2 g.37.1.1 (A:61-104) Zinc finger protein 297b {Human (Homo sapiens) [TaxId: 9606]}
+TGIKPYECNICAKRFMWRDSFHRHVTSCTKSYEAAKAEQNTTEA
+>d2glia5 g.37.1.1 (A:229-257) Five-finger GLI1 {Human (Homo sapiens) [TaxId: 9606]}
+KPYVCKLPGCTKRYTDPSSLRKHVKTVHG
+>d2glia3 g.37.1.1 (A:168-197) Five-finger GLI1 {Human (Homo sapiens) [TaxId: 9606]}
+KPHKCTFEGCRKSYSRLENLKTHLRSHTGE
+>d2yt9a2 g.37.1.1 (A:362-386) PATZ1 {Human (Homo sapiens) [TaxId: 9606]}
+VACEICGKIFRDVYHLNRHKLSHSG
+>d1a1ga1 g.37.1.1 (A:103-131) ZIF268 {Mouse (Mus musculus) [TaxId: 10090]}
+RPYACPVESCDRRFSDSSNLTRHIRIHTG
+>d1tf3a1 g.37.1.1 (A:1-40) Transcription factor IIIA, TFIIIA {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+MKRYICSFADCGAAYNKNWKLQAHLSKHTGE
+>d2dlqa1 g.37.1.1 (A:93-118) GLI-Krueppel family member HKR3 {Mouse (Mus musculus) [TaxId: 10090]}
+MPYKCSSCSQQFMQKKDLQSHMIKLH
+>d2drpa2 g.37.1.1 (A:140-165) Tramtrack protein (two zinc-finger peptide) {Fruit fly (Drosophila melanogaster) [TaxId: 7227]}
+VYPCPFCFKEFTRKDNMTAHVKIIHK
+>d1klra_ g.37.1.1 (A:) ZFY {Human (Homo sapiens) [TaxId: 9606]}
+KTYQCQYCEFRSADSSNLKTHIKTKHSKEK
+>d1a1ha1 g.37.1.1 (A:103-131) ZIF268 {Mouse (Mus musculus) [TaxId: 10090]}
+RPYACPVESCDRRFSQSGSLTRHIRIHTG
+>d2ct1a1 g.37.1.1 (A:44-71) Transcriptional repressor CTCF {Human (Homo sapiens) [TaxId: 9606]}
+AKFHCPHCDTVIARKSDLGVHLRKQHSY
+>d1a1ia1 g.37.1.1 (A:103-131) ZIF268 {Mouse (Mus musculus) [TaxId: 10090]}
+RPYACPVESCDRRFSRSADLTRHIRIHTG
+>d1aaya1 g.37.1.1 (A:103-131) ZIF268 {Mouse (Mus musculus) [TaxId: 10090]}
+RPYACPVESCDRRFSRSDELTRHIRIHTG
+>d1bhia_ g.37.1.1 (A:) Transactivation domain of cre-bp1/atf-2 {Human (Homo sapiens) [TaxId: 9606]}
+MSDDKPFLCTAPGCGQRFTNEDHLAVHKHKHEMTLKFG
+>d2glia4 g.37.1.1 (A:198-228) Five-finger GLI1 {Human (Homo sapiens) [TaxId: 9606]}
+KPYMCEHEGCSKAFSNASDRAKHQNRTHSNE
+>d1ncsa_ g.37.1.1 (A:) SWI5 zinc-finger domains {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+TLPRGSIDKYVKEMPDKTFECLFPGCTKTFKRRYNIRSHIQTHLEDR
+>d2epsa1 g.37.1.1 (A:408-446) PATZ1 {Human (Homo sapiens) [TaxId: 9606]}
+SVGKPYICQSCGKGFSRPDHLNGHIKQVHTSERPHKCQV
+>d1sp2a_ g.37.1.1 (A:) Transcription factor sp1 {Human (Homo sapiens) [TaxId: 9606]}
+RPFMCTWSYCGKRFTRSDELQRHKRTHTGEK
+>d2enta1 g.37.1.1 (A:346-377) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPFACTWPGCGWRFSRSDELSRHRRSHSG
+>d1tf3a2 g.37.1.1 (A:41-70) Transcription factor IIIA, TFIIIA {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+KPFPCKEEGCEKGFTSLHHLTRHSLTHTGE
+>d1x6fa1 g.37.1.1 (A:8-82) Zinc finger protein 462, ZNF462 {Human (Homo sapiens) [TaxId: 9606]}
+LKRDFIILGNGPRLQNSTYQCKHCDSKLQSTAELTSHLNIHNEEFQKRAKRQERRKQLLSKQKYADGAFADFKQE
+>d2dlka2 g.37.1.1 (A:38-73) Zinc finger protein 692, ZNF692 {Human (Homo sapiens) [TaxId: 9606]}
+SFSCPEPACGKSFNFKKHLKEHMKLHSDTRDYICEF
+>d1f2ig1 g.37.1.1 (G:1093-1131) ZIF268 {Mouse (Mus musculus) [TaxId: 10090]}
+NLLNYVVPKMRPYACPVESCDRRFSRSDELTRHIRIHTG
+>d1tf6a4 g.37.1.1 (A:101-131) Transcription factor IIIA, TFIIIA {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+KICVYVCHFENCGKAFKKHNQLKVHQFSHTQ
+>d1ubdc4 g.37.1.1 (C:381-408) Ying-yang 1 (yy1, zinc finger domain) {Human (Homo sapiens) [TaxId: 9606]}
+RPYVCPFDGCNKKFAQSTNLKSHILTHA
+>d1ubdc3 g.37.1.1 (C:351-380) Ying-yang 1 (yy1, zinc finger domain) {Human (Homo sapiens) [TaxId: 9606]}
+KPFQCTFEGCGKRFSLDFNLRTHVRIHTGD
+>d1ubdc1 g.37.1.1 (C:295-322) Ying-yang 1 (yy1, zinc finger domain) {Human (Homo sapiens) [TaxId: 9606]}
+TIACPHKGCTKMFRDNSAMRKHLHTHGP
+>d2adra2 g.37.1.1 (A:131-161) ADR1 {Synthetic, based on Saccharomyces cerevisiae sequence}
+PYPCGLCNRAFTRRDLLIRHAQKIHSGNLGE
+>d2j7ja1 g.37.1.0 (A:1-28) automated matches {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+MYVCHFENCGKAFKKHNQLKVHQFSHTQ
+>d1u86a1 g.37.1.1 (A:3-35) Kruppel-like factor 3, Bklf {Mouse (Mus musculus) [TaxId: 10090]}
+TGIKPFQCTWPDCDRSFSRSDHLALHRKRHMLV
+>d1zfda_ g.37.1.1 (A:) SWI5 zinc-finger domains {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+DRPYSCDHPGCDKAFVRNHDLIRHKKSHQEKA
+>d3znfa_ g.37.1.1 (A:) Enhancer binding protein {Human (Homo sapiens) [TaxId: 9606]}
+RPYHCSYCNFSFKTKGNLTKHMKSKAHSKK
+>d2dlqa2 g.37.1.1 (A:35-62) GLI-Krueppel family member HKR3 {Mouse (Mus musculus) [TaxId: 10090]}
+PFECPKCGKCYFRKENLLEHEARNCMNR
+>d1bboa2 g.37.1.1 (A:29-57) Enhancer binding protein {Human (Homo sapiens) [TaxId: 9606]}
+PYHCTYCNFSFKTKGNLTKHMKSKAHSKK
+>d1wjpa3 g.37.1.1 (A:67-101) Zinc finger protein 295, ZNF295 {Human (Homo sapiens) [TaxId: 9606]}
+YKKLTCLECMRTFKSSFSIWRHQVEVHNQNNMAPT
+>d2dlqa4 g.37.1.1 (A:8-34) GLI-Krueppel family member HKR3 {Mouse (Mus musculus) [TaxId: 10090]}
+VECPTCHKKFLSKYYLKVHNRKHTGEK
+>d1yuja_ g.37.1.1 (A:) GAGA factor {Fruit fly (Drosophila melanogaster) [TaxId: 7227]}
+PKAKRAKHPPGTEKPRSRSQSEQPATCPICYAVIRQSRNLRRHLELRHFAKPGV
+>d2ctda2 g.37.1.1 (A:61-90) Zinc finger protein 512, ZNF512 {Human (Homo sapiens) [TaxId: 9606]}
+EMFTCHHCGKQLRSLAGMKYHVMANHNSLP
+>d2ysva1 g.37.1.1 (A:755-780) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+EKPYVCQECGKAFTQSSCLSIHRRVH
+>d2dmda2 g.37.1.1 (A:8-33) Zinc finger protein 64, ZFP68 {Human (Homo sapiens) [TaxId: 9606]}
+PHKCEVCGKCFSRKDKLKTHMRCHTG
+>d2ep3a1 g.37.1.1 (A:8-37) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYRCAECGKAFTDRSNLFTHQKIHTG
+>d2em1a1 g.37.1.1 (A:8-33) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+EKPYSCNECGKAFTFKSQLIVHKGVH
+>d2eoka1 g.37.1.1 (A:8-33) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+EKPYVCSDCGKAFTFKSQLIVHQGIH
+>d2yt9a1 g.37.1.1 (A:417-443) PATZ1 {Human (Homo sapiens) [TaxId: 9606]}
+GKPYICQSCGKGFSRPDHLNGHIKQVH
+>d1x5wa2 g.37.1.1 (A:36-64) Zinc finger protein 64, ZFP68 {Human (Homo sapiens) [TaxId: 9606]}
+RPFKCNYCSFDTKQPSNLSKHMKKFHGDM
+>d2epqa1 g.37.1.1 (A:380-411) PATZ1 {Human (Homo sapiens) [TaxId: 9606]}
+EKPYSCPVCGLRFKRKDRMSYHVRSHDGSVGK
+>d2ytaa1 g.37.1.1 (A:136-161) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+EKPYQCKECGKSFSQRGSLAVHERLH
+>d2eppa1 g.37.1.1 (A:286-338) PATZ1 {Human (Homo sapiens) [TaxId: 9606]}
+LREAGILPCGLCGKVFTDANRLRQHEAQHGVTSLQLGYIDLPPPRLGENGLPI
+>d2eqwa1 g.37.1.1 (A:409-434) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+EKPYVCTECGKAFIRKSHFITHERIH
+>d2el5a1 g.37.1.1 (A:8-33) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+ENPYECSECGKAFNRKDQLISHQRTH
+>d1y0jb2 g.37.1.2 (B:3-36) U-shaped transcription factor, different fingers {Fruit fly (Drosophila melanogaster) [TaxId: 7227]}
+LLKPARFMCLPCGIAFSSPSTLEAHQAYYCSHRI
+>d7znfa_ g.37.1.1 (A:) ZFY {Human (Homo sapiens) [TaxId: 9606]}
+KTYQCQYCEKRFADSSNLKTHIKTKHSKEK
+>d2yrha1 g.37.1.1 (A:8-33) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+KKPLVCNECGKTFRQSSCLSKHQRIH
+>d1paaa_ g.37.1.1 (A:) ADR1 {Synthetic, based on Saccharomyces cerevisiae sequence}
+KAYACGLCNRAFTRRDLLIRHAQKIHSGNL
+>d1xf7a_ g.37.1.1 (A:) Wilms' tumor protein, WT1 {Human (Homo sapiens) [TaxId: 9606]}
+KPFQCKTCQRKFSRSDHLKTHTRTHTGEK
+>d2epxa1 g.37.1.1 (A:471-496) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGKKPYECIECGKAFIQNTSLIRHWR
+>d2eoga1 g.37.1.1 (A:8-33) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+VKPYGCSECGKAFRSKSYLIIHMRTH
+>d1srka1 g.37.1.1 (A:3-35) Zinc finger protein ZFPM1 (FOG-1) {Mouse (Mus musculus) [TaxId: 10090]}
+SGKRPFVCRICLSAFTTKANCARHLKVHTDTLS
+>d2epra1 g.37.1.1 (A:350-384) PATZ1 {Human (Homo sapiens) [TaxId: 9606]}
+RTRKQVACEICGKIFRDVYHLNRHKLSHSGEKPYS
+>d2adra1 g.37.1.1 (A:102-130) ADR1 {Synthetic, based on Saccharomyces cerevisiae sequence}
+RSFVCEVCTRAFARQEHLKRHYRSHTNEK
+>d1bboa1 g.37.1.1 (A:1-28) Enhancer binding protein {Human (Homo sapiens) [TaxId: 9606]}
+KYICEECGIRAKKPSMLKKHIRTHTDVR
+>d1m36a1 g.37.1.2 (A:3-33) Monocytic leukemia zinc finger protein Moz {Human (Homo sapiens) [TaxId: 9606]}
+RLPKLYLCEFCLKYMKSRTILQQHMKKCGWF
+>d2j7ja2 g.37.1.0 (A:29-57) automated matches {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+QLPYECPHEGCDKRFSLPSRLKRHEKVHA
+>d2yspa1 g.37.1.1 (A:8-37) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYKCEKCGKGYNSKFNLDMHQKVHTG
+>d1a1ia3 g.37.1.1 (A:160-187) ZIF268 {Mouse (Mus musculus) [TaxId: 10090]}
+EKPFACDICGRKFARSDERKRHTKIHLR
+>d1x6ea2 g.37.1.1 (A:41-66) Zinc finger protein 24 {Human (Homo sapiens) [TaxId: 9606]}
+KPYKCLECGKAFSQNSGLINHQRIHT
+>d2eq3a1 g.37.1.1 (A:704-733) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+TGEKPYECNQCGKAFSVRSSLTTHQAIHTG
+>d1zr9a1 g.37.1.4 (A:28-94) Zinc finger protein 593, ZNF593 {Human (Homo sapiens) [TaxId: 9606]}
+DPNAEFDPDLPGGGLHRCLACARYFIDSTNLKTHFRSKDHKKRLKQLSVEPYSQEEAERAAGMGSYV
+>d1fu9a1 g.37.1.2 (A:3-36) U-shaped transcription factor, different fingers {Fruit fly (Drosophila melanogaster) [TaxId: 7227]}
+AAEVMKKYCSTCDISFNYVKTYLAHKQFYCKNKP
+>d1tf6a1 g.37.1.1 (A:10-40) Transcription factor IIIA, TFIIIA {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+YKRYICSFADCGAAYNKNWKLQAHLCKHTGE
+>d1vd4a_ g.41.3.1 (A:) Transcription initiation factor TFIIE-alpha {Human (Homo sapiens) [TaxId: 9606]}
+RIETDERDSTNRASFKCPVCSSTFTDLEANQLFDPMTGTFRCTFCHTEVEEDESAMPKKDAR
+>d1tf3a3 g.37.1.1 (A:71-101) Transcription factor IIIA, TFIIIA {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+KNFTCDSDGCDLRFTTKANMKKHFNRFHNIK
+>d2yrka1 g.37.1.4 (A:8-55) Zinc finger homeobox protein 4, ZFHX4 {Human (Homo sapiens) [TaxId: 9606]}
+GTDGTKPECTLCGVKYSARLSIRDHIFSKQHISKVRETVGSQLDREKD
+>d2dlka1 g.37.1.1 (A:8-37) Zinc finger protein 692, ZNF692 {Human (Homo sapiens) [TaxId: 9606]}
+MPCDFPGCGRIFSNRQYLNHHKKYQHIHQK
+>d2glia2 g.37.1.1 (A:135-167) Five-finger GLI1 {Human (Homo sapiens) [TaxId: 9606]}
+KEFVCHWGGCSRELRPFKAQYMLVVHMRRHTGE
+>d1yuza2 g.41.5.1 (A:167-202) Nigerythrin, C-terminal domain {Desulfovibrio vulgaris [TaxId: 881]}
+DDDKFHLCPICGYIHKGEDFEKCPICFRPKDTFTAY
+>d1spwa_ g.41.5.1 (A:) automated matches {Desulfovibrio gigas [TaxId: 879]}
+MDIYVCTVCGYEYDPAFEDLPDDWACPVCGASKDAFEKQ
+>d2j7ja3 g.37.1.0 (A:58-85) automated matches {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+GYPCKKDDSCSFVGKTWTLYLKHVAECH
+>d2akla2 g.41.3.5 (A:3-40) Hypothetical protein PA0128, N-terminal domain {Pseudomonas aeruginosa [TaxId: 287]}
+STLPPCPQCNSEYTYEDGALLVCPECAHEWSPNEAATA
+>d1pfta_ g.41.3.1 (A:) Transcription initiation factor TFIIB, N-terminal domain {Pyrococcus furiosus [TaxId: 2261]}
+MVNKQKVCPACESAELIYDPERGEIVCAKCGYVIEENIIDMGPEWRAFDA
+>d1lkoa2 g.41.5.1 (A:148-191) Rubrerythrin, C-terminal domain {Desulfovibrio vulgaris [TaxId: 881]}
+FLREQATKWRCRNCGYVHEGTGAPELCPACAHPKAHFELLGINW
+>d1twfi1 g.41.3.1 (I:1-49) RBP9 subunit of RNA polymerase II {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+MTTFRFCRDCNNMLYPREDKENNRLLFECRTCSYVEEAGSPLVYRHELI
+>d1zina2 g.41.2.1 (A:126-160) Microbial and mitochondrial ADK, insert "zinc finger" domain {Bacillus stearothermophilus [TaxId: 1422]}
+GRRICRNCGATYHLIFHPPAKPGVCDKCGGELYQR
+>d1wjpa2 g.37.1.1 (A:43-66) Zinc finger protein 295, ZNF295 {Human (Homo sapiens) [TaxId: 9606]}
+AVCPYCSLRFFSPELKQEHESKCE
+>d1dl6a_ g.41.3.1 (A:) Transcription initiation factor TFIIB, N-terminal domain {Human (Homo sapiens) [TaxId: 9606]}
+ASTSRLDALPRVTCPNHPDAILVEDYRAGDMICPECGLVVGDRVIDVGSEWRTFSNDK
+>d2jr6a1 b.171.1.0 (A:1-60) automated matches {Neisseria meningitidis [TaxId: 122587]}
+MEKKFLDILVCPVTKGRLEYHQDKQELWSRQAKLAYPIKDGIPYMLENEARPLSEEELKA
+>d2pk7a1 b.171.1.1 (A:3-61) Uncharacterized protein PFL1779 {Pseudomonas fluorescens [TaxId: 294]}
+TKLLDILACPICKGPLKLSADKTELISKGAGLAYPIRDGIPVMLESEARTLTTEERLDK
+>d2hf1a1 b.171.1.1 (A:2-60) Hypothetical protein CV3345 {Chromobacterium violaceum [TaxId: 536]}
+DAKFLEILVCPLCKGPLVFDKSKDELICKGDRLAFPIKDGIPMMLESEARELAPEEEVK
+>d2js4a1 b.171.1.0 (A:1-62) automated matches {Bordetella bronchiseptica [TaxId: 257310]}
+MESRLLDILVCPVCKGRLEFQRAQAELVCNADRLAFPVRDGVPIMLEAEARSLDAEAPAQPS
+>d2jnya1 b.171.1.1 (A:1-59) Uncharacterized protein Cgl1405/cg1592 {Corynebacterium glutamicum [TaxId: 1718]}
+MSLDPQLLEVLACPKDKGPLRYLESEQLLVNERLNLAYRIDDGIPVLLIDEATEWTPNN
+>d2k4xa1 g.41.8.8 (A:1-55) Ribosomal protein S27ae {Thermoplasma acidophilum [TaxId: 2303]}
+MQKRELYEIADGKLVRKHRFCPRCGPGVFLAEHADRYSCGRCGYTEFKKAKKSKS
+>d1k81a_ g.59.1.1 (A:) Zinc-binding domain of translation initiation factor 2 beta {Methanococcus jannaschii [TaxId: 2190]}
+VICRECGKPDTKIIKEGRVHLLKCMACGAIRPIRMI
+>d1neea2 g.59.1.1 (A:99-135) Zinc-binding domain of translation initiation factor 2 beta {Methanobacterium thermoautotrophicum [TaxId: 145262]}
+FVICHECNRPDTRIIREGRISLLKCEACGAKAPLKNV
+>d1vk6a4 g.41.14.1 (A:97-125) NADH pyrophosphatase intervening domain {Escherichia coli [TaxId: 562]}
+YCGYCGHEMYPSKTEWAMLCSHCRERYYP
+>d1qypa_ g.41.3.1 (A:) RBP9 subunit of RNA polymerase II {Thermococcus celer [TaxId: 2264]}
+GSHMEQDLKTLPTTKITCPKCGNDTAYWWEMQTRAGDEPSTIFYKCTKCGHTWRSYE
+>d1ffkw_ g.41.8.1 (W:) Ribosomal protein L37ae {Haloarcula marismortui [TaxId: 2238]}
+PTGRFGPRYGLKIRVRVRDVEIKHKKKYKCPVCGFPKLKRASTSIWVCGHCGYKIAGGAYTPETVAGKAVMKA
+>d3pwfa2 g.41.5.0 (A:135-171) automated matches {Pyrococcus furiosus [TaxId: 2261]}
+EIKKVYICPICGYTAVDEAPEYCPVCGAPKEKFVVFE
+>d2v3bb_ g.41.5.1 (B:) automated matches {Pseudomonas aeruginosa, PA01 [TaxId: 208964]}
+MRKWQCVVCGFIYDEALGLPEEGIPAGTRWEDIPADWVCPDCGVGKIDFEMIE
+>d1iroa_ g.41.5.1 (A:) Rubredoxin {Clostridium pasteurianum [TaxId: 1501]}
+MKKYTCTVCGYIYNPEDGDPDNGVNPGTDFKDIPDDWVCPLCGVGKDQFEEVE
+>d4ar6a_ g.41.5.1 (A:) Rubredoxin {Pyrococcus furiosus [TaxId: 2261]}
+MAKWVCKICGYIYDEDAGDPDNGISPGTKFEELPDDWVCPICGAPKSEFEKLED
+>d1qcva_ g.41.5.1 (A:) Rubredoxin {Pyrococcus furiosus [TaxId: 2261]}
+AKWVLKITGYIYDEDAGDPDNGISPGTKFEELPDDWVAPITGAPKSEFEKLED
+>d2rdva_ g.41.5.1 (A:) Rubredoxin {Desulfovibrio vulgaris [TaxId: 881]}
+MKKYVCTVCGYEYDPAEGDPDNGVKPGTAFEDVPADWVCPICGAPKSEFEPA
+>d1s24a_ g.41.5.1 (A:) Two-iron rubredoxin {Pseudomonas oleovorans [TaxId: 301]}
+AYLKWICITCGHIYDEALGDEAEGFTPGTRFEDIPDDWCCPDCGATKEDYVLYEEK
+>d1iu5a_ g.41.5.1 (A:) Rubredoxin {Pyrococcus furiosus [TaxId: 2261]}
+AKYVCKICGYIYDEDAGDPDNGVSPGTKFEEIPDDWVCPICGAPKSEFEKL
+>d1h7va_ g.41.5.1 (A:) Rubredoxin {Guillardia theta [TaxId: 55529]}
+MEIDEGKYECEACGYIYEPEKGDKFAGIPPGTPFVDLSDSFMCPACRSPKNQFKSIKKVI
+>d1yk4a_ g.41.5.1 (A:) Rubredoxin {Pyrococcus abyssi [TaxId: 29292]}
+AKLSCKICGYIYDEDEGDPDNGISPGTKFEDLPDDWVCPLCGAPKSEFERIE
+>d2pvxa_ g.41.5.1 (A:) Rubredoxin {Pyrococcus furiosus [TaxId: 2261]}
+MKKWVCTVCGYIYDEDAGDPDNGISPGTKFEELPDDWVCPLCGVGKDQFEKLE
+>d6rxna_ g.41.5.1 (A:) Rubredoxin {Desulfovibrio desulfuricans, strain 27774 [TaxId: 876]}
+MQKYVCNVCGYEYDPAEHDNVPFDQLPDDWCCPVCGVSKDQFSPA
+>d1rb9a_ g.41.5.1 (A:) Rubredoxin {Desulfovibrio vulgaris [TaxId: 881]}
+MKKYVCTVCGYEYDPAEGDPDNGVKPGTSFDDLPADWVCPVCGAPKSEFEAA
+>d2ar7a2 g.41.2.0 (A:126-161) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+RWIHPPSGRVYNLDFNPPHVHGIDDVTGEPLVQQED
+>d4rxna_ g.41.5.1 (A:) Rubredoxin {Clostridium pasteurianum [TaxId: 1501]}
+MKKYTCTVCGYIYDPEDGDPDDGVNPGTDFKDIPDDWVCPLCGVGKDEFEEVEE
+>d2ms3a_ g.41.5.0 (A:) automated matches {Escherichia coli [TaxId: 83333]}
+GPRMQCSVCQWIYDPAKGEPMQDVAPGTPWSEVPDNFLCPECSLGKDVFEELASEAK
+>d2m4ya_ g.41.5.1 (A:) automated matches {Mycobacterium ulcerans [TaxId: 362242]}
+MTAYRCPVCDYTYDEGKGDPREGFPAGTRWDQIPDDWCCPDCSVREKVDFERMGGK
+>d2dsxa_ g.41.5.1 (A:) Rubredoxin {Desulfovibrio gigas [TaxId: 879]}
+MDIYVCTVCGYEYDPAKGDPDSGIKPGTKFEDLPDDWACPVCGASKDAFEKQ
+>d1dx8a_ g.41.5.1 (A:) Rubredoxin {Guillardia theta [TaxId: 55529]}
+MEIDEGKYECEACGYIYEPEKGDKFAGIPPGTPFVDLSDSFMCPACRSPKNQFKSIKKVIAGFAENQKYG
+>d2pvea_ g.41.5.1 (A:) automated matches {Clostridium pasteurianum [TaxId: 1501]}
+MKKYTCKICGYIYNPEDGDPDNGVNPGTDFKDIPDDWVCPICGAPKSEFEEV
+>d2jnea1 g.41.18.1 (A:1-71) Hypothetical protein YfgJ {Escherichia coli [TaxId: 562]}
+MELHCPQCQHVLDQDNGHARCRSCGEFIEMKALCPDCHQPLQVLKACGAVDYFCQHGHGLISKKRVEFVLA
+>d1jj2y_ g.41.8.1 (Y:) Ribosomal protein L37ae {Haloarcula marismortui [TaxId: 2238]}
+RTGRFGPRYGLKIRVRVADVEIKHKKKHKCPVCGFKKLKRAGTGIWMCGHCGYKIAGGCYQPETVAGKAVMKA
+>d3ag3f_ g.41.5.3 (F:) Cytochrome c oxidase Subunit F {Cow (Bos taurus) [TaxId: 9913]}
+ASGGGVPTDEEQATGLEREVMLAARKGQDPYNILAPKATSGTKEDPNLVPSITNKRIVGCICEEDNSTVIWFWLHKGEAQRCPSCGTHYKLVPHQLAH
+>d2ct5a1 g.37.1.6 (A:8-67) Zinc finger BED domain-containing protein 1 {Human (Homo sapiens) [TaxId: 9606]}
+SKVWKYFGFDTNAEGCILQWKKIYCRICMAQIAYSGNTSNLSYHLEKNHPEEFCEFVKSN
+>d1qxfa_ g.41.8.4 (A:) Ribosomal protein S27e {Archaeoglobus fulgidus [TaxId: 2234]}
+MHSRFVKVKCPDCEHEQVIFDHPSTIVKCIICGRTVAEPTGGKGNIKAEIIEYVDQIE
+>d1vq8z1 g.41.8.1 (Z:10-82) Ribosomal protein L37ae {Haloarcula marismortui [TaxId: 2238]}
+RSGRFGARYGRVSRRRVAEIESEMNEDHACPNCGEDRVDRQGTGIWQCSYCDYKFTGGSYKPETPGGKTVRRS
+>d1twfi2 g.41.3.1 (I:50-121) RBP9 subunit of RNA polymerase II {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+TNIGETAGVVQDIGSDPTLPRSDRECPKCHSRENVFFQSQQRRKDTSMVLFFVCLSCSHIFTSDQKNKRTQF
+>d1tfia_ g.41.3.1 (A:) Transcriptional factor SII, C-terminal domain {Human (Homo sapiens) [TaxId: 9606]}
+KTGGTQTDLFTCGKCKKKNCTYTQVQTRSADEPMTTFVVCNECGNRWKFC
+>d3tlxa1 g.41.2.0 (A:161-188) automated matches {Malaria parasite (Plasmodium falciparum) [TaxId: 5833]}
+SGRIYHKIFNPPKVPFRDDVTNEPLIQR
+>d1ak2a2 g.41.2.1 (A:147-176) Microbial and mitochondrial ADK, insert "zinc finger" domain {Cow (Bos taurus), mitochondrial izozyme-2 [TaxId: 9913]}
+PQSGRSYHEEFNPPKEPMKDDITGEPLIRR
+>d1twfl_ g.41.9.2 (L:) RBP12 subunit of RNA polymerase II {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+ATLKYICAECSSKLSLSRTDAVRCKDCGHRILLKARTKRLVQFEAR
+>d1s3ga2 g.41.2.1 (A:126-160) Microbial and mitochondrial ADK, insert "zinc finger" domain {Bacillus globisporus [TaxId: 1459]}
+GRRICKVCGTSYHLLFNPPQVEGKCDKDGGELYQR
+>d1zaka2 g.41.2.1 (A:128-158) Microbial and mitochondrial ADK, insert "zinc finger" domain {Maize (Zea mays) [TaxId: 4577]}
+GRRLDPVTGKIYHLKYSPPENEEIASRLTQR
+>d1p3ja2 g.41.2.1 (A:126-160) Microbial and mitochondrial ADK, insert "zinc finger" domain {Bacillus subtilis [TaxId: 1423]}
+GRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQR
+>d2gmga1 a.4.5.82 (A:10-105) Hypothetical protein PF0610 {Pyrococcus furiosus [TaxId: 2261]}
+ATRREKIIELLLEGDYSPSELARILDMRGKGSKKVILEDLKVISKIAKREGMVLLIKPAQCRKCGFVFKAEINIPSRCPKCKSEWIEEPRFKLERK
+>d1wjpa1 g.37.1.1 (A:8-42) Zinc finger protein 295, ZNF295 {Human (Homo sapiens) [TaxId: 9606]}
+ASPVENKEVYQCRLCNAKLSSLLEQGSHERLCRNA
+>d2ak3a2 g.41.2.1 (A:125-161) Microbial and mitochondrial ADK, insert "zinc finger" domain {Cow (Bos taurus), mitochondrial izozyme-3 [TaxId: 9913]}
+ARWIHPGSGRVYNIEFNPPKTMGIDDLTGEPLVQRED
+>d1e4ya2 g.41.2.1 (A:122-156) Microbial and mitochondrial ADK, insert "zinc finger" domain {Escherichia coli [TaxId: 562]}
+GRRVHAPSGRVYHVKFNPPKVEGKDDVTGEELTTR
+>d1akya2 g.41.2.1 (A:131-168) Microbial and mitochondrial ADK, insert "zinc finger" domain {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+GRLIHPASGRSYHKIFNPPKEDMKDDVTGEALVQRSDD
+>d1rqga3 g.41.1.1 (A:139-173) Methionyl-tRNA synthetase (MetRS), Zn-domain {Pyrococcus abyssi [TaxId: 29292]}
+VIGTCPYCGAEDQKGDQCEVCGRPLTPEILINPRC
+>d1pfva3 g.41.1.1 (A:141-175) Methionyl-tRNA synthetase (MetRS), Zn-domain {Escherichia coli [TaxId: 562]}
+VKGTCPKCKSPDQYGDNCEVCGATYSPTELIEPKS
+>d2d74b2 g.59.1.0 (B:104-139) automated matches {Pyrococcus furiosus [TaxId: 186497]}
+YVICPVCGSPDTKIIKRDRFHFLKCEACGAETPIQH
+>d2vrda1 g.37.1.4 (A:1-61) Spliceosomal protein U1C {Human (Homo sapiens) [TaxId: 9606]}
+MPKFYCDYCDTYLTHDSPSVRKTHCSGRKHKENVKDYYQKWMEEQAQSLIDKTTAAFQQGK
+>d1zu1a2 g.37.1.4 (A:74-128) dsRNA-binding protein ZFa (ZNF346, JAZ) {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+SVPAKKFKAAPAEISDGEDRSKCCPVCNMTFSSPVVAESHYIGKTHIKNLRLREQ
+>d2ghfa4 g.37.1.1 (A:-6-95) Zinc fingers and homeoboxes protein 1, ZHX1 {Human (Homo sapiens) [TaxId: 9606]}
+HHHHHHNQQNKKVEGGYECKYCTFQTPDLNMFTFHVDSEHPN
+>d1wiia1 g.41.3.4 (A:2-79) Hypothetical UPF0222 protein MGC4549 {Mouse (Mus musculus) [TaxId: 10090]}
+SSGSSGRKPPPKKKMTGTLETQFTCPFCNHEKSCDVKMDRARNTGVISCTVCLEEFQTPITYLSEPVDVYSDWIDACE
+>d1zu1a1 g.37.1.4 (A:2-73) dsRNA-binding protein ZFa (ZNF346, JAZ) {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+ADEFGNGDALDLPVGKDAVNSLIRENSHIFSDTQCKVCSAVLISESQKLAHYQSRKHANKVRRYMAINQGED
+

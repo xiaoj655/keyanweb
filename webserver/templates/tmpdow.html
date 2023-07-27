@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% block content %}
+<div id="page"> 
+  
+<div id="content">
+    <br><br>
+    <div id="welcome" class="boxed2">
+    <h3 style="color:#000000;font-size:30px" align="center"><strong>Code and Dataset</strong></h2>
+    </div>
+    <div id="maincontent" style="font-size:18px">
+       <div style="width: 95%; margin: 0 auto; text-align: justify; high:400px;">
+	<p style="color:#000000" >The supplementary files consists of the main python programs and the used datasets. To use these programs or datasets, please download following files:</p>
+	<!--<p style="margin-top:6pt;margin-bottom:0pt; text-indent:2em; line-height:10px">-->
+	<p >
+  <div class="row current">
+        <div class="col-sm-12">
+          <h3>--The source zip file for stand-alone package of <strong>PL-search</strong>:</h3>
+          <div class="well">
+            <table>
+              <tr>
+                <td> Stand-alone package:</td>
+                <td> <a href="{{ url_for('static', filename='download/PLsearch-V1.tar') }}">[PL_search-V1]</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+   </div>
+  
+  <div class="row current">
+        <div class="col-sm-12">
+          <h3>--Benchmark datasets:</h3>
+          <div class="well">
+            <table>
+              <tr>
+                <td> <a href="{{ url_for('static', filename='download/scop1.59.pdf') }}">[SCOP1.59]</a>  </td>
+                <td> <a href="{{ url_for('static', filename='download/scope-95-2.06.pdf') }}">[SCOPe2.06]</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+   </div>
+  
+  <div class="row current">
+        <div class="col-sm-12">
+          <h3>--Datasets of constructed profile link:</h3>
+          <div class="well">
+            <table>
+              <tr>
+                <td> <a href="{{ url_for('static', filename='download/profiledb_hhblits_159.tar') }}">[Profile-link from HHblits on scop1.59]</a> </td>
+                <td> <a href="{{ url_for('static', filename='download/profiledb_hhblits_206.tar') }}">[Profile-link from HHblits on scope2.06]</a></td>
+              </tr>
+              <tr>
+                <td><a href="{{ url_for('static', filename='download/profiledb_psiblast_159.tar') }}">[Profile-link from PSI-BLAST on scop1.59]</a> </td>
+                <td><a href="{{ url_for('static', filename='download/profiledb_psiblast_206.tar') }}">[Profile-link from PSI-BLAST on scope2.06]</a></td>
+              </tr>
+              <tr>
+                <td><a href="{{ url_for('static', filename='download/profiledb_jackhmmer_159.tar') }}">[Profile-link from JackHMMER on scop1.59]</a></td>
+                <td><a href="{{ url_for('static', filename='download/profiledb_jackhmmer_206.tar') }}">[Profile-link from JackHMMER on scope2.06]</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+   </div>   
+
+  <div class="row current">
+        <div class="col-sm-12">
+          <h3>--Datasets of constructed double link:</h3>
+          <div class="well">
+            <table>
+              <tr>
+                <td> <a href="{{ url_for('static', filename='download/double_hhblits_159.tar') }}">[Double-link from HHblits on scop1.59]</a> </td>
+                <td> <a href="{{ url_for('static', filename='download/double_hhblits_206.tar') }}">[Double-link from HHblits on scope2.06]</a></td>
+              </tr>
+              <tr>
+                <td><a href="{{ url_for('static', filename='download/double_psiblast_159.tar') }}">[Double-link from PSI-BLAST on scop1.59]</a></td>
+                <td><a href="{{ url_for('static', filename='download/double_psiblast_206.tar') }}">[Double-link from PSI-BLAST on scope2.06]</a></td>
+              </tr>
+              <tr>
+                <td><a href="{{ url_for('static', filename='download/double_jackhmmer_159.tar') }}">[Double-link from JackHMMER on scop1.59]</a></td>
+                <td><a href="{{ url_for('static', filename='download/double_jackhmmer_206.tar') }}">[Double-link from JackHMMER on scope2.06]</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+   </div>   
+   
+  <div class="row current">
+        <div class="col-sm-12">
+          <h3>--HHblist, JackHMMER and PSI-BLAST produce null results for thoes protein sequences on two versions of Structural Classification of Proteins (SCOP) databases:</h3>
+          <div class="well">
+            <table>
+              <tr>
+                <td> <a href="{{ url_for('static', filename='download/null_result_list.pdf') }}">[null_result_list.pdf]</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+   </div>
+   
+
+</div>
+
+<div style="clear: both; height: 1px;"></div>
+
+
+{% endblock %}

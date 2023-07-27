@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% block content %}	
+		<div style="width: 80%; margin: 0 auto; text-align: justify">
+		  <h3 style="text-align: center; font-size: 1.5em"> Description of ProtDec-LTR web server </h3>
+		  <div style="font-size:18px" align="justify">
+			<p style="margin-top:6pt">Protein remote homology detection is critical for both basic research (such as protein attribute prediction), and practical application (such as modeling the 3D structures of target proteins for drug development), and it is one of the most important sequence analysis tasks in computational biology, aiming to find proteins with known structures that are distantly evolutionarily related to the query proteins [1].</p> 
+			<p style="margin-top:6pt">We have proposed two computational predictors for protein remote homology detection: <strong>ProtDec-LTR</strong> [2] and <strong>SVM-MKL</strong> [3]. The former is based on Learning to Rank algorithm, and the latter is based on profile-based pseudo proteins. These two methods have been widely used in protein sequence analysis, and the corresponding papers have been cited by 38 and 138 times respectively since 2014 (Google Scholar), being identified by Thomson Reuters as highly cited papers especially, the paper [3] was one of the top 3 most cited papers among all the articles published in the journal BIOINFORMATICS during 2014. However, only stand-alone tools of these two methods were released, and the corresponding web servers are not available.</p>
+			<p style="margin-top:6pt">Here, we are to propose a powerful web server, called <strong>ProtDec-LTR</strong>, based on the aforementioned two successful predictors [2, 3] , by which users can detect the homologous proteins only based on the protein sequences, and the predicted results will be returned in a user-friendly manner. Compared with other predictors and web servers, it has several advantages: 1) It is the first web server incorporating the profile-based pseudo proteins into the framework of Learning to Rank algorithm; 2) Various result visualization and interpretation functions are provided, such as homologous protein 3D structure visualization, and multiple sequence alignment interpretation;  3) According to the experimental results, <strong>ProtDec-LTR</strong> is one of the most accurate web servers for protein remote homology. </p>
+            <p style="margin-top:6pt">The performance of <strong>ProtDec-LTR</strong> was rigorously evaluated on a widely used benchmark dataset [2, 4] and an updated independent data set. The benchmark dataset contains 7,329 protein sequences from 1,824 families and 1,070 superfamilies. The independent dataset contains 4,109 sequences from 1,358 families and 682 superfamilies. </p>
+			<p style="margin-top:6pt"><strong>Table 1</strong> on Document page showed the performance of <strong>ProtDec-LTR</strong> on the benchmark dataset via jackknife validation, from which we can see the profile-based pseudo protein approach was able to improve the sensitivities of three state-of-the-art predictors, including PSI-BLAST [5], HHblits [6] and Hmmer [7]. These methods were then combined in a supervised manner via Learning to Rank algorithm, and the predictive performance was further improved.</p>
+            <p style="margin-top:6pt">In order to compare with other predictors and further evaluate its performance, <strong>ProtDec-LTR</strong> was tested on the independent dataset, fully independent from the benchmark dataset. Five state-of-the-art methods were compared with <strong>ProtDec-LTR</strong>, including PSI-BLAST [5], HHblits [6], Hmmer [7], Coma [8] and dRHP-PseRA [4], and their results were shown in <strong>Table 2</strong> and <strong>Fig. 3</strong> on Document page. <strong>ProtDec-LTR</strong> obviously outperformed all the five methods. </p>			
+            <p style="margin-top:6pt">Established on 10-November-2016, the <strong>ProtDec-LTR</strong> web server has been widely and increasingly used by scientists all around the world in dealing with protein sequence analysis tasks in computational biology, as reflected by the citation numbers of some pioneering papers given in the References section.</p>
+            <br>
+			<table height="292" border="0">
+			  <tbody style="vertical-align:top">
+              	<tr>
+			      <td width="36" colspan="2"><strong>REFERENCES:</strong> </td>			      
+			    </tr>
+                <tr>
+			      <td width="36">1.</td>
+			      <td width="881">Chen J, Guo M, Wang X et al. A comprehensive review and comparison of different computational methods for protein remote homology detection, <em>Briefings in bioinformatics</em> 2016:bbw108. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/27881430" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 27881430</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span></td>
+			    </tr>
+			    <tr>
+			      <td width="36">2.</td>
+			      <td width="881">Liu B, Chen J, Wang X. Application of Learning to Rank to protein remote homology detection, <em>Bioinformatics</em> 2015;31:3492-3498. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/26163693" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 26163693</span></a><span style="font-family:Arial, Helvetica, sans-serif">, </span><a href="https://scholar.google.com/scholar?q=Application+of+Learning+to+Rank+to+protein+remote+homology+detection&btnG=&hl=en&as_sdt=0%2C23" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">cited by 38</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span></td>
+			    </tr>
+			    <tr>
+			      <td>3. </td> 
+			      <td>Liu B, Zhang D, Xu R et al. Combining evolutionary information extracted from frequency profiles with sequence-based kernels for protein remote homology detection, <em>Bioinformatics</em> 2014;30:472-479. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/24318998" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 24318998</span></a><span style="font-family:Arial, Helvetica, sans-serif">, </span><a href="https://scholar.google.com/scholar?q=Combining+evolutionary+information+extracted+from+frequency+profiles+with+sequence-based+kernels+for+protein+remote+homology+detection&btnG=&hl=en&as_sdt=0%2C23" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">cited by 138</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span> </td>
+			    </tr>			    
+			    <tr>
+			      <td>4. </td>
+			      <td>Chen J, Long R, Wang X-l et al. dRHP-PseRA: detecting remote homology proteins using profile-based pseudo protein sequence and rank aggregation, <em>Scientific Reports</em> 2016;6:32333. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/27581095" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 27581095</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span></td>
+			    </tr>			    
+			    <tr>
+			      <td>5. </td>
+			      <td>Altschul SF, Madden TL, Schäffer AA et al. Gapped BLAST and PSI-BLAST: a new generation of protein database search programs, <em>Nucleic acids research</em> 1997;25:3389-3402. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/9254694" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 9254694</span></a><span style="font-family:Arial, Helvetica, sans-serif">, </span><a href="https://scholar.google.com/scholar?q=SF+Altschul++Gapped+BLAST+and+PSI-BLAST%3A+a+new+generation+of+protein+database+search+programs&btnG=&hl=en&as_sdt=0%2C23" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">cited by 60028</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span></td>
+			    </tr>
+			    <tr>
+			      <td>6. </td>
+			      <td>Remmert M, Biegert A, Hauser A et al. HHblits: lightning-fast iterative protein sequence searching by HMM-HMM alignment, <em>Nature methods</em> 2012;9:173-175. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/22198341" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 22198341</span></a><span style="font-family:Arial, Helvetica, sans-serif">, </span><a href="https://scholar.google.com/scholar?q=HHblits%3A+lightning-fast+iterative+protein+sequence+searching+by+HMM-HMM+alignment&btnG=&hl=en&as_sdt=0%2C23" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">cited by 451</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span></td>
+			    </tr>
+			    <tr>
+			      <td>7. </td>
+			      <td>Finn RD, Clements J, Eddy SR. HMMER web server: interactive sequence similarity searching, <em>Nucleic acids research</em> 2011;39:W29-37. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/21593126" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 21593126</span></a><span style="font-family:Arial, Helvetica, sans-serif">, </span><a href="https://scholar.google.com/scholar?q=HMMER+web+server%3A+interactive+sequence+similarity+searching&btnG=&hl=en&as_sdt=0%2C23" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">cited by 1293</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span></td>
+			    </tr>
+                <tr>
+			      <td>8. </td>
+			      <td>Margelevicius M, Laganeckas M, Venclovas C. COMA server for protein distant homology search, <em>Bioinformatics</em> 2010;26:1905-1906. <span style="font-family:Arial, Helvetica, sans-serif">(</span><a href="http://www.ncbi.nlm.nih.gov/pubmed/20529888" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">PMID: 20529888</span></a><span style="font-family:Arial, Helvetica, sans-serif">, </span><a href="https://scholar.google.com/scholar?q=COMA+server+for+protein+distant+homology+search&btnG=&hl=en&as_sdt=0%2C23" target="_blank"><span class="Hyperlink" style="font-family:Arial, Helvetica, sans-serif">cited by 24</span></a><span style="font-family:Arial, Helvetica, sans-serif">)</span></td>
+			    </tr>
+		      </tbody>
+		    </table>
+            <br>
+          </div>
+		</div>	
+{% endblock %}

@@ -1,0 +1,30 @@
+CLUSTAL O(1.2.3) multiple sequence alignment
+
+
+6LU7:A       ------SG----FRKMAFPSGKVEGCMVQVTCGT------TTLNGLWLDDVVYCPR----
+d5ruba1      GPSVNISALWKVLGRPEVDGGLVVGTIIKPKLGLRPKPFAEACHAFWLGGDFIKNDEPQG
+                   *.    : :  . .* * * ::: . *        : :.:**.. .        
+
+6LU7:A       --------HVICTSEDMLNPNYED-----L---LIRKSNHNFLVQAGNVQLRVIGHSMQN
+d5ruba1      NQPFAPLRDTIALVADAMRRAQDETGEAKLFSANITADDPFEIIARGEYVLETFGENASH
+                     ..*.   * :.   ::     *    *  .:   ::  *:  *..:*.. .:
+
+6LU7:A       CVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQ--CAMRPNFTIKGSFLN
+d5ruba1      VALLV--------------------------DGYVAGAAAITTARRRFPDNFLHYHRAGH
+              .* :                            * .. :.:      :  **       :
+
+6LU7:A       GSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITV
+d5ruba1      GAVTSPQSKRGYTAFVHCKMARLQGASGIHTGTMGFGKMEGESSDRAIAYMLTQDEAQ--
+             *:  *   : .* .. .* * :::  :*:*:**   *:: *   **  *     * :   
+
+6LU7:A       NVLAWLYAAVINGDRWFLNRFTTTL--NDFNLVAMKYNYEPLTQDHV----------DIL
+d5ruba1      ---GPFYR-----QSWGGMKACTPIISGGMNALRMPGFFENLGNANVILTAGGGAFGHID
+                . :*      : *   :  * :  ..:* : *   :* * : :*          .* 
+
+6LU7:A       GPLSA-----------QTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQ
+d5ruba1      GPVAGARSLRQAWQAWRDGVPVLDYAREHKELARAFE---S-----FPGDADQIYPGWRK
+             **::.           : *: *** . . *** :      :     :  *    :   *:
+
+6LU7:A       CSGVTFQ
+d5ruba1      ALGV---
+             . **   

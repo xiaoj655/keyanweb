@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="{{url_for('static', filename="css/default.css")}}" rel="stylesheet" type="text/css" />
+    {% block meta %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% endblock %}
+    {% block script %}
+   <script src="{{ url_for('static', filename="js/my.js") }}"></script>
+       <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?00c61096769a77fda2d1a5457911b0d5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    {% endblock %}
+
+    <title>ProtDec-LTR 3.0 web server</title>
+
+
+</head>
+<body  bgcolor=" #D8D8BF" style="font-family:Arial, Helvetica, sans-serif; margin:0;">
+ 
+    <div align="center" style="margin: 0 auto; width: 1100px;color:#000000;background:#99CCCC;">
+    <table align="center" style="width:100%">
+    <tr>
+        <br>
+        <td><img align="center" style="width: 150px; height: 150px;fioat:left;" src="{{url_for('static', filename="pic/logo.png") }}"></td>
+        <td><h1><strong>ProtDec-LTR 3.0</strong></h1><h2>An improved method for protein remote homology detection by combining pseudo protein and supervised learning to rank</h2></td>
+    </tr>
+    
+    </table>
+    <table align="center" style="width: 100%;color: #0000ff;">
+    <tr>
+    <h2 align="center" style="font-size:150%; margin:0 auto">
+        <span>|</span>
+        <span><a href="{{ url_for('home') }}">Home</a></span>
+        <span>|</span>
+        <span><a href="{{ url_for('server') }}">Server</a></span>
+        <span>|</span>
+        <span><a href="{{ url_for('tutorial') }}">Tutorial</a></span> 
+        <span>|</span>
+        <span><a href="{{ url_for('document') }}">Document</a></span>
+        <span>|</span> 
+        <span><a href="{{ url_for('citation') }}">Citation</a></span>
+        <span>|</span>
+    </h2>
+    </tr>
+    <br>
+    </table>            
+    </div>
+    
+    <div align="center" style="border-top:0;padding-top:0;margin: 0 auto; width: 1100px;background:#ffffff">
+    <br>
+    {% block content %}{% endblock %}
+    <div id="footer" style="width: 760px;
+	margin: 0 auto;
+	padding: 20px 0;
+	border-top: 5px solid #E16629;
+	background:url="{{url_for('static', filename="pic/logo.png")}}"  repeat-x;">
+	<p>Contact us &copy;  by <a href="mailto:bliu@hit.edu.cn">bin@hit.edu.cn></a></p>
+</div>
+<script type="text/javascript" src="https://js.users.51.la/19638509.js"></script>
+<a href="https://www.51.la/?19638509" target="_blank"><img alt="我要啦免费统�? src="//ia.51.la/go1?id=19638509&pvFlag=1" style="border:none" /></a>
+</body>
+</html>

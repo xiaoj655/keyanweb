@@ -1,0 +1,879 @@
+Query         d1cxc__
+Match_columns 124
+No_of_seqs    1 out of 1
+Neff          1.0 
+Searched_HMMs 92
+Date          Sat Aug 15 14:20:59 2020
+Command       /home/www/PL-search/webserver/model/hhsuite/bin/hhblits -i /home/www/PL-search/webserver/temp/user/10.249.240.42_1597501255.84/query/d1cxc__.seq -d webserver/model/db/hhsuite/ori_db.scope2.06/scope_95_2.06 -o /home/www/PL-search/webserver/temp/user/10.249.240.42_1597501255.84/hhblits/ori/d1cxc__.txt -v 0 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 d1cxca_ a.3.1.1 (A:) Cytochrom  99.8 6.7E-27 1.5E-30  150.1   0.0  124    1-124     1-124 (124)
+  2 d2bh4x_ a.3.1.1 (X:) automated  99.8 3.5E-26 7.2E-30  151.1   0.0  118    2-123     1-120 (122)
+  3 d1cota_ a.3.1.1 (A:) Cytochrom  99.8   5E-26   1E-29  150.1   0.0  118    2-123     1-120 (121)
+  4 d1vyda_ a.3.1.1 (A:) Cytochrom  99.8 5.5E-26 1.1E-29  148.6   0.0  115    3-121     1-115 (116)
+  5 d155ca_ a.3.1.1 (A:) Cytochrom  99.8 2.4E-24 4.9E-28  145.5   0.0  117    2-123     2-120 (134)
+  6 d1i8oa_ a.3.1.1 (A:) Cytochrom  99.4 3.7E-18 8.2E-22  106.2   0.0  108    3-121     1-114 (114)
+  7 d1jdla_ a.3.1.1 (A:) Cytochrom  99.4 1.9E-17 4.6E-21   99.2   0.0  112    3-122     1-118 (118)
+  8 d3c2ca_ a.3.1.1 (A:) Cytochrom  99.2 1.4E-15 3.3E-19   92.8   0.0  112    2-121     1-112 (112)
+  9 d4gedb_ a.3.1.1 (B:) automated  98.7 1.1E-12 2.7E-16   75.2   0.0  100    3-121     1-102 (102)
+ 10 d1qn2a_ a.3.1.1 (A:) Cytochrom  98.7 1.6E-12 3.8E-16   75.7   0.0   97    2-120     1-99  (99)
+ 11 d1ytca_ a.3.1.1 (A:) Mitochond  98.6 5.2E-12 1.3E-15   73.3   0.0  101    2-121     9-111 (112)
+ 12 d1ql3a_ a.3.1.1 (A:) Cytochrom  98.6 5.6E-12 1.3E-15   73.0   0.0   98    3-121     1-99  (99)
+ 13 d2jtib_ a.3.1.1 (B:) Mitochond  98.5 8.1E-12 1.9E-15   72.1   0.0  100    3-121     1-102 (103)
+ 14 d1yeba_ a.3.1.1 (A:) Mitochond  98.5 8.3E-12   2E-15   72.9   0.0  101    2-121     5-107 (108)
+ 15 d1co6a_ a.3.1.1 (A:) Cytochrom  98.5 1.2E-11 2.9E-15   72.0   0.0  102    3-123     1-103 (107)
+ 16 d1raqa_ a.3.1.1 (A:) Mitochond  98.5 1.3E-11 3.1E-15   70.6   0.0  101    2-121     5-107 (108)
+ 17 d2aiua_ a.3.1.1 (A:) automated  98.5 1.6E-11 3.7E-15   70.7   0.0  101    3-122     1-103 (104)
+ 18 d5cytr_ a.3.1.1 (R:) Mitochond  98.5 1.6E-11 3.8E-15   70.0   0.0  100    3-121     1-102 (103)
+ 19 d2yk3a_ a.3.1.1 (A:) automated  98.4 1.7E-11 4.1E-15   71.4   0.0  101    2-121     7-109 (110)
+ 20 d4nfgb_ a.3.1.1 (B:) Mitochond  98.4 3.2E-11 7.8E-15   68.4   0.0  101    3-122     1-103 (104)
+ 21 d3zooa_ a.3.1.1 (A:) Mitochond  98.3 4.8E-11 1.2E-14   68.2   0.0  101    3-122     1-103 (104)
+ 22 d1hroa_ a.3.1.1 (A:) Cytochrom  98.3 7.9E-11 1.9E-14   67.3   0.0  101    1-121     3-105 (105)
+ 23 d4q5pa_ a.3.1.1 (A:) Mitochond  98.3 8.6E-11 2.1E-14   67.3   0.0  102    1-121     2-105 (106)
+ 24 d4n0ka1 a.3.1.1 (A:-5-101) Mit  98.3   1E-10 2.4E-14   67.5   0.0  100    2-120     5-106 (106)
+ 25 d1ccra_ a.3.1.1 (A:) Mitochond  98.2 1.3E-10 3.2E-14   67.2   0.0  101    2-121     8-110 (111)
+ 26 d2b4za_ a.3.1.1 (A:) automated  98.2 1.7E-10 4.1E-14   66.0   0.0  101    3-122     1-103 (104)
+ 27 d1lmsa_ a.3.1.1 (A:) Mitochond  98.2 2.1E-10 4.9E-14   66.3   0.0   92   11-121     1-94  (95)
+ 28 d2ce0a_ a.3.1.0 (A:) automated  96.8 9.7E-07 2.4E-10   47.8   0.0   87    3-122     1-94  (99)
+ 29 d1e29a_ a.3.1.1 (A:) Photosyst  96.1 1.4E-05   3E-09   48.9   0.0   86    3-122    24-124 (135)
+ 30 d1wvec_ a.3.1.1 (C:) automated  95.4 7.5E-05 1.8E-08   38.7   0.0   69    3-121     1-73  (75)
+ 31 d1c52a_ a.3.1.1 (A:) Cytochrom  95.1 0.00016 3.4E-08   43.4   0.0   88    5-119     1-89  (131)
+ 32 d1m70a1 a.3.1.4 (A:1-92) Cytoc  94.7 0.00024 5.8E-08   37.6   0.0   88    2-122     1-90  (92)
+ 33 d3vrda1 a.3.1.4 (A:1-80) autom  93.2  0.0013 2.9E-07   35.0   0.0   76    7-124     3-80  (80)
+ 34 d1fcdc1 a.3.1.4 (C:1-80) Flavo  93.1  0.0013 3.1E-07   34.9   0.0   76    7-124     3-80  (80)
+ 35 d4j20a_ a.3.1.0 (A:) automated  92.3  0.0023 5.6E-07   32.9   0.0   22    2-23      2-24  (88)
+ 36 d1dvha_ a.3.1.1 (A:) Cytochrom  90.9  0.0048 1.2E-06   31.4   0.0   77    6-120     1-79  (79)
+ 37 d1c53a_ a.3.1.1 (A:) Cytochrom  90.0  0.0071 1.7E-06   30.9   0.0   77    6-120     1-79  (79)
+ 38 d3na1c_ d.15.4.1 (C:) automate  89.9  0.0084 1.7E-06   31.1   0.0    9   14-22      8-16  (50)
+ 39 d1cnoa_ a.3.1.1 (A:) Cytochrom  88.4   0.012 2.8E-06   30.0   0.0   83    2-124     1-86  (86)
+ 40 d1jmxa1 a.3.1.7 (A:2-85) Quino  87.5   0.016 3.6E-06   31.2   0.0   19  104-122    50-68  (84)
+ 41 d3n9yc_ d.15.4.1 (C:) automate  80.5   0.064 1.3E-05   28.7   0.0    9   14-22     24-32  (68)
+ 42 d1k7ka1 c.51.4.1 (A:0-197) Hyp  38.3     1.6 0.00033   26.9   0.0    6  112-117   190-195 (198)
+ 43 d4bnqa_ c.51.4.0 (A:) automate  38.1     1.6 0.00033   26.9   0.0    7  112-118   183-189 (194)
+ 44 d1ryqa1 g.41.9.3 (A:3-61) puta  36.4     2.1 0.00037   23.4   0.0   10   14-23      3-12  (59)
+
+No 1  
+>d1cxca_ a.3.1.1 (A:) Cytochrome c2 {Rhodobacter sphaeroides [TaxId: 1063]}
+Probab=99.85  E-value=6.7e-27  Score=150.12  Aligned_cols=124  Identities=100%  Similarity=1.510  Sum_probs=112.4
+
+Q d1cxc__           1 QEGDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYV   80 (124)
+Q Consensus         1 qegdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyv   80 (124)
+                      |.||++.|.+.|++|..||-+-++.|+++++.....||+|.||++|.+|+..+|..|...|+..+..|+.|+++.+..|+
+T Consensus         1 ~~gd~~~G~~lf~~C~~CH~~~~~~g~~~~~~~~~~gP~L~gv~~r~~~~~~~y~~y~~~~~~~~~~g~~~~~~~l~~~i   80 (124)
+T d1cxca_           1 QEGDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYV   80 (124)
+Confidence            68999999999999999999877778888876667899999999999999999998999999888899999999999999
+
+
+Q d1cxc__          81 QDPTKFLKEYTGDAKAKGKMTFKLKKEADAHNIWAYLQQVAVRP  124 (124)
+Q Consensus        81 qdptkflkeytgdakakgkmtfklkkeadahniwaylqqvavrp  124 (124)
+                      ++|..++++++++......|.|.+.++.+..+|++||+.+.-+|
+T Consensus        81 ~~p~~~~~~~~~~~~p~~~Mp~~~ls~~e~~dl~aYL~sl~~~~  124 (124)
+T d1cxca_          81 QDPTKFLKEYTGDAKAKGKMTFKLKKEADAHNIWAYLQQVAVRP  124 (124)
+Confidence            99999999999987777889998878889999999999876554
+
+
+No 2  
+>d2bh4x_ a.3.1.1 (X:) automated matches {Paracoccus versutus [TaxId: 34007]}
+Probab=99.83  E-value=3.5e-26  Score=151.07  Aligned_cols=118  Identities=45%  Similarity=0.838  Sum_probs=95.8
+
+Q d1cxc__           2 EGDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKG--LAWDEEHFVQY   79 (124)
+Q Consensus         2 egdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakg--lawdeehfvqy   79 (124)
+                      .||+++|++||++|++||++.+++|..+. +.+.+||+|+++++|.+++.++|. |+..++..+++|  ..|++++|..|
+T Consensus         1 ~gd~~~G~~lf~~C~~CH~i~~~~~~~~~-~~~~~GP~L~gv~~r~~~~~~~~~-ys~~l~~~~~~g~~~~~~~~~L~~~   78 (122)
+T d2bh4x_           1 EGDAAKGEKEFNKCKACHMVQAPDGTDIV-KGGKTGPNLYGVVGRKIASVEGFK-YGDGILEVAEKNPDMVWSEADLIEY   78 (122)
+Confidence            47999999999899999999753222111 124679999999999999999998 988886433457  89999999999
+
+
+Q d1cxc__          80 VQDPTKFLKEYTGDAKAKGKMTFKLKKEADAHNIWAYLQQVAVR  123 (124)
+Q Consensus        80 vqdptkflkeytgdakakgkmtfklkkeadahniwaylqqvavr  123 (124)
+                      |++|+.+++++.+++.|++.||+. ++++|. ||++||+++++.
+T Consensus        79 l~~P~~~~~~~~~~~~~~t~Mp~~-l~~~~~-dlvaYL~~l~~~  120 (122)
+T d2bh4x_          79 VTDPKPWLVEKTGDSAAKTKKTFK-LGKNQA-DVVAFLAQHSPD  120 (122)
+Confidence            999998887777777788999987 555555 999999999865
+
+
+No 3  
+>d1cota_ a.3.1.1 (A:) Cytochrome c2 {Paracoccus denitrificans [TaxId: 266]}
+Probab=99.83  E-value=5e-26  Score=150.13  Aligned_cols=118  Identities=46%  Similarity=0.842  Sum_probs=98.8
+
+Q d1cxc__           2 EGDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKG--LAWDEEHFVQY   79 (124)
+Q Consensus         2 egdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakg--lawdeehfvqy   79 (124)
+                      +||+++|++||++|++||++++++|..++ ..+.+||+|+++++|++++.++|. |+..+++++++|  ..|++++|.+|
+T Consensus         1 ~gd~~~G~~lf~~C~~CH~i~~~~~~~~~-~~~~~GP~L~gi~~r~~~s~~~y~-ys~~l~~~~~~g~~~~~~~~~l~~~   78 (121)
+T d1cota_           1 DGDAAKGEKEFNKCKACHMIQAPDGTDII-KGGKTGPNLYGVVGRKIASEEGFK-YGEGILEVAEKNPDLTWTEADLIEY   78 (121)
+Confidence            47999999999899999999854333222 235689999999999999999999 999887655568  89999999999
+
+
+Q d1cxc__          80 VQDPTKFLKEYTGDAKAKGKMTFKLKKEADAHNIWAYLQQVAVR  123 (124)
+Q Consensus        80 vqdptkflkeytgdakakgkmtfklkkeadahniwaylqqvavr  123 (124)
+                      |++|+.+++++.+++.|++.||+. |+++++ |||+||++++++
+T Consensus        79 i~~P~~~~~~~~~~~~~~t~Mp~~-l~~~~~-dliaYL~sl~~~  120 (121)
+T d1cota_          79 VTDPKPWLVKMTDDKGAKTKMTFK-MGKNQA-DVVAFLAQNSPD  120 (121)
+Confidence            999999887766666678999987 777777 999999999865
+
+
+No 4  
+>d1vyda_ a.3.1.1 (A:) Cytochrome c2 {Rhodobacter capsulatus [TaxId: 1061]}
+Probab=99.82  E-value=5.5e-26  Score=148.59  Aligned_cols=115  Identities=52%  Similarity=0.908  Sum_probs=96.3
+
+Q d1cxc__           3 GDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQD   82 (124)
+Q Consensus         3 gdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqd   82 (124)
+                      ||+++|++||++|++||++..+.|+.+. +.+.+||+|+++++|++++.++|. |+..++..+++|..||+++|.+||.|
+T Consensus         1 gda~~G~~lf~~C~aCH~i~~~~~~~~~-~~~~~GP~L~gv~~r~~~~~~~~~-ys~~l~~~~~~g~~~t~~~l~~~i~~   78 (116)
+T d1vyda_           1 GDAAKGEKEFNKCKTCHSIIAPDGTEIV-KGAKTGPNLYGVVGRTAGTYPEFK-YKDSIVALGASGFAWTEEDIATYVKD   78 (116)
+Confidence            6899999999999999999753232221 135689999999999999999999 99988754446889999999999999
+
+
+Q d1cxc__          83 PTKFLKEYTGDAKAKGKMTFKLKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        83 ptkflkeytgdakakgkmtfklkkeadahniwaylqqva  121 (124)
+                      |+.+++++.+++.|++.||+. |+++|+ |||+||++++
+T Consensus        79 P~~~~~~~~~~~~p~t~Mp~~-L~~~~~-dliaYL~~l~  115 (116)
+T d1vyda_          79 PGAFLKEKLDDKKAKTEMAFK-LAKGGE-DVAAYLASVV  115 (116)
+Confidence            999987777777788999988 887777 9999999875
+
+
+No 5  
+>d155ca_ a.3.1.1 (A:) Cytochrome c2 {Paracoccus denitrificans [TaxId: 266]}
+Probab=99.78  E-value=2.4e-24  Score=145.54  Aligned_cols=117  Identities=47%  Similarity=0.853  Sum_probs=97.9
+
+Q d1cxc__           2 EGDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKG--LAWDEEHFVQY   79 (124)
+Q Consensus         2 egdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakg--lawdeehfvqy   79 (124)
+                      +||+++|+++|++|++||++..++|+.+  +.+.+||+|+++++|++++.++|. |+..+++.+++|  ..|++++|.+|
+T Consensus         2 ~gd~~~G~~lf~~Ca~CH~~~~~~g~~~--~~~~~GP~L~gv~~r~~~~~~~y~-ys~~l~~~~~~G~~~~wt~~~L~~~   78 (134)
+T d155ca_           2 EGDAAKGEKEFNKCKACHMIQAPDGTDI--KGGKTGPNLYGVVGRKIASEEGFK-YGEGILEVAEKNPDLTWTEANLIEY   78 (134)
+Confidence            5899999999989999999975333322  235689999999999999999999 999887544457  89999999999
+
+
+Q d1cxc__          80 VQDPTKFLKEYTGDAKAKGKMTFKLKKEADAHNIWAYLQQVAVR  123 (124)
+Q Consensus        80 vqdptkflkeytgdakakgkmtfklkkeadahniwaylqqvavr  123 (124)
+                      |++|+.+++.++++..|++.||+. |+++++ |||+||++++++
+T Consensus        79 i~~P~~~~~~~~~~~~p~t~Mp~~-l~~~~~-dliaYL~sl~~~  120 (134)
+T d155ca_          79 VTDPKPLVKKMTDDKGAKTKMTFK-MGKNQA-DVVAFLAQDDPD  120 (134)
+Confidence            999999887766666678999987 777777 999999998764
+
+
+No 6  
+>d1i8oa_ a.3.1.1 (A:) Cytochrome c2 {Rhodopseudomonas palustris [TaxId: 1076]}
+Probab=99.43  E-value=3.7e-18  Score=106.23  Aligned_cols=108  Identities=42%  Similarity=0.763  Sum_probs=88.3
+
+Q d1cxc__           3 GDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQD   82 (124)
+Q Consensus         3 gdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqd   82 (124)
+                      ||+++|+.||+.|++||+ .+         ...+||+|.++.+|..++.++|. |+..++..+..|+.|+.++|..||.+
+T Consensus         1 ~~~~~G~~lf~~C~~CH~-~~---------~~~~gP~l~~~~~~~~~~~~~~~-~~~~~~~~~~~g~~~~~~~l~~~l~~   69 (114)
+T d1i8oa_           1 EDAKAGEAVFKQCMTCHR-AD---------KNMVGPALAGVVGRKAGTAAGFT-YSPLNHNSGEAGLVWTADNIVPYLAD   69 (114)
+Confidence            688999999999999999 32         35579999999999999989998 98888765456789999999999999
+
+
+Q d1cxc__          83 PTKFLKEYTGDAK------AKGKMTFKLKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        83 ptkflkeytgdak------akgkmtfklkkeadahniwaylqqva  121 (124)
+                      |..+++.+.++..      +++.||+..|+++|+++|++||++++
+T Consensus        70 ~~~~~~~~~g~~~~~~~~~~~~~Mp~~~ls~~ei~~l~~Yl~sl~  114 (114)
+T d1i8oa_          70 PNAFLKKFLTEKGKADQAVGVTKMTFKLANEQQRKDVVAYLATLK  114 (114)
+Confidence            9876643322221      56789976789999999999999874
+
+
+No 7  
+>d1jdla_ a.3.1.1 (A:) Cytochrome c2 {Rhodospirillum centenum [TaxId: 34018]}
+Probab=99.36  E-value=1.9e-17  Score=99.17  Aligned_cols=112  Identities=39%  Similarity=0.767  Sum_probs=90.4
+
+Q d1cxc__           3 GDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQD   82 (124)
+Q Consensus         3 gdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqd   82 (124)
+                      ||+++|+.+|+.|++||++.+.       ++..+||+|.++..|.++..++|. |+..++..++.|..|++++|..||.+
+T Consensus         1 gd~~~G~~lf~~C~~CH~~~g~-------~~~~~gP~L~~~~~~~~~~~~~~~-~~~~~~~~g~~g~~~~~~~l~~~l~~   72 (118)
+T d1jdla_           1 GDPAKGEAVFKKCMACHRVGPD-------AKNLVGPALTGVIDRQAGTAPGFN-YSAINHAAGEAGLHWTPENIIAYLPD   72 (118)
+Confidence            6899999999999999999852       235679999999999988889998 88887665556788999999999999
+
+
+Q d1cxc__          83 PTKFLKEYTGDA------KAKGKMTFKLKKEADAHNIWAYLQQVAV  122 (124)
+Q Consensus        83 ptkflkeytgda------kakgkmtfklkkeadahniwaylqqvav  122 (124)
+                      |...+..+..+.      .+.+.||+..|+++|+.+|++||++++|
+T Consensus        73 ~~~~~~~~~~~~~~~~~~~~~~~Mp~~~ls~~ei~~l~aYl~~l~p  118 (118)
+T d1jdla_          73 PNAFLRKFLADAGHAEQAKGSTKMVFKLPDEQERKDVVAYLKQFSP  118 (118)
+Confidence            976653222211      1567899766889999999999999875
+
+
+No 8  
+>d3c2ca_ a.3.1.1 (A:) Cytochrome c2 {Rhodospirillum rubrum [TaxId: 1085]}
+Probab=99.16  E-value=1.4e-15  Score=92.77  Aligned_cols=112  Identities=43%  Similarity=0.786  Sum_probs=86.8
+
+Q d1cxc__           2 EGDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         2 egdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      +||+++|+.||++|++||++.+.       +...+||+|.++.+|..+..++|. |+..+...+..|+.|++++|.+||+
+T Consensus         1 ~~~~~~G~~l~~~C~~CH~~~~~-------g~~~~~P~l~~~~~r~~~~~~~~~-~~~~~~~~~~~~~~~~~~~l~~~i~   72 (112)
+T d3c2ca_           1 EGDAAAGEKVSKKCLACHTFDQG-------GANKVGPNLFGVFENTAAHKDNYA-YSESYTEMKAKGLTWTEANLAAYVK   72 (112)
+Confidence            47899999999899999999753       234579999999999888888888 8877765444567899999999999
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKGKMTFKLKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        82 dptkflkeytgdakakgkmtfklkkeadahniwaylqqva  121 (124)
+                      +|........++..+++.||+..|+++|+.+|++||++++
+T Consensus        73 ~~~~~~~~~~~~~~~~~~Mp~~~lt~~di~~l~~Yl~~l~  112 (112)
+T d3c2ca_          73 NPKAFVLEKSGDPKAKSKMTFKLTKDDEIENVIAYLKTLK  112 (112)
+Confidence            9876542211122245789976458899999999999874
+
+
+No 9  
+>d4gedb_ a.3.1.1 (B:) automated matches {Leishmania major [TaxId: 5664]}
+Probab=98.70  E-value=1.1e-12  Score=75.21  Aligned_cols=100  Identities=34%  Similarity=0.718  Sum_probs=83.3
+
+Q d1cxc__           3 GDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         3 gdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      ||+++|+.+|+ +|++||++++.       +.+.+||+|.++.+|..+..++|. |+..+..   .+..|+.++|..||+
+T Consensus         1 gd~~~G~~lf~~~C~~CH~~~~~-------g~~~~~P~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~~~   69 (102)
+T d4gedb_           1 GDVERGEKLFKGRAAQCHTATKG-------GSNGVGPNLFGIVNRPSGKVEGFT-YSKANAE---SGVIWTPEVLDVYLE   69 (102)
+Confidence            58899999997 79999999853       224579999999998887778888 8777654   467899999999999
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        82 dptkflkeytgdakakgkmtfk-lkkeadahniwaylqqva  121 (124)
+                      +|....        |++.||+. .|+++|+.+|++||++++
+T Consensus        70 ~~~~~~--------~~~~Mp~~~~ls~~ei~~l~~Yl~~~~  102 (102)
+T d4gedb_          70 NPKKFM--------PGTKMSFAGIKKPQERADVIAYLETLK  102 (102)
+Confidence            998766        77899975 478999999999999874
+
+
+No 10 
+>d1qn2a_ a.3.1.1 (A:) Cytochrome ch {Methylobacterium extorquens [TaxId: 408]}
+Probab=98.67  E-value=1.6e-12  Score=75.66  Aligned_cols=97  Identities=37%  Similarity=0.738  Sum_probs=79.9
+
+Q d1cxc__           2 EGDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGT-QADFKGYGEGMKEAGAKGLAWDEEHFVQYV   80 (124)
+Q Consensus         2 egdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagt-qadfkgygegmkeagakglawdeehfvqyv   80 (124)
+                      +||+++|+.+|++|.+||++ +        + ..+||+|.++..|..+. .++|. |+..+..   .+..|++++|..||
+T Consensus         1 ~gd~~~G~~l~~~C~~CH~~-g--------~-~~~~p~l~~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~i   66 (99)
+T d1qn2a_           1 EGDAAAGEKAFAPCKACHNF-E--------K-NGVGPTLKGVVGAKAGEGADGYA-FSDALKK---SGLTWDQADLKQWL   66 (99)
+Confidence            47899999999779999999 3        2 34699999998888777 77887 8777753   46789999999999
+
+
+Q d1cxc__          81 QDPTKFLKEYTGDAKAKGKMTFKLKK-EADAHNIWAYLQQV  120 (124)
+Q Consensus        81 qdptkflkeytgdakakgkmtfklkk-eadahniwaylqqv  120 (124)
+                      .+|+...        +++.||+..++ ++|+.+|++||.++
+T Consensus        67 ~~~~~~~--------~~~~Mp~~~l~~~~e~~~l~~yl~~l   99 (99)
+T d1qn2a_          67 ADPKKKV--------PGTKMVFPGISDPKKVDDIIAYLKTK   99 (99)
+Confidence            9997665        67889966677 58888999999875
+
+
+No 11 
+>d1ytca_ a.3.1.1 (A:) Mitochondrial cytochrome c {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=98.56  E-value=5.2e-12  Score=73.28  Aligned_cols=101  Identities=36%  Similarity=0.787  Sum_probs=84.8
+
+Q d1cxc__           2 EGDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYV   80 (124)
+Q Consensus         2 egdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyv   80 (124)
+                      .+++++|+++|. +|++||++++.       +...+||+|.++..+..++.++|. |+..+..   .+..|+.++|..||
+T Consensus         9 ~~~~~~G~~l~~~~C~~CH~~~g~-------g~~~~~P~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~i   77 (112)
+T d1ytca_           9 PGSAKKGATLFKTRCQQCHTIEEG-------GPNKVGPNLHGIFGRHSGQVKGYS-YTDAIIN---KNVKWDEDSMSEYL   77 (112)
+Confidence            468899999997 79999999853       235679999999999888888888 8877754   46789999999999
+
+
+Q d1cxc__          81 QDPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        81 qdptkflkeytgdakakgkmtfk-lkkeadahniwaylqqva  121 (124)
+                      .+|....        +++.||+. .++++|+.+|++||++++
+T Consensus        78 ~~~~~~~--------~~~~Mp~~~~ls~~ei~~l~~yl~~l~  111 (112)
+T d1ytca_          78 TNPKKYI--------PGTKMAFAGLKKEKDRNDLITYMTKAA  111 (112)
+Confidence            9998776        77889976 468888889999999875
+
+
+No 12 
+>d1ql3a_ a.3.1.1 (A:) Cytochrome c552 {Paracoccus denitrificans [TaxId: 266]}
+Probab=98.56  E-value=5.6e-12  Score=72.97  Aligned_cols=98  Identities=37%  Similarity=0.687  Sum_probs=81.7
+
+Q d1cxc__           3 GDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQD   82 (124)
+Q Consensus         3 gdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqd   82 (124)
+                      ||+++|+.||++|++||++++         .+.+||+|.++.++.++..++|. |+..+..   .|..|+.++|.+||.+
+T Consensus         1 ~~~~~G~~l~~~C~~CH~~~g---------~~~~~P~l~~~~~~~~~~~~~~~-~~~~~~~---~g~~~~~~~l~~~l~~   67 (99)
+T d1ql3a_           1 ADPAAGEKVFGKCKACHKLDG---------NDGVGPHLNGVVGRTVAGVDGFN-YSDPMKA---HGGDWTPEALQEFLTN   67 (99)
+Confidence            578999999988999999973         24579999999888877778887 8877654   4678999999999999
+
+
+Q d1cxc__          83 PTKFLKEYTGDAKAKGKMTFKL-KKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        83 ptkflkeytgdakakgkmtfkl-kkeadahniwaylqqva  121 (124)
+                      |...+        +++.||+.. |+++|+.+|++||++++
+T Consensus        68 ~~~~~--------~~~~m~~~~~ls~~d~~~l~~Yl~~l~   99 (99)
+T d1ql3a_          68 PKAVV--------KGTKMAFAGLPKIEDRANLIAYLEGQQ   99 (99)
+Confidence            97766        678899764 59999999999999874
+
+
+No 13 
+>d2jtib_ a.3.1.1 (B:) Mitochondrial cytochrome c {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=98.52  E-value=8.1e-12  Score=72.10  Aligned_cols=100  Identities=34%  Similarity=0.757  Sum_probs=82.2
+
+Q d1cxc__           3 GDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         3 gdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      ||+++|+.||+ +|++||++++.       +...+||+|.++.++.....++|. |+..+..   .+..|+.++|.+||+
+T Consensus         1 g~~~~G~~lf~~~C~~CH~~~~~-------g~~~~~p~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~i~   69 (103)
+T d2jtib_           1 GSAKKGATLFKARCLQCHTVEKG-------GPHKVGPNLHGIFGRHSGQAEGYS-YTDANIK---KNVLWDENNMSEYLT   69 (103)
+Confidence            68899999997 79999999853       235679999999998877777787 7776643   456899999999999
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        82 dptkflkeytgdakakgkmtfk-lkkeadahniwaylqqva  121 (124)
+                      +|....        +++.||+. .++++|+.+|++||.+++
+T Consensus        70 ~~~~~~--------~~~~m~~~~~l~~~e~~~i~~yl~~l~  102 (103)
+T d2jtib_          70 NPKKYI--------PGTKMAFGGLKKEKDRNDLITYLKKAC  102 (103)
+Confidence            998766        67889976 467888889999999875
+
+
+No 14 
+>d1yeba_ a.3.1.1 (A:) Mitochondrial cytochrome c {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=98.52  E-value=8.3e-12  Score=72.86  Aligned_cols=101  Identities=36%  Similarity=0.773  Sum_probs=84.0
+
+Q d1cxc__           2 EGDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYV   80 (124)
+Q Consensus         2 egdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyv   80 (124)
+                      ++++++|+.||+ .|++||++.+.       +...+||+|.++..|..+..++|. |...+..   .+..|+.++|.+||
+T Consensus         5 ~~~~~~G~~l~~~~C~~CH~~~g~-------g~~~~gP~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~l   73 (108)
+T d1yeba_           5 AGSAKKGATLFKTRCQQCHTIEEG-------GPNKVGPNLHGIFGRHSGQVKGYS-YTDANIN---KNVKWDEDSMSEYL   73 (108)
+Confidence            578899999997 79999999853       235679999999988877778888 8776654   46789999999999
+
+
+Q d1cxc__          81 QDPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        81 qdptkflkeytgdakakgkmtfk-lkkeadahniwaylqqva  121 (124)
+                      .+|+...        +++.||+. .++++|+.+|++||++++
+T Consensus        74 ~~~~~~~--------~~~~Mp~~~~ls~~e~~~l~~yl~~l~  107 (108)
+T d1yeba_          74 TNPKKYI--------PGTKMAFGGLKKEKDRNDLITYLKKAC  107 (108)
+Confidence            9998776        77889976 467888889999999875
+
+
+No 15 
+>d1co6a_ a.3.1.1 (A:) Cytochrome c2 {Rhodopseudomonas viridis [TaxId: 1079]}
+Probab=98.48  E-value=1.2e-11  Score=71.99  Aligned_cols=102  Identities=35%  Similarity=0.688  Sum_probs=83.2
+
+Q d1cxc__           3 GDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQD   82 (124)
+Q Consensus         3 gdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqd   82 (124)
+                      ||+++|+++|++|++||++.+.       +...+||+|.++..+..+..++|. |+..+..   .+..|+.++|..||++
+T Consensus         1 g~~~~G~~l~~~C~~CH~~~~~-------~~~~~~P~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~i~~   69 (107)
+T d1co6a_           1 QDAASGEQVFKQCLVCHSIGPG-------AKNKVGPVLNGLFGRHSGTIEGFA-YSDANKN---SGITWTEEVFREYIRD   69 (107)
+Confidence            5789999999779999999742       234579999999888777777777 7776653   4678999999999999
+
+
+Q d1cxc__          83 PTKFLKEYTGDAKAKGKMTFKL-KKEADAHNIWAYLQQVAVR  123 (124)
+Q Consensus        83 ptkflkeytgdakakgkmtfkl-kkeadahniwaylqqvavr  123 (124)
+                      |....        +++.||+.. |+++|+.+|++||.++++.
+T Consensus        70 ~~~~~--------~~~~M~~~~lls~~ei~~l~~Yl~~~~~~  103 (107)
+T d1co6a_          70 PKAKI--------PGTKMIFAGVKDEQKVSDLIAYIKQFNAD  103 (107)
+Confidence            97766        678899764 4899999999999998754
+
+
+No 16 
+>d1raqa_ a.3.1.1 (A:) Mitochondrial cytochrome c {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=98.48  E-value=1.3e-11  Score=70.58  Aligned_cols=101  Identities=34%  Similarity=0.751  Sum_probs=84.0
+
+Q d1cxc__           2 EGDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYV   80 (124)
+Q Consensus         2 egdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyv   80 (124)
+                      ++++++|+.||+ +|++||+.++.       +...+||+|.++..+..+..++|. |+..++.   .+..|+.++|..||
+T Consensus         5 ~~~~~~G~~l~~~~C~~CH~~~~~-------g~~~~gP~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~i   73 (108)
+T d1raqa_           5 AGSAKKGATLFKTRCLQCHTVDQG-------GANKVGPNLHGIFGRHSGQAEGYS-YTDANIK---KNVLWDENNMSEYL   73 (108)
+Confidence            578899999998 79999999853       225679999999998887778888 8777654   46789999999999
+
+
+Q d1cxc__          81 QDPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        81 qdptkflkeytgdakakgkmtfk-lkkeadahniwaylqqva  121 (124)
+                      ++|....        +++.||+. .++++|+.+|++||++++
+T Consensus        74 ~~~~~~~--------~~~~M~~~~~ls~~e~~~l~~yl~~l~  107 (108)
+T d1raqa_          74 TNPKKYI--------PGTKMAFGGLKKEKDRNDLITYLKKAC  107 (108)
+Confidence            9998776        67889976 468889899999999875
+
+
+No 17 
+>d2aiua_ a.3.1.1 (A:) automated matches {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=98.46  E-value=1.6e-11  Score=70.65  Aligned_cols=101  Identities=39%  Similarity=0.815  Sum_probs=83.2
+
+Q d1cxc__           3 GDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         3 gdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      |++++|+.||. +|++||++++.       +....||+|.++.+|..+..++|. |+..+..   .+..|+.++|..||+
+T Consensus         1 ~~~~~G~~l~~~~C~~CH~~~~~-------g~~~~~P~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~i~   69 (104)
+T d2aiua_           1 GDAEAGKKIFVQKCAQCHTVEKG-------GKHKTGPNLWGLFGRKTGQAPGFS-YTDANKN---KGVIWSEETLMEYLE   69 (104)
+Confidence            57889999997 79999999853       224679999999998887778888 8776653   467899999999999
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKGKMTFKL-KKEADAHNIWAYLQQVAV  122 (124)
+Q Consensus        82 dptkflkeytgdakakgkmtfkl-kkeadahniwaylqqvav  122 (124)
+                      +|....        +++.||+.. ++++|+.+|++||.+++.
+T Consensus        70 ~~~~~~--------~~~~M~~~~~ls~~ei~~l~~yl~~l~~  103 (104)
+T d2aiua_          70 NPKKYI--------PGTKMIFAGIKKKSEREDLIKYLKQATS  103 (104)
+Confidence            998766        677899764 589999999999998864
+
+
+No 18 
+>d5cytr_ a.3.1.1 (R:) Mitochondrial cytochrome c {Bluefin tuna (Thunnus thynnus) [TaxId: 8237]}
+Probab=98.46  E-value=1.6e-11  Score=69.95  Aligned_cols=100  Identities=33%  Similarity=0.813  Sum_probs=80.2
+
+Q d1cxc__           3 GDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         3 gdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      ||+++|+.+|+ +|++||++.+.       +...+||+|.++.++......+|. |+..+..   .+..|+.++|..||+
+T Consensus         1 ~~~~~G~~l~~~~C~~CH~~~g~-------g~~~~~P~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~i~   69 (103)
+T d5cytr_           1 GDVAKGKKTFVQKCAQCHTVENG-------GKHKVGPNLWGLFGRKTGQAEGYS-YTDANKS---KGIVWNNDTLMEYLE   69 (103)
+Confidence            57889999997 79999999853       234579999999888766666666 7665543   356899999999999
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        82 dptkflkeytgdakakgkmtfk-lkkeadahniwaylqqva  121 (124)
+                      +|....        +++.||+. .|+++|+.+|++||++++
+T Consensus        70 ~~~~~~--------~~~~m~~~~~ls~~~~~~l~~Yl~~l~  102 (103)
+T d5cytr_          70 NPKKYI--------PGTKMIFAGIKKKGERQDLVAYLKSAT  102 (103)
+Confidence            998766        77889976 458888889999999875
+
+
+No 19 
+>d2yk3a_ a.3.1.1 (A:) automated matches {Crithidia fasciculata [TaxId: 5656]}
+Probab=98.45  E-value=1.7e-11  Score=71.36  Aligned_cols=101  Identities=34%  Similarity=0.717  Sum_probs=85.2
+
+Q d1cxc__           2 EGDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYV   80 (124)
+Q Consensus         2 egdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyv   80 (124)
+                      ++++++|++||. .|++||++++.       +...+||+|.++..+..+..++|. |...++.   .|..|+.++|..||
+T Consensus         7 ~~~~~~G~~l~~~~C~~CH~~~g~-------g~~~~gP~l~~~~~~~~~~~~~~~-~~~~~~~---~g~~~~~~~l~~~l   75 (110)
+T d2yk3a_           7 PGDAARGEKLFKGRAAQCHTANQG-------GANGVGPNLYGLVGRHSGTIEGYA-YSKANAE---SGVVWTPDVLDVYL   75 (110)
+Confidence            478899999998 79999999853       235679999999988888788888 8887764   57789999999999
+
+
+Q d1cxc__          81 QDPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        81 qdptkflkeytgdakakgkmtfk-lkkeadahniwaylqqva  121 (124)
+                      ++|....        +++.||+. .|+++|+.+|++||++++
+T Consensus        76 ~~~~~~~--------~~~~Mp~~~~ls~~ei~~l~~yl~~~~  109 (110)
+T d2yk3a_          76 ENPKKFM--------PGTKMSFAGMKKPQERADVIAYLETLK  109 (110)
+Confidence            9998776        77889976 478999999999999875
+
+
+No 20 
+>d4nfgb_ a.3.1.1 (B:) Mitochondrial cytochrome c {Horse (Equus caballus) [TaxId: 9796]}
+Probab=98.38  E-value=3.2e-11  Score=68.40  Aligned_cols=101  Identities=38%  Similarity=0.814  Sum_probs=83.6
+
+Q d1cxc__           3 GDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         3 gdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      ||+++|+.+|+ .|++||++.+.       +...+||+|.++..+.....++|. |+..+..   .+..|+.++|..||+
+T Consensus         1 g~~~~G~~l~~~~C~~CH~~~~~-------g~~~~~P~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~l~   69 (104)
+T d4nfgb_           1 GDVEKGKKIFVQRCAQCHTVEKG-------GKNKTGPNLNGLFGRKTGQAPGFT-YTDANKN---KGITWKEETLMEYLE   69 (104)
+Confidence            67899999998 79999999853       335679999999988877777777 7766543   457899999999999
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVAV  122 (124)
+Q Consensus        82 dptkflkeytgdakakgkmtfk-lkkeadahniwaylqqvav  122 (124)
+                      +|...+        +++.||+. .++++|+.+|++||++++.
+T Consensus        70 ~~~~~~--------~~~~M~~~~~ls~~ei~~l~~yl~~l~~  103 (104)
+T d4nfgb_          70 NPKKYI--------PGTKMIFAGIKKKTEREDLIAYLKKATN  103 (104)
+Confidence            998777        77889976 4689999999999999864
+
+
+No 21 
+>d3zooa_ a.3.1.1 (A:) Mitochondrial cytochrome c {Human (Homo sapiens) [TaxId: 9606]}
+Probab=98.34  E-value=4.8e-11  Score=68.17  Aligned_cols=101  Identities=37%  Similarity=0.781  Sum_probs=84.0
+
+Q d1cxc__           3 GDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         3 gdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      ||+++|++||+ +|++||+..+.       +....||+|.++.++..+..++|. |+..+..   .+..|+.++|..||+
+T Consensus         1 g~~~~G~~l~~~~C~~CH~~~g~-------g~~~~~p~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~i~   69 (104)
+T d3zooa_           1 GDVEKGKKIFIMKCSQCHTVEKG-------GKHKTGPNLHGLFGRKTGQAPGFS-YTAANKN---KGIIWGEDTLMEYLE   69 (104)
+Confidence            57889999997 79999999863       234679999999988887777887 7776653   467899999999999
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVAV  122 (124)
+Q Consensus        82 dptkflkeytgdakakgkmtfk-lkkeadahniwaylqqvav  122 (124)
+                      +|...+        +++.||+. .|+++|+.+|++||.+++.
+T Consensus        70 ~~~~~~--------~~~~m~~~~~ls~~ei~~l~~yl~~l~~  103 (104)
+T d3zooa_          70 NPKKYI--------PGTKMIFVGIKKKEERADLIAYLKKATN  103 (104)
+Confidence            998777        77889976 4689999999999999864
+
+
+No 22 
+>d1hroa_ a.3.1.1 (A:) Cytochrome c2 {Rhodopila globiformis [TaxId: 1071]}
+Probab=98.29  E-value=7.9e-11  Score=67.31  Aligned_cols=101  Identities=33%  Similarity=0.705  Sum_probs=84.1
+
+Q d1cxc__           1 QEGDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQY   79 (124)
+Q Consensus         1 qegdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqy   79 (124)
+                      +++++++|++||+ .|++||++.+        +...+||+|.++..+..+..++|. |+..++.   .|..|+.++|..|
+T Consensus         3 ~~~~~~~G~~lf~~~C~~CH~~~~--------~~~~~gp~l~~~~~~~~~~~~~~~-y~~~~~~---~~~~~~~~~l~~~   70 (105)
+T d1hroa_           3 PPGDPVEGKHLFHTICITCHTDIK--------GANKVGPSLYGVVGRHSGIEPGYN-YSEANIK---SGIVWTPDVLFKY   70 (105)
+Confidence            3578999999998 7999999975        235679999999999888888888 8877764   4678999999999
+
+
+Q d1cxc__          80 VQDPTKFLKEYTGDAKAKGKMTFKL-KKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        80 vqdptkflkeytgdakakgkmtfkl-kkeadahniwaylqqva  121 (124)
+                      |++|....        +++.||+.. |+++|+.+|++||++++
+T Consensus        71 l~~~~~~~--------~~~~Mp~~~~ls~~ei~~l~~yl~~l~  105 (105)
+T d1hroa_          71 IEHPQKIV--------PGTKMGYPGQPDPQKRADIIAYLETLK  105 (105)
+Confidence            99997665        678899654 48999999999999874
+
+
+No 23 
+>d4q5pa_ a.3.1.1 (A:) Mitochondrial cytochrome c {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=98.28  E-value=8.6e-11  Score=67.25  Aligned_cols=102  Identities=32%  Similarity=0.734  Sum_probs=83.9
+
+Q d1cxc__           1 QEGDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQY   79 (124)
+Q Consensus         1 qegdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqy   79 (124)
+                      +++++++|+.||. +|++||++++.       +...+||+|.++.++..+...+|. |+..+..   .|..|+.+.|..|
+T Consensus         2 ~~~~~~~G~~l~~~~C~~CH~~~~~-------g~~~~~P~l~~~~~~~~~~~~~~~-~~~~~~~---~g~~~~~~~l~~~   70 (106)
+T d4q5pa_           2 KAGSAKKGATLFKTRCLQCHTVEKG-------GPHKVGPNLHGIFGRHSGQAEGYS-YTDANIK---KNVLWDENNMSEY   70 (106)
+Confidence            4678999999998 79999999853       235579999999988777777777 8776653   4678999999999
+
+
+Q d1cxc__          80 VQDPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        80 vqdptkflkeytgdakakgkmtfk-lkkeadahniwaylqqva  121 (124)
+                      |++|....        +++.||+. .++++|+.+|++||++++
+T Consensus        71 i~~~~~~~--------~~~~M~~~~~ls~~di~~i~~yl~~l~  105 (106)
+T d4q5pa_          71 LTNPAKYI--------PGCGMAFGGLKKEKDRNDLITYLKKAS  105 (106)
+Confidence            99997766        77889976 467888999999999875
+
+
+No 24 
+>d4n0ka1 a.3.1.1 (A:-5-101) Mitochondrial cytochrome c {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=98.26  E-value=1e-10  Score=67.52  Aligned_cols=100  Identities=34%  Similarity=0.756  Sum_probs=82.6
+
+Q d1cxc__           2 EGDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYV   80 (124)
+Q Consensus         2 egdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyv   80 (124)
+                      .+++.+|+.+|. .|++||++++.       +...+||+|.++.+|..++.++|. |+..+..   .+..|+.++|.+||
+T Consensus         5 ~~~~~~G~~l~~~~C~~CH~~~g~-------g~~~~~p~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~l   73 (106)
+T d4n0ka1           5 AGSAKKGATLFKTECLQCHTVEKG-------GPHKVGPNLHGIFGRHSGQAEGYS-YTDANIK---KNVLWDENNMSEYL   73 (106)
+Confidence            578899999998 79999999853       235579999999998888888888 8777654   45789999999999
+
+
+Q d1cxc__          81 QDPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQV  120 (124)
+Q Consensus        81 qdptkflkeytgdakakgkmtfk-lkkeadahniwaylqqv  120 (124)
+                      .+|....        +++.||+. .++++|+.+|++||++|
+T Consensus        74 ~~~~~~~--------~~~~M~~~~~l~~~e~~~l~~Yl~~l  106 (106)
+T d4n0ka1          74 TNPKKYI--------PGTKMAFGGLKKEKDRNDLITYLKKA  106 (106)
+Confidence            9997766        67789876 46888888999999875
+
+
+No 25 
+>d1ccra_ a.3.1.1 (A:) Mitochondrial cytochrome c {Rice embryos (Oryza sativa) [TaxId: 4530]}
+Probab=98.23  E-value=1.3e-10  Score=67.16  Aligned_cols=101  Identities=34%  Similarity=0.761  Sum_probs=84.7
+
+Q d1cxc__           2 EGDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYV   80 (124)
+Q Consensus         2 egdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyv   80 (124)
+                      .+++++|++||+ +|++||+.++.       +.+.+||+|.++..+..+..++|. |+..+.+   .|..|+.++|..||
+T Consensus         8 ~~~~~~G~~l~~~~C~~CH~~~g~-------g~~~~gP~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~i   76 (111)
+T d1ccra_           8 PGNPKAGEKIFKTKCAQCHTVDKG-------AGHKQGPNLNGLFGRQSGTTPGYS-YSTADKN---MAVIWEENTLYDYL   76 (111)
+Confidence            478899999997 79999999853       235679999999988877778887 8887764   46789999999999
+
+
+Q d1cxc__          81 QDPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        81 qdptkflkeytgdakakgkmtfk-lkkeadahniwaylqqva  121 (124)
+                      .+|...+        +++.||+. .|+++|+++|++||++++
+T Consensus        77 ~~~~~~~--------~~~~M~~~~~ls~~ei~~l~~yl~~l~  110 (111)
+T d1ccra_          77 LNPKKYI--------PGTKMVFPGLKKPQERADLISYLKEAT  110 (111)
+Confidence            9998776        77889976 468999999999999875
+
+
+No 26 
+>d2b4za_ a.3.1.1 (A:) automated matches {Cow (Bos taurus) [TaxId: 9913]}
+Probab=98.20  E-value=1.7e-10  Score=66.04  Aligned_cols=101  Identities=38%  Similarity=0.808  Sum_probs=81.3
+
+Q d1cxc__           3 GDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         3 gdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      ||+++|+.+|. +|++||+..+.       +...+||+|.++.++......+|. |+..+..   .+..|+.++|..||+
+T Consensus         1 g~~~~G~~l~~~~C~~CH~~~~~-------g~~~~~p~l~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~i~   69 (104)
+T d2b4za_           1 GDVEKGKKIFVQKCAQCHTVEKG-------GKHKTGPNLHGLFGRKTGQAPGFS-YTDANKN---KGITWGEETLMEYLE   69 (104)
+Confidence            67899999997 79999999753       224579999999888766666777 7665543   467899999999999
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVAV  122 (124)
+Q Consensus        82 dptkflkeytgdakakgkmtfk-lkkeadahniwaylqqvav  122 (124)
+                      +|....        +++.||+. .|+++|+.+|++||.+++.
+T Consensus        70 ~~~~~~--------~~~~M~~~~~ls~~ei~~i~~yl~~l~~  103 (104)
+T d2b4za_          70 NPKKYI--------PGTKMIFAGIKKKGEREDLIAYLKKATN  103 (104)
+Confidence            998766        77889976 4689999999999998864
+
+
+No 27 
+>d1lmsa_ a.3.1.1 (A:) Mitochondrial cytochrome c {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=98.18  E-value=2.1e-10  Score=66.28  Aligned_cols=92  Identities=33%  Similarity=0.750  Sum_probs=75.7
+
+Q d1cxc__          11 AFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQDPTKFLKE   89 (124)
+Q Consensus        11 afn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqdptkflke   89 (124)
+                      ||. +|++||++++.       +.+.+||+|.++.+|.....++|. |...++.   .+..|+.++|.+||++|+..+  
+T Consensus         1 ~f~~~C~~CH~~~~~-------g~~~~gP~L~~~~~~~~~~~~~~~-~~~~~~~---~~~~~~~~~l~~~l~~~~~~~--   67 (95)
+T d1lmsa_           1 LFKTRCLQCHTVEKG-------GPHKVGPNLHGIFGRHSGQAEGYS-YTDANIK---KNVLWDENNMSEYLTNPAKYI--   67 (95)
+Confidence            575 79999999853       235679999999998877777777 7766653   467899999999999998777  
+
+
+Q d1cxc__          90 YTGDAKAKGKMTFK-LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        90 ytgdakakgkmtfk-lkkeadahniwaylqqva  121 (124)
+                            ++++||+. .++++|+++|++||++++
+T Consensus        68 ------~g~~Mp~~~~ls~~~~~~l~~yl~~~~   94 (95)
+T d1lmsa_          68 ------PGTAMAFGGLKKEKDRNDLITYLKKAT   94 (95)
+Confidence                  78899976 478999999999999875
+
+
+No 28 
+>d2ce0a_ a.3.1.0 (A:) automated matches {Thale cress (Arabidopsis thaliana) [TaxId: 3702]}
+Probab=96.81  E-value=9.7e-07  Score=47.84  Aligned_cols=87  Identities=16%  Similarity=0.161  Sum_probs=52.2
+
+Q d1cxc__           3 GDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKT----GPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFV   77 (124)
+Q Consensus         3 gdpeagakafn-qcqtchvivddsgttiagrnakt----gpnlygvvgrtagtqadfkgygegmkeagakglawdeehfv   77 (124)
+                      ||+++|+++|. .|++||+.++.       +....    .|.|.+.                        + .++.++|.
+T Consensus         1 g~~~~G~~l~~~~C~~CH~~~~~-------g~~~~~~~~~~~l~~~------------------------~-~~~~~~l~   48 (99)
+T d2ce0a_           1 LDIQRGATLFNRACAACHDTGGN-------IIQPGATLFTKDLERN------------------------G-VDTEEEIY   48 (99)
+Confidence            57899999998 69999998752       11111    2222110                        1 24566677
+
+
+Q d1cxc__          78 QYVQDPTKFLKEYTGDAKAKGKMT-FK-LKKEADAHNIWAYLQQVAV  122 (124)
+Q Consensus        78 qyvqdptkflkeytgdakakgkmt-fk-lkkeadahniwaylqqvav  122 (124)
+                      .+|+++...+..+.... ....|| +. .|+++|+.+|++||+++..
+T Consensus        49 ~~i~~g~~~m~~~~~~~-~~~~m~~~~~~ls~~ei~~l~~yl~~~~~   94 (99)
+T d2ce0a_          49 RVTYFGKGRMPGFGEKC-TPRGQCTFGPRLQDEEIKLLAEFVKFQAD   94 (99)
+Confidence            77777654331110000 012354 33 5899999999999998754
+
+
+No 29 
+>d1e29a_ a.3.1.1 (A:) Photosystem II associated cytochrome c549 {Synechocystis sp. PCC 6803 [TaxId: 1148]}
+Probab=96.12  E-value=1.4e-05  Score=48.92  Aligned_cols=86  Identities=17%  Similarity=0.239  Sum_probs=58.2
+
+Q d1cxc__           3 GDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         3 gdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      +++++|++||. +|++||+ .+         ...+||+|.....    ...+|.            ...|+.++|..||+
+T Consensus        24 ~~~~~G~~lf~~~C~~CH~-~g---------~~~~gp~l~~~~~----~l~~~~------------~~~~~~~~l~~~l~   77 (135)
+T d1e29a_          24 RQFTNGQKIFVDTCTQCHL-QG---------KTKTNNNVSLGLA----DLAGAE------------PRRDNVLALVEFLK   77 (135)
+Confidence            56789999998 7999999 32         2346888732111    111110            13589999999999
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKG----KMTF----------KLKKEADAHNIWAYLQQVAV  122 (124)
+Q Consensus        82 dptkflkeytgdakakg----kmtf----------klkkeadahniwaylqqvav  122 (124)
+                      +|..+.        +.+    .||.          ..|+++|+++|++||.++..
+T Consensus        78 ~~~~~~--------~~~~~~~~Mp~~~~~~~~~~~~~Lsd~di~ala~Yl~~~~~  124 (135)
+T d1e29a_          78 NPKSYD--------GEDDYSELHPNISRPDIYPEMRNYTEDDIFDVAGYTLIAPK  124 (135)
+Confidence            986654        222    2652          25899999999999998754
+
+
+No 30 
+>d1wvec_ a.3.1.1 (C:) automated matches {Pseudomonas putida [TaxId: 303]}
+Probab=95.41  E-value=7.5e-05  Score=38.75  Aligned_cols=69  Identities=20%  Similarity=0.346  Sum_probs=47.8
+
+Q d1cxc__           3 GDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         3 gdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      |++++|+.+|+ .|.+||+...           ..||+|.+.                          .|+.++|..+|.
+T Consensus         1 ~~~~~G~~~~~~~C~~CH~~~~-----------~~~p~l~~~--------------------------~~~~~~l~~~l~   43 (75)
+T d1wvec_           1 SQWGSGKNLYDKVCGHCHKPEV-----------GVGPVLEGR--------------------------GLPEAYIKDIVR   43 (75)
+Confidence            57789999997 7999997641           247888542                          134445566665
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKGKMT-FK--LKKEADAHNIWAYLQQVA  121 (124)
+Q Consensus        82 dptkflkeytgdakakgkmt-fk--lkkeadahniwaylqqva  121 (124)
+                      ++.             ..|| +.  .|+++|+.+|++||.+++
+T Consensus        44 ~g~-------------~~M~~~~~~~l~~~d~~~i~~yl~~~~   73 (75)
+T d1wvec_          44 NGF-------------RAMPAFPASYVDDESLTQVAEYLSSLP   73 (75)
+Confidence            432             1255 42  589999999999999875
+
+
+No 31 
+>d1c52a_ a.3.1.1 (A:) Cytochrome c552 {Thermus thermophilus [TaxId: 274]}
+Probab=95.06  E-value=0.00016  Score=43.43  Aligned_cols=88  Identities=19%  Similarity=0.178  Sum_probs=52.7
+
+Q d1cxc__           5 PEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQDPT   84 (124)
+Q Consensus         5 peagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqdpt   84 (124)
+                      +++|+.||..|++||+.++.       +...++|+|.+...+..                   +..++.+++..+|.+..
+T Consensus         1 a~~G~~lf~~C~~CHg~~g~-------g~~~~~P~L~~~~~~~~-------------------~~~~~~~~l~~~l~~g~   54 (131)
+T d1c52a_           1 QADGAKIYAQCAGCHQQNGQ-------GIPGAFPPLAGHVAEIL-------------------AKEGGREYLILVLLYGL   54 (131)
+Confidence            46899999999999999753       22356899987643311                   11233444555554432
+
+
+Q d1cxc__          85 KFLKEYTGDAKAKGKMTFK-LKKEADAHNIWAYLQQ  119 (124)
+Q Consensus        85 kflkeytgdakakgkmtfk-lkkeadahniwaylqq  119 (124)
+                      ...... ....+...||.. .|+++|+.+|++||.+
+T Consensus        55 ~~~~~~-~~~~~~~~Mp~~~~ls~edi~~l~ayi~~   89 (131)
+T d1c52a_          55 QGQIEV-KGMKYNGVMSSFAQLKDEEIAAVLNHIAT   89 (131)
+Confidence            110000 000023578844 7899999999999944
+
+
+No 32 
+>d1m70a1 a.3.1.4 (A:1-92) Cytochrome c4 {Pseudomonas stutzeri [TaxId: 316]}
+Probab=94.72  E-value=0.00024  Score=37.55  Aligned_cols=88  Identities=23%  Similarity=0.248  Sum_probs=54.7
+
+Q d1cxc__           2 EGDPEAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQ   81 (124)
+Q Consensus         2 egdpeagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvq   81 (124)
+                      +|++++|+.+|++|++||+.++.       +....+|+|.+...                        .|..+.|..|+.
+T Consensus         1 ~~~~~~G~~l~~~C~~CH~~~g~-------g~~~~~p~l~~~~~------------------------~~~~~~l~~~~~   49 (92)
+T d1m70a1           1 AGDAEAGQGKVAVCGACHGVDGN-------SPAPNFPKLAGQGE------------------------RYLLKQLQDIKA   49 (92)
+Confidence            47889999999999999998753       22345788865421                        122233444554
+
+
+Q d1cxc__          82 DPTKFLKEYTGDAKAKGKMT-FK-LKKEADAHNIWAYLQQVAV  122 (124)
+Q Consensus        82 dptkflkeytgdakakgkmt-fk-lkkeadahniwaylqqvav  122 (124)
+                      .+........  ....+.|| +. .|+++|+.+|++||+++++
+T Consensus        50 ~~~~~~~~~~--~~~~~~M~~~~~~ls~~ei~~i~~yl~s~~~   90 (92)
+T d1m70a1          50 GSTPGAPEGV--GRKVLEMTGMLDPLSDQDLEDIAAYFSSQKG   90 (92)
+Confidence            4422100000  00234577 42 6899999999999999875
+
+
+No 33 
+>d3vrda1 a.3.1.4 (A:1-80) automated matches {Thermochromatium tepidum [TaxId: 1050]}
+Probab=93.23  E-value=0.0013  Score=35.03  Aligned_cols=76  Identities=17%  Similarity=0.220  Sum_probs=47.8
+
+Q d1cxc__           7 AGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQDPTKF   86 (124)
+Q Consensus         7 agakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqdptkf   86 (124)
+                      +|+++|..|++||+.++.       +....+|+|.+....          |              ..+.|..|.....  
+T Consensus         3 ~G~~l~~~C~~CHg~~g~-------g~~~~~p~l~~~~~~----------~--------------~~~~l~~~~~g~~--   49 (80)
+T d3vrda1           3 TAEMLANNCAGCHGTRGN-------SAGPASPSIAQMDPA----------V--------------FVEVMEQFKSGEI--   49 (80)
+Confidence            799999899999999753       222346888654211          1              1111222222110  
+
+
+Q d1cxc__          87 LKEYTGDAKAKGKMT-FK-LKKEADAHNIWAYLQQVAVRP  124 (124)
+Q Consensus        87 lkeytgdakakgkmt-fk-lkkeadahniwaylqqvavrp  124 (124)
+                               +...|| +. .|+++|+.+|++||.++++.|
+T Consensus        50 ---------~~~~M~~~~~~l~~~e~~~l~~yl~~~~~~~   80 (80)
+T d3vrda1          50 ---------QSTIMGRIAKGYSTADFQKMAEYFKQQTYQP   80 (80)
+Confidence                     234687 43 589999999999999998765
+
+
+No 34 
+>d1fcdc1 a.3.1.4 (C:1-80) Flavocytochrome c sulfide dehydrogenase, FCSD, cytochrome subunit {Chromatium vinosum [TaxId: 1049]}
+Probab=93.14  E-value=0.0013  Score=34.89  Aligned_cols=76  Identities=17%  Similarity=0.201  Sum_probs=46.8
+
+Q d1cxc__           7 AGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQDPTKF   86 (124)
+Q Consensus         7 agakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqdptkf   86 (124)
+                      +|+++|+.|++||+.++.       +....+|.|.+....          |              ..+.|..|.....  
+T Consensus         3 ~G~~l~~~C~~CHg~~g~-------g~~~~~p~l~~~~~~----------~--------------~~~~l~~~~~g~~--   49 (80)
+T d1fcdc1           3 TAEMLTNNCAGCHGTHGN-------SVGPASPSIAQMDPM----------V--------------FVEVMEGFKSGEI--   49 (80)
+Confidence            799999889999999753       222346777543211          1              1111222211110  
+
+
+Q d1cxc__          87 LKEYTGDAKAKGKMT-FK-LKKEADAHNIWAYLQQVAVRP  124 (124)
+Q Consensus        87 lkeytgdakakgkmt-fk-lkkeadahniwaylqqvavrp  124 (124)
+                               +...|| +. .|+++|+.+|++||.++++.|
+T Consensus        50 ---------~~~~M~~~~~~l~~~ei~~l~~yi~~~~~~~   80 (80)
+T d1fcdc1          50 ---------ASTIMGRIAKGYSTADFEKMAGYFKQQTYQP   80 (80)
+Confidence                     234687 43 589999999999999998765
+
+
+No 35 
+>d4j20a_ a.3.1.0 (A:) automated matches {Chlorobium tepidum [TaxId: 194439]}
+Probab=92.27  E-value=0.0023  Score=32.87  Aligned_cols=22  Identities=32%  Similarity=0.605  Sum_probs=18.9
+
+Q d1cxc__           2 EGDPEAGAKAFN-QCQTCHVIVD   23 (124)
+Q Consensus         2 egdpeagakafn-qcqtchvivd   23 (124)
+                      ++++++|+.+|. +|++||+.++
+T Consensus         2 ~~~~~~G~~l~~~~C~~CH~~~~   24 (88)
+T d4j20a_           2 TYDAAAGKATYDASCATCHKTGM   24 (88)
+Confidence            467899999997 7999999864
+
+
+No 36 
+>d1dvha_ a.3.1.1 (A:) Cytochrome c6 (synonym: cytochrome c553) {Desulfovibrio vulgaris, different strains [TaxId: 881]}
+Probab=90.87  E-value=0.0048  Score=31.35  Aligned_cols=77  Identities=14%  Similarity=0.166  Sum_probs=45.8
+
+Q d1cxc__           6 EAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQDPTK   85 (124)
+Q Consensus         6 eagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqdptk   85 (124)
+                      ++|+++|..|.+||+.++. |     ......|+|.+...+                        |....|..|......
+T Consensus         1 ~~G~~l~~~C~~CHg~~g~-g-----~~~~~~p~l~~~~~~------------------------~~~~~l~~~~~g~~~   50 (79)
+T d1dvha_           1 ADGAALYKSCIGCHGADGS-K-----AAMGSAKPVKGQGAE------------------------ELYKKMKGYADGSYG   50 (79)
+Confidence            4699999899999999753 1     112346777543211                        112223333322211
+
+
+Q d1cxc__          86 FLKEYTGDAKAKGKMT-FK-LKKEADAHNIWAYLQQV  120 (124)
+Q Consensus        86 flkeytgdakakgkmt-fk-lkkeadahniwaylqqv  120 (124)
+                      ..        +...|| +. .|+++|+.+|++||.++
+T Consensus        51 ~~--------~~~~Mp~~~~~ls~~ei~~l~~yl~~l   79 (79)
+T d1dvha_          51 GE--------RKAMMTNAVKKYSDEELKALADYMSKL   79 (79)
+Confidence            11        346788 32 58999999999999875
+
+
+No 37 
+>d1c53a_ a.3.1.1 (A:) Cytochrome c6 (synonym: cytochrome c553) {Desulfovibrio vulgaris, different strains [TaxId: 881]}
+Probab=89.96  E-value=0.0071  Score=30.93  Aligned_cols=77  Identities=16%  Similarity=0.192  Sum_probs=45.0
+
+Q d1cxc__           6 EAGAKAFNQCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYVQDPTK   85 (124)
+Q Consensus         6 eagakafnqcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyvqdptk   85 (124)
+                      ++|+.+|+.|++||+.++. +     .....+|+|.+....                        |..+.|..|......
+T Consensus         1 ~~G~~l~~~C~~CHg~~g~-~-----~~~~~~p~l~~~~~~------------------------~~~~~l~~~~~g~~~   50 (79)
+T d1c53a_           1 ADGAALYKSCVGCHGADGS-K-----QAMGVGHAVKGQKAD------------------------ELFKKLKGYADGSYG   50 (79)
+Confidence            4699999999999998753 1     111346777643211                        111122222211111
+
+
+Q d1cxc__          86 FLKEYTGDAKAKGKMTFK--LKKEADAHNIWAYLQQV  120 (124)
+Q Consensus        86 flkeytgdakakgkmtfk--lkkeadahniwaylqqv  120 (124)
+                      ..        +.+.||..  .|+++|+.+|++||+++
+T Consensus        51 ~~--------~~~~M~~~~~~ls~~ei~~l~~yi~~l   79 (79)
+T d1c53a_          51 GE--------KKAVMTNLVKRYSDEEMKAMADYMSKL   79 (79)
+Confidence            01        34678742  58999999999999875
+
+
+No 38 
+>d3na1c_ d.15.4.1 (C:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=89.90  E-value=0.0084  Score=31.09  Aligned_cols=9  Identities=56%  Similarity=1.383  Sum_probs=7.1
+
+Q d1cxc__          14 QCQTCHVIV   22 (124)
+Q Consensus        14 qcqtchviv   22 (124)
+                      .|..||-+-
+T Consensus         8 ~CgtC~V~v   16 (50)
+T d3na1c_           8 ACSTCHLIF   16 (50)
+Confidence            599999853
+
+
+No 39 
+>d1cnoa_ a.3.1.1 (A:) Cytochrome c552 {Pseudomonas nautica [TaxId: 2743]}
+Probab=88.38  E-value=0.012  Score=30.01  Aligned_cols=83  Identities=23%  Similarity=0.213  Sum_probs=52.7
+
+Q d1cxc__           2 EGDPEAGAKAFN-QCQTCHVIVDDSGTTIAGRNAKTGPNLYGVVGRTAGTQADFKGYGEGMKEAGAKGLAWDEEHFVQYV   80 (124)
+Q Consensus         2 egdpeagakafn-qcqtchvivddsgttiagrnaktgpnlygvvgrtagtqadfkgygegmkeagakglawdeehfvqyv   80 (124)
+                      ++++++|+. |. .|.+||+.++.       +....+|+|.+...                        .|..+.|..|+
+T Consensus         1 ~~~~~~G~~-~~~~C~~CH~~~~~-------~~~~~~p~l~~~~~------------------------~~~~~~l~~~~   48 (86)
+T d1cnoa_           1 AGDIEAGKA-KAAVCAACHGQNGI-------SQVPIYPNLAGQKE------------------------QYLVAALKAYK   48 (86)
+Confidence            367899999 86 79999998753       22234677765321                        12222233333
+
+
+Q d1cxc__          81 QDPTKFLKEYTGDAKAKGKMTFK--LKKEADAHNIWAYLQQVAVRP  124 (124)
+Q Consensus        81 qdptkflkeytgdakakgkmtfk--lkkeadahniwaylqqvavrp  124 (124)
+                      .......        +.+.||..  .|+++|+.+|++||.++++.|
+T Consensus        49 ~~~~~~~--------~~~~Mp~~~~~l~~~ei~~l~~yl~~~~~~~   86 (86)
+T d1cnoa_          49 AGQRQGG--------QAPVMQGQATALSDADIANLAAYYASNPAAA   86 (86)
+Confidence            3322111        34678843  589999999999999998764
+
+
+No 40 
+>d1jmxa1 a.3.1.7 (A:2-85) Quinohemoprotein amine dehydrogenase A chain, domains 1 and 2 {Pseudomonas putida [TaxId: 303]}
+Probab=87.54  E-value=0.016  Score=31.23  Aligned_cols=19  Identities=16%  Similarity=0.197  Sum_probs=16.3
+
+Q d1cxc__         104 LKKEADAHNIWAYLQQVAV  122 (124)
+Q Consensus       104 lkkeadahniwaylqqvav  122 (124)
+                      .|+++|+.+|++||.++.+
+T Consensus        50 ~Ls~~ei~~i~~yl~~~~~   68 (84)
+T d1jmxa1          50 QISDDDRRTLVKYLADKQG   68 (84)
+Confidence            5899999999999998753
+
+
+No 41 
+>d3n9yc_ d.15.4.1 (C:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=80.51  E-value=0.064  Score=28.71  Aligned_cols=9  Identities=56%  Similarity=1.383  Sum_probs=7.0
+
+Q d1cxc__          14 QCQTCHVIV   22 (124)
+Q Consensus        14 qcqtchviv   22 (124)
+                      .|..||-.-
+T Consensus        24 ~CgtC~V~v   32 (68)
+T d3n9yc_          24 ACSTCHLIF   32 (68)
+Confidence            499999753
+
+
+No 42 
+>d1k7ka1 c.51.4.1 (A:0-197) Hypothetical protein YggV {Escherichia coli [TaxId: 562]}
+Probab=38.25  E-value=1.6  Score=26.86  Aligned_cols=6  Identities=17%  Similarity=0.036  Sum_probs=2.3
+
+Q d1cxc__         112 NIWAYL  117 (124)
+Q Consensus       112 niwayl  117 (124)
+                      .|+.||
+T Consensus       190 ~l~~~l  195 (198)
+T d1k7ka1         190 LLLDAL  195 (198)
+Confidence            333443
+
+
+No 43 
+>d4bnqa_ c.51.4.0 (A:) automated matches {Staphylococcus aureus [TaxId: 46170]}
+Probab=38.14  E-value=1.6  Score=26.85  Aligned_cols=7  Identities=29%  Similarity=0.491  Sum_probs=3.4
+
+Q d1cxc__         112 NIWAYLQ  118 (124)
+Q Consensus       112 niwaylq  118 (124)
+                      .|+.||.
+T Consensus       183 ~l~~~l~  189 (194)
+T d4bnqa_         183 LLQAFLE  189 (194)
+Confidence            4445544
+
+
+No 44 
+>d1ryqa1 g.41.9.3 (A:3-61) putative DNA-directed RNA polymerase subunit E'' (RpoE2) {Pyrococcus furiosus [TaxId: 2261]}
+Probab=36.43  E-value=2.1  Score=23.44  Aligned_cols=10  Identities=40%  Similarity=1.112  Sum_probs=7.6
+
+Q d1cxc__          14 QCQTCHVIVD   23 (124)
+Q Consensus        14 qcqtchvivd   23 (124)
+                      .|..||-+..
+T Consensus         3 AC~~C~~i~~   12 (59)
+T d1ryqa1           3 ACRHCHYITS   12 (59)
+Confidence            4888888864
+
+
+Done!

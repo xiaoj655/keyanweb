@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SMI-BLAST web server</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{url_for('static', filename="assets/vendor/bootstrap/css/bootstrap.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/bootstrap/css/bootstrap-select.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/icofont/icofont.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/boxicons/css/boxicons.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/remixicon/remixicon.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/venobox/venobox.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/vendor/owl.carousel/assets/owl.carousel.min.css")}}" rel="stylesheet">
+  <link href="{{url_for('static', filename="assets/css/server-table-style.css")}}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{url_for('static', filename="assets/css/style.css")}}" rel="stylesheet">
+
+<style>
+.collapse {
+        display: none
+}
+.collapse.in {
+        display: block
+}
+tr.collapse.in {
+        display: table-row
+}
+.collapsing {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        -webkit-transition-timing-function: ease;
+        -o-transition-timing-function: ease;
+        transition-timing-function: ease;
+        -webkit-transition-duration: .35s;
+        -o-transition-duration: .35s;
+        transition-duration: .35s;
+        -webkit-transition-property: height, visibility;
+        -o-transition-property: height, visibility;
+        transition-property: height, visibility
+}
+ull {   
+        display: inline-block;
+        text-overflow: ellipsis;
+}
+list {  
+        width: 140px;
+        padding: 10px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        background: #A8F0CB;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+        box-sizing: border-box;
+        text-align: center;
+}
+#list_mouseover {
+        background: #CDA288
+}
+#list_mouseout {
+        background: #A8F0CB
+}
+table.results {
+        table-layout: fixed
+}
+.bigrounded {
+        -webkit-border-radius: 2em;
+        -moz-border-radius: 2em;
+        border-radius: 0.5em;
+}
+</style>
+
+
+   <script src="{{ url_for('static', filename="js/my.js") }}"></script>
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-between">
+          <h1 class="logo"><a href="index.html">SMI-BLAST</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li><a href="/SMI-BLAST/home/">Home</a></li>
+              <li class="drop-down"><a href="">Server</a>
+                <ul>
+                  <li><a href="/SMI-BLAST/server">SMI-BLAST</a></li>
+                  <li><a href="/SMI-BLAST/serverhmmer">SMI-HMMER</a></li>
+                  <li><a href="/SMI-BLAST/serverdeltablast">SMI-DELTABLAST</a></li>
+                  <li><a href="/SMI-BLAST/serverpsiblastexb">SMI-PSIBLASTexB</a></li>
+
+                </ul>
+              </li>
+              <li><a href="/SMI-BLAST/download/">Download</a></li>
+              <li><a href="/SMI-BLAST/citation/">Citation</a></li>
+
+            </ul>
+          </nav><!-- .nav-menu -->
+
+          <!--<a href="#about" class="get-started-btn scrollto">Get Started</a>-->
+        </div>
+      </div>
+
+    </div>
+   <script src="{{ url_for('static', filename="js/my.js") }}"></script>
+  </header><!-- End Header -->
+
+  <main id="main">
+  
+  <!-- ======= About Us Section ======= -->
+    <section id="about" class="about" style="padding:70px 0px 0px 0px;">
+      <div class="container">
+
+        <div class="section-title">
+        <br>
+          <h2>Server / SMI-BLAST results(<a href="{{ url_for('static', filename='result/' + uip + '.txt') }}" target="_blank">Download</a> )</h2>
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+  
+  
+  
+  
+   <!-- Top content -->
+        <div class="top-content" style="width:80%; text-align:center; margin:0 auto;" >
+        	
+         
+  <div style="font-size:middle; text-align:justify">
+    <p style="color:#000000"><strong> Job ID: <span id="uip">{{ uip }}</span></strong></p>
+    <p style="color:#000000">Job done! The results will be stored for 7 days, please press CTRL + D to bookmark this page.</p>
+    <ull style="list-style:none;">
+    
+      {% for i in query_names %}
+       <a href="{{ url_for('result', uip=uip, cutoff=cutoff, recutoff=recutoff, query=i) }}" style="text-decoration:none" >
+      <list class="bigrounded" onMouseOver="this.id='list_mouseover'" onmouseout="this.id='list_mouseout'" style="font-size:middle"><strong>{{ i }}</strong></list>
+      </a>
+      {% endfor %}
+    </ull>
+    <form method="post" enctype="multipart/form-data" onSubmit="return checkSelected();">
+        <p style="color:#000000; text-align:justify; word-break:break-all"><strong>Query protein: <span style="color: purple;">{{ result[0] }}</span></strong></p>
+        {% if result[1]|length == 0 %}
+	        <p style="color:#000000">No results!</p>
+        {% else %}            
+            <p style="color:#000000">{{result[1]|length}} homologous proteins has been detected.</p>     
+            <div class="panel-group" id="myAccordion">
+        		<table class="results" width="100%" text-align="center" style="border-collapse:collapse; margin-bottom:15px; word-break:break-all; word-wrap:break-all;">
+          			<tbody>
+                        <tr style="text-align: center; background:#99cccc; height:40px">
+                          <th style="width:7%;color:#000000"><input type="checkbox" name="All" value="All" onclick="funSelAll(this)">No.</th>
+                          <th style="width:9%;color:#000000">SCOP ID</th>
+                          <th style="width:9%;color:#000000">Family</th>
+                          <th style="width:9%;color:#000000">Length</th>
+                          <th style="color:#000000">Description</th>
+                          <th style="width:9%;color:#000000">Score</th>
+                          <th style="width:13%;color:#000000">Visualization</th>
+                        </tr>
+                        
+                        {% for j in result[1] %}
+                          {% if loop.index%2==1%}                          
+                          <tr style="text-align:center;background:#fff0f5; height:40px">
+                          {% elif loop.index%2==0%}
+                          <tr style="text-align:center;background:#f0fff0; height:40px">
+                          {% endif %}
+                            <td style="color:#000000;"><input type="checkbox" name="selected" value="{{ result[0] }}&&{{ j[0] }}&&{{ j[1] }}&&{{ j[2] }}&&{{ j[3] }}" onclick="funSelOne(this)" >{{loop.index}}</td>
+                            <td style="color:#000000">{{ j[0] }}</td>
+                            <td><span style="color: purple">{{ j[1] }}</span></td>
+                            <td style="color:#000000;"><span>{{ j[7] }}</span></td>
+                            <td align="justify" style="color:#000000;">{{ j[2] }}</td>
+                            <td style="color:#000000">{{ j[4] }}</td>
+                            <!-- <td style="color: blue" data-toggle="collapse" data-parent="#myAccordion" data-target="#{{loop.index}}"><u>3D structure</u></td>-->
+                            <td data-toggle="collapse" data-parent="#myAccordion" data-target="#{{loop.index}}"><a href="#" onclick="return false">3D Sturcture</a></td>
+                          </tr>
+                          
+                          {% if loop.index%2==1%} <!-- alternate background colors -->
+                          <tr style="background-color:#fff0f5;">
+                          {% elif loop.index%2==0%}
+                          <tr style="background-color:#f0fff0;">
+                          {% endif %}
+                            <td colspan="7">
+                              {% if loop.index==1 %} <!-- display the first one by default --> 
+                                                            
+                              <div align="center" id="{{loop.index}}" class="collapse in">
+                              {% elif loop.index!=1%}
+             
+                              <div align="center" id="{{loop.index}}" class="collapse">
+                              {% endif %}
+                                <p align="center" style="color:#000000;"><strong>Primary Sequence</strong></p>
+                                <p align="left" style="width:95%;font-family:Courier New;color:#000000;">{{ j[3].upper() }}</p>
+                                <p align="center" style="color:#000000;"><strong>3D Structure</strong></p>
+                                <table algin="center">
+                                  <tr>
+                                    <td style="text-align:center;color:#000000">Biological Assembly</td>
+                                    <td style="text-align:center;color:#000000">Asymmetric Unit</td>
+                                  </tr>
+                                  <tr align="center">
+                                    <td><img align="center" style="width:80%;" src="{{url_for('static', filename=j[5] )}}" onerror="src='../static/pic/pic_error.png'" alt=""></td>
+                                    <td><img align="center" style="width:80%;" src="{{url_for('static', filename=j[6] )}}" onerror="src='../static/pic/pic_error.png'" alt=""></td>
+                                  </tr>
+                                  <tr align="center" height="40px"style="color:#000000;">
+                                    <td colspan="2" ><strong>The structural summary on <a href="http://www.rcsb.org/pdb/explore/explore.do?structureId={{j[0][1:5]}}" target="_blank"><u>RCSB PDB</u></a></strong></td>
+                                  </tr>
+                                  <tr align="center" height="40px"style="color:#000000;">
+                                    <td colspan="2" style="color:#000000;"><strong>The structural biology knowledge on <a href="http://sbkb.org/pdbid/{{j[0][1:5]}}" target="_blank"><u>SBKB.org</u></a></strong></td>
+                                  </tr>
+                                </table>
+                              </div></td>
+                          </tr>
+                      {% endfor %}
+            </tbody>          
+        </table>
+        <br>
+        <p style="font-size:middle; color:#000000"><strong>Tool:</strong> <br> Multiple Sequence Alignments (MSAs) of the above selected proteins can be generated by using
+          <input type="submit" value="Launch Clustal Omega" style="padding:5px; background:#A8F0CB; font-size:middle"> so as to find their conserved domains.</p>        
+      </div>
+        
+        {% endif %}
+    </form>
+  </div>
+   </main><!-- End #main -->        
+         
+         
+         
+         
+         </div>                             
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+        <p>Contact us &copy;  by <a href="mailto:>bliu@bliulab.net">bliu@bliulab.net</a></p>
+	<p>网站备案号: <a href="http://www.beian.miit.gov.cn">粤ICP备19041859号-1</a></p>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+{% block script %}
+  <!-- Vendor JS Files -->
+  <script src="{{url_for('static', filename="assets/vendor/jquery/jquery.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/bootstrap/js/bootstrap.bundle.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/jquery.easing/jquery.easing.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/php-email-form/validate.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/waypoints/jquery.waypoints.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/counterup/counterup.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/isotope-layout/isotope.pkgd.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/vendor/venobox/venobox.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/js/bootstrap.min.js")}}"></script>
+  <script src="{{url_for('static', filename="assets/js/bootstrap-select.js")}}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{url_for('static', filename="assets/js/main.js")}}"></script>
+   <script src="{{ url_for('static', filename="js/my.js") }}"></script>
+ {% endblock %}
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="{{url_for('static', filename="css/default.css")}}" rel="stylesheet" type="text/css" />
+    <link href="{{url_for('static', filename="css/buttons.css")}}" rel="stylesheet" type="text/css" />
+    {% block meta %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% endblock %}
+    {% block script %}
+   <script src="{{ url_for('static', filename="js/my.js") }}"></script>
+    {% endblock %}
+    <title>ProtDec-LTR 3.0 web server</title>
+</head>
+
+<body>
+<div id="header">
+	<div id="logo">  </div>
+  <div id="logo1" style="float: right;width: 680px;height: 140px;">
+		<p style="font-size:large; margin: 0px">&nbsp;        </p>
+  	<p style="font-size:2.0em; color:#000080; text-align: left;margin: 0px; font:Arial;"><strong>SMI-BLAST:</strong>
+	  </p>
+    <p style="font-size:1.5em; color:#000080; text-align: left;"><strong> A framework based on sequence similarity matrix to reduce the </strong> </p>
+    <p style="font-size:1.5em; color:#000080; text-align: left;"><strong> incorrectly selected homology errors of PSSM and its application to </strong> </p>
+    <p style="font-size:1.5em; color:#000080; text-align: left;"><strong> protein remote homology detection </strong> </p>
+  </div>
+ <br><br>
+	<div id="werw" style="width: 860px;text-align: center">
+       <div class="button-group">
+        <a href="/SMI-BLAST/home/"        class="button button-jxp " style="width:215px; font-size:1.7em; height:45px; color:#FFFFFF">Home</a>
+         <a href="/SMI-BLAST/server"      class="button button-jxp " style="width:215px; font-size:1.7em; height:45px">SMI-BLAST</a>
+         <a href="/SMI-BLAST/serverhmmer" class="button button-jxp " style="width:215px; font-size:1.7em; height:45px">SMI-HMMER</a>
+         <a href="/SMI-BLAST/citation/"   class="button button-jxp " style="width:215px; font-size:1.7em; height:45px; color:#FFFFFF">Citation</a>
+      </div>
+	</div>
+	
+	
+</div> 
+<div id="page"> 
+  <div id="content">
+		<div id="welcome" class="boxed2">
+			<h2 align="center" style="color:#CC0000">&nbsp;</h2>
+			<h2 align="center" style="color:#CC0000">&nbsp;</h2>
+			<h2 align="center" style="color:#CC0000">&nbsp;</h2>
+			<h2 align="center" style="color:#CC0000">Error</h2>
+		</div>
+		<div id="maincontent">
+		<br>
+		<div style="width: 95%; margin: 0 auto; text-align: justify">
+		  <h3 align="center" style="color:#000000">&nbsp;</h3>
+		  <h3 align="center" style="color:#000000">&nbsp;</h3>
+		  <h3 align="center" style="color:#000000">Operate is error! </h3>
+		  <div style="font-size:12px" align="justify"><tr><td >&nbsp;</td>
+        </tr>
+        <tr>
+          <td style="width:3%">&nbsp;</td>
+          </tr><tr><td>&nbsp;</td>
+
+	</tr>
+
+			
+			
+			
+
+          </div>
+		</div>	
+		
+		
+		</div>	
+  </div>
+	<!-- end #content -->
+	<div style="clear: both; height: 1px;"></div>
+</div>
+<!-- end #page -->
+<div id="footer">
+	<p>Contact us &copy;  by <a href="mailto:bliu@bliulab.netn">bliu@bliulab.net</a></p>
+</div>
+</body>
+</html>

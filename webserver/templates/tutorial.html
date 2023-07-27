@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="{{url_for('static', filename="css/default.css")}}" rel="stylesheet" type="text/css" />
+    {% block meta %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% endblock %}
+    {% block script %}
+   <script src="{{ url_for('static', filename="js/my.js") }}"></script>
+    {% endblock %}
+    <title>ProtDec-LTR 3.0 web server</title>
+        <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?00c61096769a77fda2d1a5457911b0d5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+<div id="header">
+	<div id="logo">  </div>
+	<div id="logo1" style="float: right;width: 520px;height: 100px;text-align: center;">
+<p style="font-size:large; margin: 0px">&nbsp;        </p>
+	<p style="font-size:2.0em; color:#000000; text-align: left;margin: 0px"><strong>ProtDec-LTR3.0:</strong>
+	  </p>
+     <p style="font-size:1.5em; color:#000000; text-align: left;"><strong>protein remote homology detection by incorporating profile-based features into Learning to Rank</strong>
+	  </p>
+	</div>
+	<div id="logo2" style="float: right;width: 520px;height: 50px;text-align: center;">
+	<div id="menu"> 
+		<ul>
+			<li><a  style="color:blue;" href="/ProtDec-LTR3.0/home/" accesskey="H" title="Home"> <u>Home</u> </a></li>
+			<li><a  style="color:blue;" href="/ProtDec-LTR3.0/server" accesskey="S" title="Server"><u>Server</u> </a></li>
+			<li><a  style="color:blue;" href="/ProtDec-LTR3.0/tutorial/" accesskey="T" title="Tutorial"><u>Tutorial</u> </a></li>
+			<li><a  style="color:blue;" href="/ProtDec-LTR3.0/citation/" accesskey="C" title="Citation"><u>Citation</u></a></li>
+		</ul>
+	</div>
+  </div>
+	
+</div> 
+<div style="width: 760px; margin: 0px auto; text-align: center;background:#FFFFFF; min-height: 600px">
+      <div style="font-size:15px" align="justify">
+			<p style="font-family:Geneva, Arial, Helvetica, sans-serif;margin-top:6pt ;color:#000000;display:none">Protein remote homology detection .</p> 	
+			<br/>
+          </div>
+      <h3 style="text-align: center; color:#000000; font-size:20px">Tutorial of ProtDec-LTR 3.0</h3>
+       <br/>
+        <div style="font-size:middle; text-align:justify; margin:0 auto">
+            <p style="color:#000000;text-indent:2em">Construction of publicly accessible web servers is a key step for developing useful bioinformatics tools. In this regard, the corresponding web server of <strong>ProtDec-LTR 3.0</strong> has been established, by which users only need to submit the query protein sequences in FASTA format, and their homology proteins will be automatically detected, and shown. Its detailed steps are as follows.</p>   
+            <br/>
+            <p style="color:#000000"><strong>STEP 1: </strong> Clicking the link http://bioinformatics.hitsz.edu.cn/ProtDec-LTR3.0/, you will see the page of <strong>ProtDec-LTR 3.0</strong>  web server as shown in <strong>Fig 1.</strong></p>
+            <figure style=" margin:0 auto; text-align:center; width:95%">
+              <p><img src="../static/pic/tutorial_fig2.png" width="90%" alt=""/></p>
+              <p>                  
+                <figcaption style="text-align:center; color:#000000"><strong>Figure 1. The built-in example proteins and default parameter </strong></figcaption>
+                </p>
+            </figure>
+            <br/>
+            <p style="color:#000000"><strong>STEP 2: </strong>Click on the <strong>sever</strong> button, the server page will be displayed. Type or copy and paste proteins in the <strong>FASTA</strong> format into the input box, or directly upload by clicking the <strong>Browse</strong> button.</p>
+            <br/>
+            
+			<p style="color:#000000"><strong>STEP 3: </strong>Click on the <strong>Submit</strong> button, the detection results will be shown on the screen. For example, when using the two query sequences in the Example window as the input, and then click the <strong>Submit</strong> button, you will see that for the first query sequence, its 25 homology proteins are detected, and for the second query sequence, its 7 homology proteins are detected, which are completely consistent with experimental observations. The structure information of the homology proteins can be visualized.You will see the page as shown in <strong>Fig. 2</strong>.</p>           
+            <br/>
+             <figure style=" margin:0 auto; text-align:center; width:95%">
+               <p><img src="../static/pic/tutorial_fig4.png" width="90%" alt=""/></p>
+               <p>                   
+                 <figcaption style="text-align:center ;color:#000000"><strong>Figure 2. The result page</strong></figcaption>
+                  </p>
+            </figure>
+            <br>
+            <br>
+      </div>
+    </div>
+<!-- end #page -->
+<div id="footer">
+	<p>Contact us &copy;  by <a href="mailto:bliu@hit.edu.cn">bin@hit.edu.cn</a></p>
+</div>
+<div style="display:none">
+	<script type="text/javascript" src="https://js.users.51.la/19638457.js"></script>
+ <a style="display:none" href="https://www.51.la/?19638457" target="_blank"><img alt="51La" src="//ia.51.la/go1?id=19638457&pvFlag=1" style="border:none" /></a>
+</div>
+</body>
+</html>
